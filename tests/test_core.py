@@ -87,9 +87,13 @@ class CoreTests(unittest.TestCase):
             },
         }
         items = [
-            Item(f"alpha update news {i}", f"https://a/{i}", "", now, "x", 5) for i in range(4)
-        ] + [
-            Item(f"beta update news {i}", f"https://b/{i}", "", now, "x", 5) for i in range(3)
+            Item("alpha update adds timestamp alignment", "https://a/1", "", now, "x", 5),
+            Item("alpha update improves speaker diarization", "https://a/2", "", now, "x", 5),
+            Item("alpha update reduces CUDA memory use", "https://a/3", "", now, "x", 5),
+            Item("alpha update adds batch processing", "https://a/4", "", now, "x", 5),
+            Item("beta update adds timeline export", "https://b/1", "", now, "x", 5),
+            Item("beta update changes API pricing", "https://b/2", "", now, "x", 5),
+            Item("beta update adds workflow automation", "https://b/3", "", now, "x", 5),
         ]
         chosen = select(items, cfg, now=now)
         self.assertEqual(sum(1 for x in chosen if x.topic_key == "a"), 2)
