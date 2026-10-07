@@ -67,6 +67,12 @@ class CoreTests(unittest.TestCase):
         b = Item("Whisper v2 release!", "https://b", "", now, "y", 4, score=9)
         self.assertEqual(len(dedupe([a, b])), 1)
 
+    def test_dedupe_google_news_publisher_suffix(self):
+        now = datetime.now(timezone.utc)
+        a = Item("Seedance 2.0 released with new API - Reuters", "https://a", "", now, "GoogleNews", 3, score=18)
+        b = Item("Seedance 2.0 released with new API - The Verge", "https://b", "", now, "GoogleNews", 3, score=17)
+        self.assertEqual(len(dedupe([a, b])), 1)
+
     def test_category_quotas(self):
         now = datetime.now(timezone.utc)
         cfg = {
