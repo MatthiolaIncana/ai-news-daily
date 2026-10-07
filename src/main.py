@@ -199,20 +199,50 @@ def score_item(item: Item, topics_cfg: dict[str, Any]) -> Item | None:
     for key, topic in topics_cfg.get("topics", {}).items():
         keywords = [str(x).lower() for x in topic.get("keywords", [])]
         topic_hits = sum(1 for k in keywords if k and k in text)
-        if topic_hits == 0:
+
+        # Google News 的摘要可能混入站点标签，不能让摘要里的孤立品牌词决定主题身份。
+        # 普通新闻优先用标题识别实体；官方 Release 可把 source 名称一起作为身份依据。
+        is_official_release = item.trust >= 5 and "release" in item.source.lower()
+        identity_text = (
+            f"{item.title} {item.source}".lower()
+            if is_official_release
+            else title_lower
+        )
+
+        strong_hits = phrase_hits(identity_text, topic.get("strong_keywords", []))
+        ambiguous_hits = phrase_hits(identity_text, topic.get("ambiguous_keywords", []))
+        context_hits = phrase_hits(text, topic.get("context_keywords", []))
+        exclude_hits = phrase_hits(text, topic.get("exclude_keywords", []))
+
+        has_disambiguation_rules = bool(
+            topic.get("strong_keywords") or topic.get("ambiguous_keywords")
+        )
+        if has_disambiguation_rules:
+            # 精确产品/官方锚点可直接确认实体。
+            # 歧义词必须同时处在正确 AI/产品语境中，并且不能撞入明显的无关领域。
+            identity_ok = (
+                strong_hits > 0
+                or (
+                    ambiguous_hits > 0
+                    and context_hits > 0
+                    and exclude_hits == 0
+                )
+            )
+            if not identity_ok:
+                continue
+        elif topic_hits == 0:
             continue
 
-        direct_hits = phrase_hits(text, topic.get("direct_keywords", []))
+        direct_hits = strong_hits or phrase_hits(identity_text, topic.get("direct_keywords", []))
         impact_hits = phrase_hits(text, topic.get("impact_keywords", []))
 
         # 官方 Release 源本身就代表真实变化；聚合/媒体内容必须出现明确变化信号。
-        is_official_release = item.trust >= 5 and "release" in item.source.lower()
         if require_change and change_hits == 0 and not is_official_release:
             continue
 
         # 只相关还不够：必须能指向具体工作流影响。
-        # 直接产品名 + 明确变化可放行；泛词则必须命中 impact_keywords。
-        if impact_hits == 0 and direct_hits == 0:
+        # 精确产品锚点/官方 Release 可放行；歧义词路线必须命中具体影响点。
+        if impact_hits == 0 and strong_hits == 0 and not is_official_release:
             continue
 
         base = int(topic.get("weight", 1))
@@ -225,7 +255,10 @@ def score_item(item: Item, topics_cfg: dict[str, Any]) -> Item | None:
         score += min(topic_hits, 3)
         score += min(change_hits, 3) * 2
         score += min(impact_hits, 4) * 2
-        score += min(direct_hits, 2)
+        score += min(int(direct_hits), 2)
+        score += min(strong_hits, 2) * 2
+        if ambiguous_hits and context_hits:
+            score += 1
 
         if any(k in title_lower for k in keywords):
             score += 2
