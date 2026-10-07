@@ -2,46 +2,61 @@
 name = "GoogleNews-Seedance-AIVideo"
 type = "google_news"
 trust = 3
-query = 'Seedance OR 即梦 OR "AI video" OR Veo OR Kling OR Runway OR Sora'
+query = '(Seedance OR 即梦 OR "AI video" OR Veo OR Kling OR Runway OR Sora) (release OR update OR API OR 发布 OR 更新 OR 新增)'
 
 [[sources]]
 name = "GoogleNews-Subtitle"
 type = "google_news"
 trust = 3
-query = '"faster-whisper" OR Whisper OR "Silero VAD" OR diarization OR "large-v3"'
+query = '("faster-whisper" OR Whisper OR "Silero VAD" OR diarization OR "large-v3") (release OR update OR accuracy OR timestamp OR 发布 OR 更新 OR 准确率 OR 时间戳)'
 
 [[sources]]
 name = "GoogleNews-Editing"
 type = "google_news"
 trust = 3
-query = 'CapCut OR 剪映 OR "AI editing" OR "video editing automation"'
+query = '(CapCut OR 剪映 OR "AI editing" OR "video editing automation") (update OR automation OR batch OR MCP OR 更新 OR 自动化 OR 批量)'
 
 [[sources]]
 name = "GoogleNews-ShortDrama"
 type = "google_news"
 trust = 3
-query = '红果短剧 OR AI短剧 OR AI漫剧 OR "short drama" AI'
+query = '(红果短剧 OR AI短剧 OR AI漫剧 OR "short drama") (政策 OR 规则 OR AI OR 变现 OR 审核 OR update OR policy)'
+
+[[sources]]
+name = "GoogleNews-Image"
+type = "google_news"
+trust = 3
+query = '(Midjourney OR "GPT Image" OR Imagen OR Flux OR "image generation") (release OR update OR consistency OR edit OR API OR 发布 OR 更新 OR 一致性)'
 
 [[sources]]
 name = "GoogleNews-Models"
 type = "google_news"
 trust = 3
-query = 'OpenAI OR GPT OR Claude OR Gemini OR Codex OR MCP AI'
+query = '(OpenAI OR GPT OR Claude OR Gemini OR Codex) (release OR update OR API OR agent OR pricing OR 发布 OR 更新 OR 价格)'
+
+[[sources]]
+name = "GoogleNews-GitHub-AITools"
+type = "google_news"
+trust = 2
+query = '(GitHub OR "open source") (AI OR MCP OR automation) (release OR workflow OR Windows OR batch)'
 
 [[sources]]
 name = "faster-whisper Releases"
 type = "rss"
 trust = 5
+official = true
 url = "https://github.com/SYSTRAN/faster-whisper/releases.atom"
 
 [[sources]]
 name = "Silero VAD Releases"
 type = "rss"
 trust = 5
+official = true
 url = "https://github.com/snakers4/silero-vad/releases.atom"
 
 [[sources]]
 name = "OpenAI Whisper Releases"
 type = "rss"
 trust = 5
+official = true
 url = "https://github.com/openai/whisper/releases.atom"
