@@ -241,9 +241,15 @@ def score_item(item: Item, topics_cfg: dict[str, Any]) -> Item | None:
             continue
 
         # 只相关还不够：必须能指向具体工作流影响。
-        # 精确产品锚点/官方 Release 可放行；歧义词路线必须命中具体影响点。
-        if impact_hits == 0 and strong_hits == 0 and not is_official_release:
-            continue
+        # 有消歧规则时：精确 strong anchor / 官方 Release 可直接放行；
+        # 仅靠歧义词时必须命中 impact_keywords。
+        # 无消歧规则的普通主题保持原有 direct_keywords 兼容逻辑。
+        if has_disambiguation_rules:
+            if impact_hits == 0 and strong_hits == 0 and not is_official_release:
+                continue
+        else:
+            if impact_hits == 0 and direct_hits == 0 and not is_official_release:
+                continue
 
         base = int(topic.get("weight", 1))
         score = base + item.trust
