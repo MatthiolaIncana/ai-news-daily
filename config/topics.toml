@@ -4,6 +4,7 @@ lookback_hours = 30
 timezone = "Asia/Shanghai"
 title = "AI 工具链情报日报"
 require_change_signal = true
+history_days = 14
 negative_keywords = [
   "融资", "funding round", "fundraiser", "raises $", "stock price", "shares jump",
   "celebrity", "明星", "sponsored", "advertorial", "coupon", "discount code",
@@ -72,6 +73,21 @@ impact_keywords = [
   "角色一致性", "参考图", "参考视频", "时长", "分辨率", "运镜", "镜头",
   "多镜头", "分镜", "首尾帧", "口型", "api", "价格"
 ]
+[[topics.seedance_video.impact_rules]]
+keywords = ["character consistency", "角色一致性", "reference image", "参考图", "reference video", "参考视频"]
+reason = "可能直接影响短剧角色一致性和参考资产复用，值得评估是否更新视频生成链路"
+
+[[topics.seedance_video.impact_rules]]
+keywords = ["multi-shot", "storyboard", "多镜头", "分镜", "camera", "运镜", "首尾帧"]
+reason = "可能提升分镜执行、连续镜头和运镜控制，对现有短剧视频流程有直接价值"
+
+[[topics.seedance_video.impact_rules]]
+keywords = ["1080p", "4k", "resolution", "分辨率", "duration", "时长", "seconds"]
+reason = "涉及画质或生成时长能力，可能改变当前视频规格与生成策略"
+
+[[topics.seedance_video.impact_rules]]
+keywords = ["api", "pricing", "价格"]
+reason = "涉及 API 或成本变化，可能影响自动化接入方式和生成成本"
 impact = "优先判断是否影响短剧分镜、角色一致性、运镜、时长、参考能力、画质或生成成本。"
 
 [topics.subtitle_audio]
@@ -101,6 +117,25 @@ impact_keywords = [
   "memory", "cuda", "quality", "准确率", "错误率", "时间戳", "对齐", "说话人",
   "分离", "短对白", "漏字", "幻觉", "语言识别", "显存", "质量", "召回"
 ]
+[[topics.subtitle_audio.impact_rules]]
+keywords = ["timestamp", "alignment", "时间戳", "对齐"]
+reason = "可能提升字幕时间轴准确性，适合重点评估字幕大鱼的 Timeline Fusion 链路"
+
+[[topics.subtitle_audio.impact_rules]]
+keywords = ["diarization", "speaker", "说话人", "分离"]
+reason = "可能改善多人对白和说话人边界，直接关系到字幕大鱼避免多人共用一条字幕"
+
+[[topics.subtitle_audio.impact_rules]]
+keywords = ["short speech", "short utterance", "短对白", "召回", "漏字"]
+reason = "可能改善短对白召回，符合字幕大鱼质量优先的核心目标"
+
+[[topics.subtitle_audio.impact_rules]]
+keywords = ["accuracy", "wer", "word error", "准确率", "错误率", "quality", "质量"]
+reason = "涉及识别准确率或整体质量，值得与当前 Whisper large-v3 基线做 A/B"
+
+[[topics.subtitle_audio.impact_rules]]
+keywords = ["cuda", "memory", "显存"]
+reason = "涉及显存或 CUDA 优化，可能改善 6GB GPU 上的本地运行效率，但应先确认质量不下降"
 impact = "优先判断是否提升字幕识别质量、短对白召回、说话人分离或时间轴准确性；质量优先于速度。"
 
 [topics.translation_localization]
@@ -140,6 +175,25 @@ impact_keywords = [
   "openai compatible", "free api", "字幕", "西语", "西班牙语", "术语", "格式保留",
   "音节", "长度控制", "长文档", "上下文一致性", "量化", "本地部署", "免费api"
 ]
+[[topics.translation_localization.impact_rules]]
+keywords = ["spanish", "español", "西语", "西班牙语", "s2tt", "speech-to-text translation"]
+reason = "可能增强中文语音/字幕到西语字幕的本地化链路，值得纳入字幕大鱼外围 A/B"
+
+[[topics.translation_localization.impact_rules]]
+keywords = ["glossary", "terminology", "术语"]
+reason = "可能改善人名、地名和术语一致性，对西语短剧本地化有直接价值"
+
+[[topics.translation_localization.impact_rules]]
+keywords = ["syllable", "length control", "音节", "长度控制"]
+reason = "可能改善字幕长度或后续配音节奏控制，适合与现有西语字幕规则结合"
+
+[[topics.translation_localization.impact_rules]]
+keywords = ["gguf", "fp8", "fp4", "local deployment", "量化", "本地部署"]
+reason = "可能降低本地部署门槛，适合评估是否能在现有工作台资源条件下离线运行"
+
+[[topics.translation_localization.impact_rules]]
+keywords = ["openai compatible", "free api", "免费api", "api"]
+reason = "提供 API 接入路径，可能方便先低成本验证再决定是否本地部署"
 impact = "优先判断是否能提升中文字幕/语音到西语字幕、本地化翻译、术语一致性、字幕长度控制、上下文一致性或本地部署效率。"
 
 [topics.editing_automation]
@@ -164,6 +218,21 @@ impact_keywords = [
   "批量", "工作流", "自动化", "字幕", "时间线", "导出", "导入", "模板",
   "插件", "脚本", "转场", "变速", "裁剪"
 ]
+[[topics.editing_automation.impact_rules]]
+keywords = ["timeline", "时间线", "export", "导出", "import", "导入"]
+reason = "可能直接改善剪映/CapCut 工程时间线导入导出和一键剪辑自动化"
+
+[[topics.editing_automation.impact_rules]]
+keywords = ["batch", "批量", "automation", "自动化", "workflow", "工作流"]
+reason = "可能减少批量剪辑和人工操作，适合接入现有 AI 工作台任务队列"
+
+[[topics.editing_automation.impact_rules]]
+keywords = ["subtitle", "caption", "字幕"]
+reason = "涉及字幕与剪辑工程联动，可能减少字幕大鱼到成片之间的人工步骤"
+
+[[topics.editing_automation.impact_rules]]
+keywords = ["mcp", "api", "plugin", "插件", "script", "脚本"]
+reason = "提供程序化控制入口，可能增强现有剪映精修与自动化能力"
 impact = "优先判断是否能接入一键剪辑、批处理、字幕、转场、时间线、工程自动化或精修流程。"
 
 [topics.short_drama]
@@ -187,6 +256,21 @@ impact_keywords = [
   "政策", "规则", "变现", "分成", "算法", "推荐", "ai生成", "创作者",
   "投稿", "审核", "平台", "版权", "题材"
 ]
+[[topics.short_drama.impact_rules]]
+keywords = ["policy", "rule", "政策", "规则", "审核"]
+reason = "可能改变红果等平台的审核或 AI 内容规则，需要及时调整短剧生产规范"
+
+[[topics.short_drama.impact_rules]]
+keywords = ["monetization", "revenue", "变现", "分成"]
+reason = "可能影响短剧收益或分成策略，对选题和生产投入有直接影响"
+
+[[topics.short_drama.impact_rules]]
+keywords = ["algorithm", "recommendation", "算法", "推荐"]
+reason = "可能影响平台推荐机制，值得调整爆款短剧的选题和成片策略"
+
+[[topics.short_drama.impact_rules]]
+keywords = ["copyright", "版权", "ai generated", "ai生成"]
+reason = "涉及 AI 生成与版权要求，需要关注资产和成片合规风险"
 impact = "优先判断是否影响红果等平台的选题、审核、推荐、变现、版权、AI生成规则或生产效率。"
 
 [topics.image_generation]
@@ -215,6 +299,21 @@ impact_keywords = [
   "角色一致性", "风格参考", "局部修改", "重绘", "分辨率", "批量",
   "api", "价格", "多图", "参考图"
 ]
+[[topics.image_generation.impact_rules]]
+keywords = ["consistency", "character reference", "角色一致性", "参考图"]
+reason = "可能提升人物资产一致性和参考图控制，对短剧资产生产价值较高"
+
+[[topics.image_generation.impact_rules]]
+keywords = ["style reference", "风格参考", "edit", "inpainting", "局部修改", "重绘"]
+reason = "可能增强风格锁定或局部修图，减少资产返工"
+
+[[topics.image_generation.impact_rules]]
+keywords = ["resolution", "分辨率", "multi-image", "多图", "batch", "批量"]
+reason = "可能提高资产分辨率或批量生成效率"
+
+[[topics.image_generation.impact_rules]]
+keywords = ["api", "pricing", "价格"]
+reason = "涉及自动化接入或生成成本，可能影响资产生产工具选择"
 impact = "优先判断是否提升角色一致性、风格锁定、参考图、局部修改、分辨率或批量资产生产。"
 
 [topics.foundation_models]
@@ -245,6 +344,21 @@ impact_keywords = [
   "上下文", "工具调用", "代码", "代理", "价格", "限额", "推理", "电脑操作",
   "记忆", "工作模式"
 ]
+[[topics.foundation_models.impact_rules]]
+keywords = ["coding", "代码", "tool use", "工具调用", "computer use", "电脑操作"]
+reason = "可能提升 AI 工作台开发、排错和工具调用能力，对工程任务有直接影响"
+
+[[topics.foundation_models.impact_rules]]
+keywords = ["agent", "mcp", "代理", "tools"]
+reason = "可能增强 Agent/MCP 自动化能力，值得评估是否能接入现有工作台"
+
+[[topics.foundation_models.impact_rules]]
+keywords = ["context", "context window", "上下文", "memory", "记忆"]
+reason = "可能提升长任务、工程接续和复杂上下文处理能力"
+
+[[topics.foundation_models.impact_rules]]
+keywords = ["pricing", "price", "价格", "rate limit", "限额"]
+reason = "涉及价格或使用限额变化，可能影响日常模型选择和成本"
 impact = "只保留会影响开发能力、工作流自动化、模型选择、工具调用、上下文、价格或使用限额的重要变化。"
 
 [topics.github_tools]
@@ -258,4 +372,19 @@ impact_keywords = [
   "offline", "local", "release", "工作流", "自动化", "批量", "本地", "离线",
   "windows", "安装", "接口"
 ]
+[[topics.github_tools.impact_rules]]
+keywords = ["windows", "本地", "offline", "离线", "local"]
+reason = "可能直接用于 Windows 本地 AI 工作台或离线处理链路"
+
+[[topics.github_tools.impact_rules]]
+keywords = ["workflow", "actions", "automation", "工作流", "自动化"]
+reason = "可能减少现有 GitHub/AI 工作台自动化的人工维护"
+
+[[topics.github_tools.impact_rules]]
+keywords = ["mcp", "cli", "api", "接口"]
+reason = "提供可程序化接入能力，适合评估接入现有工具链"
+
+[[topics.github_tools.impact_rules]]
+keywords = ["batch", "批量"]
+reason = "可能增强批处理能力，减少重复操作"
 impact = "只保留能直接接入现有 AI 工具链、Windows 本地程序、批处理或自动化项目的开源更新。"
