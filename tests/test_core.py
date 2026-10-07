@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item
+from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item, select
 
 TOPICS = {
     "settings": {"negative_keywords": ["sponsored"]},
@@ -44,6 +44,24 @@ class CoreTests(unittest.TestCase):
         a = Item("Whisper v2 release", "https://a", "", now, "x", 5, score=10)
         b = Item("Whisper v2 release!", "https://b", "", now, "y", 4, score=9)
         self.assertEqual(len(dedupe([a, b])), 1)
+
+    def test_category_quotas(self):
+        now = datetime.now(timezone.utc)
+        cfg = {
+            "settings": {"negative_keywords": [], "lookback_hours": 30, "min_score": 1},
+            "topics": {
+                "a": {"label": "A", "weight": 5, "max_items": 2, "keywords": ["alpha"], "impact": "a"},
+                "b": {"label": "B", "weight": 5, "max_items": 1, "keywords": ["beta"], "impact": "b"},
+            },
+        }
+        items = [
+            Item(f"alpha news {i}", f"https://a/{i}", "", now, "x", 5) for i in range(4)
+        ] + [
+            Item(f"beta news {i}", f"https://b/{i}", "", now, "x", 5) for i in range(3)
+        ]
+        chosen = select(items, cfg, now=now)
+        self.assertEqual(sum(1 for x in chosen if x.topic_key == "a"), 2)
+        self.assertEqual(sum(1 for x in chosen if x.topic_key == "b"), 1)
 
     def test_parse_rss_and_atom(self):
         rss = b'''<?xml version="1.0"?><rss><channel><item><title>Whisper update</title><link>https://example.com/a</link><description>News</description><pubDate>Wed, 07 Oct 2026 01:00:00 GMT</pubDate></item></channel></rss>'''
