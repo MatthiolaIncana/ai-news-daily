@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: daily-ai-news
@@ -32,3 +32,25 @@ jobs:
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: python src/main.py
+
+      - name: Persist delivery history
+        if: success()
+        run: |
+          if [ -f data/state/history.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/state/history.json
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: update news delivery history [skip ci]"
+              git push
+            fi
+          fi
+
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-news-debug-${{ github.run_number }}
+          path: data/last_debug.json
+          if-no-files-found: ignore
+          retention-days: 14
