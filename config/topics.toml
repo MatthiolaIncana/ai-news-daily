@@ -1,22 +1,70 @@
 [settings]
-min_score = 8
+min_score = 13
 lookback_hours = 30
 timezone = "Asia/Shanghai"
 title = "AI 工具链情报日报"
-negative_keywords = ["融资", "fundraiser", "stock price", "celebrity", "明星", "纯营销", "sponsored"]
+require_change_signal = true
+negative_keywords = [
+  "融资", "funding round", "fundraiser", "raises $", "stock price", "shares jump",
+  "celebrity", "明星", "sponsored", "advertorial", "coupon", "discount code",
+  "招聘", "job opening", "财报", "earnings call"
+]
+editorial_phrases = [
+  "best ai tools", "top ai tools", "top 10", "everything you need to know",
+  "what is ", "explained", "how to use", "tutorial", "beginner guide",
+  "opinion", "interview", "prediction", "rumor", "rumour",
+  "could change everything", "game changer", "revolutionary",
+  "必看", "盘点", "教程", "如何使用", "怎么用", "是什么", "观点",
+  "访谈", "预测", "传闻", "震惊", "改变一切", "革命性"
+]
+low_value_phrases = [
+  "review", "hands-on", "first look", "comparison", " vs ", "best ",
+  "评测", "测评", "上手", "对比", "推荐"
+]
+change_signals = [
+  "release", "released", "launch", "launched", "introduces", "introduced",
+  "announce", "announced", "update", "updated", "upgrade", "new model",
+  "new version", "api", "pricing", "price change", "deprecated", "deprecation",
+  "now supports", "adds support", "added support", "rollout", "rolling out",
+  "benchmark", "accuracy", "quality improvement", "fix", "fixed", "changelog",
+  "发布", "上线", "推出", "更新", "升级", "新增", "开放", "接口", "API",
+  "价格", "降价", "涨价", "弃用", "下线", "版本", "修复", "提升",
+  "准确率", "质量提升", "支持"
+]
+
+[source_quality]
+preferred_publishers = [
+  "OpenAI", "Anthropic", "Google", "Google DeepMind", "Microsoft", "GitHub",
+  "ByteDance", "CapCut", "Runway", "Midjourney", "Hugging Face",
+  "Reuters", "TechCrunch", "The Verge", "Ars Technica"
+]
 
 [topics.seedance_video]
 max_items = 5
 label = "Seedance / AI视频"
 weight = 5
 keywords = ["seedance", "即梦", "豆包视频", "veo", "kling", "可灵", "runway", "hailuo", "海螺", "sora", "video generation", "ai video"]
-impact = "优先判断是否影响短剧分镜、角色一致性、运镜、时长或生成成本。"
+direct_keywords = ["seedance", "即梦", "veo", "kling", "可灵", "runway", "hailuo", "海螺", "sora"]
+impact_keywords = [
+  "character consistency", "reference image", "reference video", "duration", "seconds",
+  "1080p", "4k", "camera", "motion", "multi-shot", "storyboard", "lip sync",
+  "角色一致性", "参考图", "参考视频", "时长", "分辨率", "运镜", "镜头",
+  "多镜头", "分镜", "首尾帧", "口型", "API", "价格"
+]
+impact = "优先判断是否影响短剧分镜、角色一致性、运镜、时长、参考能力、画质或生成成本。"
 
 [topics.subtitle_audio]
 max_items = 5
 label = "字幕 / Whisper / VAD"
 weight = 5
 keywords = ["faster-whisper", "whisper", "large-v3", "large-v3-turbo", "silero vad", "silero-vad", "diarization", "speaker diarization", "vad", "timestamp", "forced alignment"]
+direct_keywords = ["faster-whisper", "large-v3", "large-v3-turbo", "silero vad", "silero-vad", "diarization", "speaker diarization"]
+impact_keywords = [
+  "accuracy", "wer", "word error", "timestamp", "alignment", "diarization", "speaker",
+  "vad", "hallucination", "language detection", "short speech", "short utterance",
+  "memory", "cuda", "quality", "准确率", "错误率", "时间戳", "对齐", "说话人",
+  "分离", "短对白", "漏字", "幻觉", "语言识别", "显存", "质量", "召回"
+]
 impact = "优先判断是否提升字幕识别质量、短对白召回、说话人分离或时间轴准确性；质量优先于速度。"
 
 [topics.editing_automation]
@@ -24,32 +72,66 @@ max_items = 4
 label = "剪映 / CapCut / 自动化"
 weight = 5
 keywords = ["capcut", "剪映", "video editor", "mcp", "batch editing", "auto edit", "自动剪辑"]
-impact = "优先判断是否能接入一键剪辑、批处理、字幕、工程自动化或精修流程。"
+direct_keywords = ["capcut", "剪映"]
+impact_keywords = [
+  "batch", "workflow", "automation", "api", "mcp", "subtitle", "caption",
+  "timeline", "export", "import", "template", "plugin", "script",
+  "批量", "工作流", "自动化", "字幕", "时间线", "导出", "导入", "模板",
+  "插件", "脚本", "转场", "变速", "裁剪"
+]
+impact = "优先判断是否能接入一键剪辑、批处理、字幕、转场、时间线、工程自动化或精修流程。"
 
 [topics.short_drama]
 max_items = 4
 label = "AI短剧 / 红果"
 weight = 4
 keywords = ["红果短剧", "ai短剧", "ai漫剧", "短剧", "micro drama", "short drama", "drama generation"]
-impact = "优先判断是否影响选题、爆款方向、平台规则、生产效率或商业化。"
+direct_keywords = ["红果短剧", "ai短剧", "ai漫剧"]
+impact_keywords = [
+  "policy", "rule", "monetization", "revenue", "algorithm", "recommendation",
+  "ai generated", "creator", "submission", "copyright",
+  "政策", "规则", "变现", "分成", "算法", "推荐", "AI生成", "创作者",
+  "投稿", "审核", "平台", "版权", "题材"
+]
+impact = "优先判断是否影响红果等平台的选题、审核、推荐、变现、版权、AI生成规则或生产效率。"
 
 [topics.image_generation]
 max_items = 3
 label = "AI图像"
 weight = 4
 keywords = ["midjourney", "image generation", "gpt image", "imagen", "flux", "consistency", "character reference", "图像生成", "角色一致性"]
-impact = "优先判断是否提升角色一致性、风格锁定、局部修改、分辨率或批量资产生产。"
+direct_keywords = ["midjourney", "gpt image", "imagen", "flux"]
+impact_keywords = [
+  "consistency", "character reference", "style reference", "edit", "inpainting",
+  "resolution", "batch", "api", "pricing", "multi-image",
+  "角色一致性", "风格参考", "局部修改", "重绘", "分辨率", "批量",
+  "API", "价格", "多图", "参考图"
+]
+impact = "优先判断是否提升角色一致性、风格锁定、参考图、局部修改、分辨率或批量资产生产。"
 
 [topics.foundation_models]
 max_items = 3
 label = "GPT / Claude / Gemini / Agent"
 weight = 4
 keywords = ["openai", "gpt", "codex", "claude", "anthropic", "gemini", "google ai", "agent", "mcp server"]
-impact = "只保留会影响开发能力、工作流自动化、模型选择、成本或工具调用的重要变化。"
+direct_keywords = ["gpt", "codex", "claude", "anthropic", "gemini", "openai"]
+impact_keywords = [
+  "context", "tool use", "coding", "agent", "mcp", "api", "pricing", "rate limit",
+  "reasoning", "computer use", "memory", "context window", "tools",
+  "上下文", "工具调用", "代码", "代理", "价格", "限额", "推理", "电脑操作",
+  "记忆", "工作模式"
+]
+impact = "只保留会影响开发能力、工作流自动化、模型选择、工具调用、上下文、价格或使用限额的重要变化。"
 
 [topics.github_tools]
 max_items = 2
 label = "GitHub 开源工具"
 weight = 3
 keywords = ["github", "open source", "release", "workflow", "actions", "automation"]
-impact = "优先判断是否能直接用于现有 AI 工具链或自动化项目。"
+direct_keywords = []
+impact_keywords = [
+  "workflow", "actions", "automation", "mcp", "cli", "api", "batch", "windows",
+  "offline", "local", "release", "工作流", "自动化", "批量", "本地", "离线",
+  "Windows", "安装", "接口"
+]
+impact = "只保留能直接接入现有 AI 工具链、Windows 本地程序、批处理或自动化项目的开源更新。"
