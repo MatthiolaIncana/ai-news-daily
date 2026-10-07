@@ -168,24 +168,63 @@ def collect(sources_cfg: dict[str, Any]) -> tuple[list[Item], list[str]]:
     return items, errors
 
 
+def phrase_hits(text: str, phrases: list[Any]) -> int:
+    return sum(1 for phrase in phrases if str(phrase).lower() in text)
+
+
 def score_item(item: Item, topics_cfg: dict[str, Any]) -> Item | None:
     settings = topics_cfg.get("settings", {})
     text = f"{item.title} {item.summary}".lower()
-    for bad in settings.get("negative_keywords", []):
-        if str(bad).lower() in text:
-            return None
+    title_lower = item.title.lower()
+
+    # 1) 明确垃圾/商业/无关类型直接剔除
+    if phrase_hits(text, settings.get("negative_keywords", [])):
+        return None
+
+    # 2) 教程、盘点、观点、传闻等编辑型内容默认剔除
+    if phrase_hits(title_lower, settings.get("editorial_phrases", [])):
+        return None
+
+    change_hits = phrase_hits(text, settings.get("change_signals", []))
+    require_change = bool(settings.get("require_change_signal", True))
 
     best: tuple[int, str, dict[str, Any]] | None = None
     for key, topic in topics_cfg.get("topics", {}).items():
         keywords = [str(x).lower() for x in topic.get("keywords", [])]
-        hits = sum(1 for k in keywords if k and k in text)
-        if hits == 0:
+        topic_hits = sum(1 for k in keywords if k and k in text)
+        if topic_hits == 0:
             continue
+
+        direct_hits = phrase_hits(text, topic.get("direct_keywords", []))
+        impact_hits = phrase_hits(text, topic.get("impact_keywords", []))
+
+        # 官方 Release 源本身就代表真实变化；聚合/媒体内容必须出现明确变化信号。
+        is_official_release = item.trust >= 5 and "release" in item.source.lower()
+        if require_change and change_hits == 0 and not is_official_release:
+            continue
+
+        # 只相关还不够：必须能指向具体工作流影响。
+        # 直接产品名 + 明确变化可放行；泛词则必须命中 impact_keywords。
+        if impact_hits == 0 and direct_hits == 0:
+            continue
+
         base = int(topic.get("weight", 1))
-        score = base + item.trust + min(hits - 1, 3)
-        title_lower = item.title.lower()
+        score = base + item.trust
+        score += min(topic_hits, 3)
+        score += min(change_hits, 3) * 2
+        score += min(impact_hits, 4) * 2
+        score += min(direct_hits, 2)
+
         if any(k in title_lower for k in keywords):
             score += 2
+        if change_hits and phrase_hits(title_lower, settings.get("change_signals", [])):
+            score += 2
+
+        # 评测/上手/对比并非完全无价值，但只有在变化信号很强时才保留。
+        low_value_hits = phrase_hits(title_lower, settings.get("low_value_phrases", []))
+        if low_value_hits:
+            score -= 3 * low_value_hits
+
         candidate = (score, key, topic)
         if best is None or candidate[0] > best[0]:
             best = candidate
@@ -222,7 +261,7 @@ def dedupe(items: list[Item]) -> list[Item]:
 def select(items: list[Item], topics_cfg: dict[str, Any], now: datetime | None = None) -> list[Item]:
     settings = topics_cfg.get("settings", {})
     lookback_hours = int(settings.get("lookback_hours", 30))
-    min_score = int(settings.get("min_score", 8))
+    min_score = int(settings.get("min_score", 13))
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=lookback_hours)
 
