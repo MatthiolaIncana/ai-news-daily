@@ -1,48 +1,54 @@
 [settings]
 min_score = 8
-max_items = 10
 lookback_hours = 30
 timezone = "Asia/Shanghai"
 title = "AI 工具链情报日报"
 negative_keywords = ["融资", "fundraiser", "stock price", "celebrity", "明星", "纯营销", "sponsored"]
 
 [topics.seedance_video]
+max_items = 5
 label = "Seedance / AI视频"
 weight = 5
 keywords = ["seedance", "即梦", "豆包视频", "veo", "kling", "可灵", "runway", "hailuo", "海螺", "sora", "video generation", "ai video"]
 impact = "优先判断是否影响短剧分镜、角色一致性、运镜、时长或生成成本。"
 
 [topics.subtitle_audio]
+max_items = 5
 label = "字幕 / Whisper / VAD"
 weight = 5
 keywords = ["faster-whisper", "whisper", "large-v3", "large-v3-turbo", "silero vad", "silero-vad", "diarization", "speaker diarization", "vad", "timestamp", "forced alignment"]
 impact = "优先判断是否提升字幕识别质量、短对白召回、说话人分离或时间轴准确性；质量优先于速度。"
 
 [topics.editing_automation]
+max_items = 4
 label = "剪映 / CapCut / 自动化"
 weight = 5
 keywords = ["capcut", "剪映", "video editor", "mcp", "batch editing", "auto edit", "自动剪辑"]
 impact = "优先判断是否能接入一键剪辑、批处理、字幕、工程自动化或精修流程。"
 
 [topics.short_drama]
+max_items = 4
 label = "AI短剧 / 红果"
 weight = 4
 keywords = ["红果短剧", "ai短剧", "ai漫剧", "短剧", "micro drama", "short drama", "drama generation"]
 impact = "优先判断是否影响选题、爆款方向、平台规则、生产效率或商业化。"
 
 [topics.image_generation]
+max_items = 3
 label = "AI图像"
 weight = 4
 keywords = ["midjourney", "image generation", "gpt image", "imagen", "flux", "consistency", "character reference", "图像生成", "角色一致性"]
 impact = "优先判断是否提升角色一致性、风格锁定、局部修改、分辨率或批量资产生产。"
 
 [topics.foundation_models]
+max_items = 3
 label = "GPT / Claude / Gemini / Agent"
 weight = 4
 keywords = ["openai", "gpt", "codex", "claude", "anthropic", "gemini", "google ai", "agent", "mcp server"]
 impact = "只保留会影响开发能力、工作流自动化、模型选择、成本或工具调用的重要变化。"
 
 [topics.github_tools]
+max_items = 2
 label = "GitHub 开源工具"
 weight = 3
 keywords = ["github", "open source", "release", "workflow", "actions", "automation"]
