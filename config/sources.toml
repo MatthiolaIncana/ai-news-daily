@@ -1,0 +1,47 @@
+[[sources]]
+name = "GoogleNews-Seedance-AIVideo"
+type = "google_news"
+trust = 3
+query = 'Seedance OR 即梦 OR "AI video" OR Veo OR Kling OR Runway OR Sora'
+
+[[sources]]
+name = "GoogleNews-Subtitle"
+type = "google_news"
+trust = 3
+query = '"faster-whisper" OR Whisper OR "Silero VAD" OR diarization OR "large-v3"'
+
+[[sources]]
+name = "GoogleNews-Editing"
+type = "google_news"
+trust = 3
+query = 'CapCut OR 剪映 OR "AI editing" OR "video editing automation"'
+
+[[sources]]
+name = "GoogleNews-ShortDrama"
+type = "google_news"
+trust = 3
+query = '红果短剧 OR AI短剧 OR AI漫剧 OR "short drama" AI'
+
+[[sources]]
+name = "GoogleNews-Models"
+type = "google_news"
+trust = 3
+query = 'OpenAI OR GPT OR Claude OR Gemini OR Codex OR MCP AI'
+
+[[sources]]
+name = "faster-whisper Releases"
+type = "rss"
+trust = 5
+url = "https://github.com/SYSTRAN/faster-whisper/releases.atom"
+
+[[sources]]
+name = "Silero VAD Releases"
+type = "rss"
+trust = 5
+url = "https://github.com/snakers4/silero-vad/releases.atom"
+
+[[sources]]
+name = "OpenAI Whisper Releases"
+type = "rss"
+trust = 5
+url = "https://github.com/openai/whisper/releases.atom"
