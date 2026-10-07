@@ -223,9 +223,9 @@ def select(items: list[Item], topics_cfg: dict[str, Any], now: datetime | None =
     settings = topics_cfg.get("settings", {})
     lookback_hours = int(settings.get("lookback_hours", 30))
     min_score = int(settings.get("min_score", 8))
-    max_items = int(settings.get("max_items", 10))
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=lookback_hours)
+
     scored: list[Item] = []
     for item in items:
         if item.published < cutoff or item.published > now + timedelta(hours=1):
@@ -233,7 +233,14 @@ def select(items: list[Item], topics_cfg: dict[str, Any], now: datetime | None =
         candidate = score_item(item, topics_cfg)
         if candidate and candidate.score >= min_score:
             scored.append(candidate)
-    return dedupe(scored)[:max_items]
+
+    deduped = dedupe(scored)
+    selected: list[Item] = []
+    for key, topic in topics_cfg.get("topics", {}).items():
+        quota = int(topic.get("max_items", 3))
+        group = [item for item in deduped if item.topic_key == key][:quota]
+        selected.extend(group)
+    return selected
 
 
 def short_summary(text: str, limit: int = 120) -> str:
@@ -257,20 +264,42 @@ def report_payload(items: list[Item], errors: list[str], topics_cfg: dict[str, A
     if not items:
         elements.append({"tag": "markdown", "content": "✅ **今日监控完成：未发现达到推送阈值的重要更新。**"})
     else:
-        elements.append({"tag": "markdown", "content": f"今日筛选出 **{len(items)}** 条与你当前工具链最相关的更新。"})
-        for idx, item in enumerate(items, 1):
-            stars = "★" * min(5, max(1, item.score // 2))
-            summary = short_summary(item.summary)
-            body = (
-                f"**{idx}. [{item.title}]({item.link})**\n"
-                f"分类：{item.topic_label}｜重要度：{stars}｜来源：{item.source}\n"
-            )
-            if summary:
-                body += f"发生了什么：{summary}\n"
-            body += f"与你有关：{item.impact}"
-            elements.append({"tag": "markdown", "content": body})
-            if idx != len(items):
+        elements.append({"tag": "markdown", "content": f"今日共筛选出 **{len(items)}** 条高价值更新，按分类配额展示。"})
+        icons = {
+            "seedance_video": "🎬",
+            "subtitle_audio": "📝",
+            "editing_automation": "✂️",
+            "short_drama": "📺",
+            "image_generation": "🖼️",
+            "foundation_models": "🤖",
+            "github_tools": "🛠️",
+        }
+        first_group = True
+        for key, topic in topics_cfg.get("topics", {}).items():
+            group = [item for item in items if item.topic_key == key]
+            if not group:
+                continue
+            if not first_group:
                 elements.append({"tag": "hr"})
+            first_group = False
+            quota = int(topic.get("max_items", 3))
+            label = str(topic.get("label", key))
+            icon = icons.get(key, "📌")
+            elements.append({
+                "tag": "markdown",
+                "content": f"### {icon} {label}（{len(group)}/{quota}）",
+            })
+            for idx, item in enumerate(group, 1):
+                stars = "★" * min(5, max(1, item.score // 2))
+                summary = short_summary(item.summary)
+                body = (
+                    f"**{idx}. [{item.title}]({item.link})**\n"
+                    f"重要度：{stars}｜来源：{item.source}\n"
+                )
+                if summary:
+                    body += f"发生了什么：{summary}\n"
+                body += f"与你有关：{item.impact}"
+                elements.append({"tag": "markdown", "content": body})
 
     if errors:
         compact = "\n".join(f"- {e[:160]}" for e in errors[:5])
