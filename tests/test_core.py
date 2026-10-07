@@ -6,7 +6,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item, select
+from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item, select, load_toml
+
+
+def load_test_config():
+    return load_toml(ROOT / "config" / "topics.toml")
 
 TOPICS = {
     "settings": {
@@ -98,6 +102,81 @@ class CoreTests(unittest.TestCase):
         chosen = select(items, cfg, now=now)
         self.assertEqual(sum(1 for x in chosen if x.topic_key == "a"), 2)
         self.assertEqual(sum(1 for x in chosen if x.topic_key == "b"), 1)
+
+
+    def test_sora_bus_is_rejected(self):
+        cfg = load_test_config()
+        item = Item(
+            "Toyota and Isuzu launch new SORA hydrogen fuel cell bus",
+            "https://example.com/sora-bus",
+            "The vehicle has 300 km range and new commercial vehicle features.",
+            datetime.now(timezone.utc),
+            "GoogleNews-Seedance-AIVideo",
+            3,
+        )
+        self.assertIsNone(score_item(item, cfg))
+
+    def test_runway_airport_is_rejected(self):
+        cfg = load_test_config()
+        item = Item(
+            "Airport runway upgrade launched with new lighting system",
+            "https://example.com/runway",
+            "Airport runway construction and aviation update.",
+            datetime.now(timezone.utc),
+            "GoogleNews-Seedance-AIVideo",
+            3,
+        )
+        self.assertIsNone(score_item(item, cfg))
+
+    def test_gemini_zodiac_is_rejected(self):
+        cfg = load_test_config()
+        item = Item(
+            "Gemini horoscope update for October",
+            "https://example.com/gemini-zodiac",
+            "Zodiac and constellation forecast.",
+            datetime.now(timezone.utc),
+            "GoogleNews-Models",
+            3,
+        )
+        self.assertIsNone(score_item(item, cfg))
+
+    def test_claude_person_is_rejected(self):
+        cfg = load_test_config()
+        item = Item(
+            "Claude Monet exhibition opens with updated collection",
+            "https://example.com/claude-monet",
+            "Museum exhibition about Claude Monet paintings.",
+            datetime.now(timezone.utc),
+            "GoogleNews-Models",
+            3,
+        )
+        self.assertIsNone(score_item(item, cfg))
+
+    def test_flux_physics_is_rejected(self):
+        cfg = load_test_config()
+        item = Item(
+            "Magnetic flux model updated for solar research",
+            "https://example.com/flux-physics",
+            "Physics paper on magnetic flux and solar flux.",
+            datetime.now(timezone.utc),
+            "GoogleNews-Image",
+            3,
+        )
+        self.assertIsNone(score_item(item, cfg))
+
+    def test_index_translate_is_kept(self):
+        cfg = load_test_config()
+        item = Item(
+            "Bilibili releases Index-Translate and Index-Echo speech translation models",
+            "https://example.com/index-translate",
+            "Open source subtitle translation model supports S2TT, Spanish, terminology consistency, GGUF and local deployment.",
+            datetime.now(timezone.utc),
+            "GoogleNews-Translation-Localization",
+            3,
+        )
+        result = score_item(item, cfg)
+        self.assertIsNotNone(result)
+        self.assertEqual(result.topic_key, "translation_localization")
 
     def test_parse_rss_and_atom(self):
         rss = b'''<?xml version="1.0"?><rss><channel><item><title>Whisper update</title><link>https://example.com/a</link><description>News</description><pubDate>Wed, 07 Oct 2026 01:00:00 GMT</pubDate></item></channel></rss>'''
