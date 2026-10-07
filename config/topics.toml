@@ -27,15 +27,17 @@ change_signals = [
   "new version", "api", "pricing", "price change", "deprecated", "deprecation",
   "now supports", "adds support", "added support", "rollout", "rolling out",
   "benchmark", "accuracy", "quality improvement", "fix", "fixed", "changelog",
-  "发布", "上线", "推出", "更新", "升级", "新增", "开放", "接口", "API",
+  "open source", "open-sourced", "model weights", "quantized", "gguf", "fp8",
+  "发布", "上线", "推出", "更新", "升级", "新增", "开放", "接口", "api",
   "价格", "降价", "涨价", "弃用", "下线", "版本", "修复", "提升",
-  "准确率", "质量提升", "支持"
+  "准确率", "质量提升", "支持", "开源", "权重", "量化"
 ]
 
 [source_quality]
 preferred_publishers = [
   "OpenAI", "Anthropic", "Google", "Google DeepMind", "Microsoft", "GitHub",
   "ByteDance", "CapCut", "Runway", "Midjourney", "Hugging Face",
+  "Bilibili", "哔哩哔哩", "Index LLM", "Alibaba", "Tencent",
   "Reuters", "TechCrunch", "The Verge", "Ars Technica"
 ]
 
@@ -45,20 +47,54 @@ label = "Seedance / AI视频"
 weight = 5
 keywords = ["seedance", "即梦", "豆包视频", "veo", "kling", "可灵", "runway", "hailuo", "海螺", "sora", "video generation", "ai video"]
 direct_keywords = ["seedance", "即梦", "veo", "kling", "可灵", "runway", "hailuo", "海螺", "sora"]
+strong_keywords = [
+  "seedance", "即梦", "豆包视频", "openai sora", "sora ai", "sora video",
+  "google veo", "veo ai", "veo 3", "kling ai", "可灵ai", "可灵 ai",
+  "runway ai", "runway gen", "runway ml", "hailuo ai", "海螺ai", "海螺 ai",
+  "video generation model", "text-to-video model", "image-to-video model"
+]
+ambiguous_keywords = ["sora", "veo", "kling", "可灵", "runway", "hailuo", "海螺"]
+context_keywords = [
+  "ai", "artificial intelligence", "video generation", "text-to-video", "image-to-video",
+  "model", "openai", "google deepmind", "生成式", "人工智能", "视频生成", "文生视频",
+  "图生视频", "模型", "角色一致性", "参考图", "运镜"
+]
+exclude_keywords = [
+  "toyota", "isuzu", "hydrogen bus", "fuel cell bus", "vehicle", "automotive",
+  "commercial vehicle", "bus", "km range", "airport runway", "fashion runway",
+  "catwalk", "airline", "airport",
+  "丰田", "五十铃", "氢燃料", "燃料电池巴士", "巴士", "汽车", "商用车",
+  "车型", "续航里程", "机场跑道", "航空", "时装秀", "秀场"
+]
 impact_keywords = [
   "character consistency", "reference image", "reference video", "duration", "seconds",
   "1080p", "4k", "camera", "motion", "multi-shot", "storyboard", "lip sync",
   "角色一致性", "参考图", "参考视频", "时长", "分辨率", "运镜", "镜头",
-  "多镜头", "分镜", "首尾帧", "口型", "API", "价格"
+  "多镜头", "分镜", "首尾帧", "口型", "api", "价格"
 ]
 impact = "优先判断是否影响短剧分镜、角色一致性、运镜、时长、参考能力、画质或生成成本。"
 
 [topics.subtitle_audio]
 max_items = 5
-label = "字幕 / Whisper / VAD"
+label = "字幕 / ASR / VAD"
 weight = 5
-keywords = ["faster-whisper", "whisper", "large-v3", "large-v3-turbo", "silero vad", "silero-vad", "diarization", "speaker diarization", "vad", "timestamp", "forced alignment"]
-direct_keywords = ["faster-whisper", "large-v3", "large-v3-turbo", "silero vad", "silero-vad", "diarization", "speaker diarization"]
+keywords = ["faster-whisper", "whisper", "large-v3", "large-v3-turbo", "silero vad", "silero-vad", "diarization", "speaker diarization", "vad", "timestamp", "forced alignment", "speech recognition", "asr"]
+direct_keywords = ["faster-whisper", "large-v3", "large-v3-turbo", "silero vad", "silero-vad", "speaker diarization", "forced alignment"]
+strong_keywords = [
+  "faster-whisper", "openai whisper", "whisper large-v3", "large-v3", "large-v3-turbo",
+  "silero vad", "silero-vad", "speaker diarization", "forced alignment",
+  "speech recognition model", "asr model", "speech-to-text model"
+]
+ambiguous_keywords = ["whisper", "vad", "diarization", "asr"]
+context_keywords = [
+  "speech recognition", "speech-to-text", "transcription", "subtitle", "caption",
+  "audio", "openai", "timestamp", "speaker", "语音识别", "语音转文字", "字幕",
+  "转写", "音频", "时间戳", "说话人", "转录"
+]
+exclude_keywords = [
+  "whisper song", "whisper album", "whisper singer", "asmr whisper",
+  "歌曲", "专辑", "歌手", "耳语音乐"
+]
 impact_keywords = [
   "accuracy", "wer", "word error", "timestamp", "alignment", "diarization", "speaker",
   "vad", "hallucination", "language detection", "short speech", "short utterance",
@@ -67,12 +103,61 @@ impact_keywords = [
 ]
 impact = "优先判断是否提升字幕识别质量、短对白召回、说话人分离或时间轴准确性；质量优先于速度。"
 
+[topics.translation_localization]
+max_items = 4
+label = "字幕翻译 / 本地化"
+weight = 5
+keywords = [
+  "index-translate", "index translate", "index-echo", "index echo", "index-homura",
+  "index homura", "index llm", "speech translation", "subtitle translation",
+  "multilingual translation", "machine translation model", "dubbing translation",
+  "语音翻译", "字幕翻译", "多语言翻译", "机器翻译模型", "配音翻译"
+]
+direct_keywords = [
+  "index-translate", "index translate", "index-echo", "index echo", "index-homura",
+  "index homura", "index llm", "speech translation", "subtitle translation"
+]
+strong_keywords = [
+  "index-translate", "index translate", "index-echo", "index echo",
+  "index-homura", "index homura", "index llm",
+  "speech translation model", "subtitle translation model", "multilingual translation model",
+  "语音翻译模型", "字幕翻译模型", "多语言翻译模型"
+]
+ambiguous_keywords = ["translation", "translate", "翻译", "dubbing", "配音"]
+context_keywords = [
+  "model", "ai", "open source", "weights", "hugging face", "api", "speech",
+  "subtitle", "dubbing", "multilingual", "localization", "模型", "人工智能",
+  "开源", "权重", "语音", "字幕", "配音", "多语言", "本地化"
+]
+exclude_keywords = [
+  "human translator", "translation agency", "translation job", "translator salary",
+  "翻译公司", "翻译招聘", "翻译岗位", "翻译薪资", "人工翻译服务"
+]
+impact_keywords = [
+  "s2tt", "speech-to-text translation", "subtitle", "spanish", "español",
+  "glossary", "terminology", "format preservation", "syllable", "length control",
+  "long document", "context consistency", "gguf", "fp8", "fp4", "local deployment",
+  "openai compatible", "free api", "字幕", "西语", "西班牙语", "术语", "格式保留",
+  "音节", "长度控制", "长文档", "上下文一致性", "量化", "本地部署", "免费api"
+]
+impact = "优先判断是否能提升中文字幕/语音到西语字幕、本地化翻译、术语一致性、字幕长度控制、上下文一致性或本地部署效率。"
+
 [topics.editing_automation]
 max_items = 4
 label = "剪映 / CapCut / 自动化"
 weight = 5
 keywords = ["capcut", "剪映", "video editor", "mcp", "batch editing", "auto edit", "自动剪辑"]
 direct_keywords = ["capcut", "剪映"]
+strong_keywords = ["capcut", "剪映", "capcut desktop", "capcut api", "video editing automation"]
+ambiguous_keywords = ["mcp", "video editor", "automation"]
+context_keywords = [
+  "editing", "video editing", "timeline", "caption", "subtitle", "export", "batch",
+  "剪辑", "视频编辑", "时间线", "字幕", "导出", "批量", "工程"
+]
+exclude_keywords = [
+  "minecraft", "medical", "manufacturing", "master control program",
+  "医疗", "制造业", "主控制程序"
+]
 impact_keywords = [
   "batch", "workflow", "automation", "api", "mcp", "subtitle", "caption",
   "timeline", "export", "import", "template", "plugin", "script",
@@ -87,10 +172,19 @@ label = "AI短剧 / 红果"
 weight = 4
 keywords = ["红果短剧", "ai短剧", "ai漫剧", "短剧", "micro drama", "short drama", "drama generation"]
 direct_keywords = ["红果短剧", "ai短剧", "ai漫剧"]
+strong_keywords = ["红果短剧", "ai短剧", "ai漫剧", "hongguo short drama"]
+ambiguous_keywords = ["短剧", "short drama", "micro drama"]
+context_keywords = [
+  "ai", "generated", "platform", "creator", "monetization", "policy", "algorithm",
+  "人工智能", "ai生成", "平台", "创作者", "变现", "审核", "规则", "推荐", "红果"
+]
+exclude_keywords = [
+  "casting", "actor dating", "celebrity gossip", "明星恋情", "演员恋情", "娱乐八卦"
+]
 impact_keywords = [
   "policy", "rule", "monetization", "revenue", "algorithm", "recommendation",
   "ai generated", "creator", "submission", "copyright",
-  "政策", "规则", "变现", "分成", "算法", "推荐", "AI生成", "创作者",
+  "政策", "规则", "变现", "分成", "算法", "推荐", "ai生成", "创作者",
   "投稿", "审核", "平台", "版权", "题材"
 ]
 impact = "优先判断是否影响红果等平台的选题、审核、推荐、变现、版权、AI生成规则或生产效率。"
@@ -101,11 +195,25 @@ label = "AI图像"
 weight = 4
 keywords = ["midjourney", "image generation", "gpt image", "imagen", "flux", "consistency", "character reference", "图像生成", "角色一致性"]
 direct_keywords = ["midjourney", "gpt image", "imagen", "flux"]
+strong_keywords = [
+  "midjourney", "gpt image", "google imagen", "imagen ai", "imagen 3", "imagen 4",
+  "flux.1", "flux.2", "flux ai", "black forest labs",
+  "image generation model", "text-to-image model"
+]
+ambiguous_keywords = ["imagen", "flux"]
+context_keywords = [
+  "ai", "image generation", "text-to-image", "image model", "generative image",
+  "artificial intelligence", "图像生成", "文生图", "图像模型", "生成式", "人工智能"
+]
+exclude_keywords = [
+  "magnetic flux", "solar flux", "heat flux", "welding flux", "flux capacitor",
+  "磁通量", "太阳通量", "热通量", "焊剂"
+]
 impact_keywords = [
   "consistency", "character reference", "style reference", "edit", "inpainting",
   "resolution", "batch", "api", "pricing", "multi-image",
   "角色一致性", "风格参考", "局部修改", "重绘", "分辨率", "批量",
-  "API", "价格", "多图", "参考图"
+  "api", "价格", "多图", "参考图"
 ]
 impact = "优先判断是否提升角色一致性、风格锁定、参考图、局部修改、分辨率或批量资产生产。"
 
@@ -115,6 +223,22 @@ label = "GPT / Claude / Gemini / Agent"
 weight = 4
 keywords = ["openai", "gpt", "codex", "claude", "anthropic", "gemini", "google ai", "agent", "mcp server"]
 direct_keywords = ["gpt", "codex", "claude", "anthropic", "gemini", "openai"]
+strong_keywords = [
+  "openai", "chatgpt", "gpt-", "codex", "anthropic claude", "claude ai",
+  "google gemini", "gemini ai", "google ai", "mcp server",
+  "language model", "foundation model", "reasoning model"
+]
+ambiguous_keywords = ["claude", "gemini", "agent", "codex"]
+context_keywords = [
+  "ai", "model", "llm", "api", "openai", "anthropic", "google", "reasoning",
+  "coding", "agent", "人工智能", "模型", "大模型", "接口", "推理", "代码"
+]
+exclude_keywords = [
+  "gemini horoscope", "gemini zodiac", "gemini constellation", "gemini spacecraft",
+  "claude monet", "claude debussy", "claude shannon", "travel agent", "real estate agent",
+  "insurance agent", "双子座", "星座", "双子星", "航天器", "莫奈", "德彪西",
+  "香农", "旅行社", "房产中介", "保险代理"
+]
 impact_keywords = [
   "context", "tool use", "coding", "agent", "mcp", "api", "pricing", "rate limit",
   "reasoning", "computer use", "memory", "context window", "tools",
@@ -132,6 +256,6 @@ direct_keywords = []
 impact_keywords = [
   "workflow", "actions", "automation", "mcp", "cli", "api", "batch", "windows",
   "offline", "local", "release", "工作流", "自动化", "批量", "本地", "离线",
-  "Windows", "安装", "接口"
+  "windows", "安装", "接口"
 ]
 impact = "只保留能直接接入现有 AI 工具链、Windows 本地程序、批处理或自动化项目的开源更新。"
