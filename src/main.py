@@ -64,8 +64,15 @@ def canonical_url(url: str) -> str:
         return url
 
 
+def title_core(title: str) -> str:
+    # Google News 常把发布方附在标题末尾，例如 "Title - Reuters"。
+    # 去掉尾部发布方后再做事件去重，避免同一事件被多家媒体重复推送。
+    parts = re.split(r"\s+-\s+", title.strip())
+    return parts[0] if parts else title
+
+
 def title_key(title: str) -> str:
-    return re.sub(r"[^0-9a-z\u4e00-\u9fff]+", "", title.lower())
+    return re.sub(r"[^0-9a-z\u4e00-\u9fff]+", "", title_core(title).lower())
 
 
 def parse_datetime(raw: str | None) -> datetime | None:
@@ -210,6 +217,11 @@ def score_item(item: Item, topics_cfg: dict[str, Any]) -> Item | None:
 
         base = int(topic.get("weight", 1))
         score = base + item.trust
+
+        # 高可信官方/主流发布方加权。Google News 常把发布方名称放在标题尾部。
+        preferred_publishers = topics_cfg.get("source_quality", {}).get("preferred_publishers", [])
+        if phrase_hits(text, preferred_publishers):
+            score += 2
         score += min(topic_hits, 3)
         score += min(change_hits, 3) * 2
         score += min(impact_hits, 4) * 2
@@ -250,7 +262,7 @@ def dedupe(items: list[Item]) -> list[Item]:
         key = title_key(item.title)
         if not key:
             continue
-        if any(key == old or SequenceMatcher(None, key, old).ratio() >= 0.92 for old in seen_keys):
+        if any(key == old or SequenceMatcher(None, key, old).ratio() >= 0.84 for old in seen_keys):
             continue
         seen_urls.add(item.link)
         seen_keys.append(key)
