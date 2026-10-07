@@ -2,13 +2,19 @@
 name = "GoogleNews-Seedance-AIVideo"
 type = "google_news"
 trust = 3
-query = 'Seedance OR 即梦 OR "AI video" OR Veo OR Kling OR Runway OR Sora'
+query = 'Seedance OR 即梦 OR "OpenAI Sora" OR "Sora AI" OR "Google Veo" OR "Kling AI" OR 可灵AI OR "Runway AI" OR "Hailuo AI" OR 海螺AI OR "video generation model"'
 
 [[sources]]
-name = "GoogleNews-Subtitle"
+name = "GoogleNews-Subtitle-ASR"
 type = "google_news"
 trust = 3
-query = '"faster-whisper" OR Whisper OR "Silero VAD" OR diarization OR "large-v3" OR "large-v3-turbo"'
+query = '"faster-whisper" OR "OpenAI Whisper" OR "Silero VAD" OR "speaker diarization" OR "large-v3" OR "large-v3-turbo" OR "speech recognition model" OR "ASR model"'
+
+[[sources]]
+name = "GoogleNews-Translation-Localization"
+type = "google_news"
+trust = 3
+query = '"Index-Translate" OR "Index-Echo" OR "Index LLM" OR "speech translation model" OR "subtitle translation model" OR "multilingual translation model" OR "语音翻译模型" OR "字幕翻译模型" OR "多语言翻译模型"'
 
 [[sources]]
 name = "GoogleNews-Editing"
@@ -20,19 +26,25 @@ query = 'CapCut OR 剪映 OR "AI editing" OR "video editing automation" OR "edit
 name = "GoogleNews-ShortDrama"
 type = "google_news"
 trust = 3
-query = '红果短剧 OR AI短剧 OR AI漫剧 OR "short drama" OR "micro drama"'
+query = '红果短剧 OR AI短剧 OR AI漫剧 OR ("short drama" AI) OR ("micro drama" AI)'
 
 [[sources]]
 name = "GoogleNews-Image"
 type = "google_news"
 trust = 3
-query = 'Midjourney OR "GPT Image" OR Imagen OR Flux OR "image generation"'
+query = 'Midjourney OR "GPT Image" OR "Google Imagen" OR "Flux AI" OR "Black Forest Labs" OR "image generation model"'
 
 [[sources]]
 name = "GoogleNews-Models"
 type = "google_news"
 trust = 3
-query = 'OpenAI OR GPT OR Claude OR Gemini OR Codex OR Anthropic'
+query = 'OpenAI OR GPT OR Codex OR Anthropic OR "Claude AI" OR "Google Gemini" OR "Gemini AI" OR "foundation model" OR "reasoning model"'
+
+[[sources]]
+name = "GoogleNews-New-Workflow-Models"
+type = "google_news"
+trust = 2
+query = '("open source" OR released OR launched OR 发布 OR 开源) ("video generation model" OR "image generation model" OR "speech recognition model" OR "speech translation model" OR "subtitle translation model" OR "speaker diarization" OR "AI video editor")'
 
 [[sources]]
 name = "GoogleNews-GitHub-AITools"
@@ -60,3 +72,10 @@ type = "rss"
 trust = 5
 official = true
 url = "https://github.com/openai/whisper/releases.atom"
+
+[[sources]]
+name = "Index-Translate Official Updates"
+type = "rss"
+trust = 4
+official = true
+url = "https://github.com/bilibili/Index-Translate/commits/main.atom"
