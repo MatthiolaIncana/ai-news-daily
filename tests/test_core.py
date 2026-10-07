@@ -9,12 +9,20 @@ sys.path.insert(0, str(ROOT / "src"))
 from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item, select
 
 TOPICS = {
-    "settings": {"negative_keywords": ["sponsored"]},
+    "settings": {
+        "negative_keywords": ["sponsored"],
+        "editorial_phrases": ["tutorial", "best ai tools"],
+        "low_value_phrases": ["review"],
+        "change_signals": ["release", "update", "released", "updated"],
+        "require_change_signal": True,
+    },
     "topics": {
         "subtitle": {
             "label": "字幕",
             "weight": 5,
             "keywords": ["faster-whisper", "whisper"],
+            "direct_keywords": ["faster-whisper"],
+            "impact_keywords": ["timestamp", "accuracy"],
             "impact": "impact",
         }
     },
@@ -29,11 +37,25 @@ class CoreTests(unittest.TestCase):
         )
 
     def test_score_topic(self):
-        item = Item("faster-whisper release", "https://example.com/a", "Whisper update", datetime.now(timezone.utc), "test", 5)
+        item = Item("faster-whisper release", "https://example.com/a", "Whisper timestamp accuracy update", datetime.now(timezone.utc), "test", 5)
         result = score_item(item, TOPICS)
         self.assertIsNotNone(result)
         self.assertGreaterEqual(result.score, 8)
         self.assertEqual(result.topic_label, "字幕")
+
+    def test_generic_keyword_without_change_is_rejected(self):
+        item = Item("Whisper is changing the AI world", "https://example.com/x", "A broad opinion about Whisper.", datetime.now(timezone.utc), "news", 3)
+        self.assertIsNone(score_item(item, TOPICS))
+
+    def test_tutorial_is_rejected(self):
+        item = Item("Whisper tutorial for beginners", "https://example.com/t", "Whisper update guide", datetime.now(timezone.utc), "news", 3)
+        self.assertIsNone(score_item(item, TOPICS))
+
+    def test_real_workflow_change_is_kept(self):
+        item = Item("faster-whisper released update", "https://example.com/r", "Improved timestamp accuracy", datetime.now(timezone.utc), "faster-whisper Releases", 5)
+        result = score_item(item, TOPICS)
+        self.assertIsNotNone(result)
+        self.assertGreaterEqual(result.score, 13)
 
     def test_negative_filter(self):
         item = Item("sponsored Whisper article", "https://example.com/a", "", datetime.now(timezone.utc), "test", 5)
@@ -48,16 +70,20 @@ class CoreTests(unittest.TestCase):
     def test_category_quotas(self):
         now = datetime.now(timezone.utc)
         cfg = {
-            "settings": {"negative_keywords": [], "lookback_hours": 30, "min_score": 1},
+            "settings": {
+                "negative_keywords": [], "editorial_phrases": [], "low_value_phrases": [],
+                "change_signals": ["update"], "require_change_signal": True,
+                "lookback_hours": 30, "min_score": 1
+            },
             "topics": {
-                "a": {"label": "A", "weight": 5, "max_items": 2, "keywords": ["alpha"], "impact": "a"},
-                "b": {"label": "B", "weight": 5, "max_items": 1, "keywords": ["beta"], "impact": "b"},
+                "a": {"label": "A", "weight": 5, "max_items": 2, "keywords": ["alpha"], "direct_keywords": ["alpha"], "impact_keywords": [], "impact": "a"},
+                "b": {"label": "B", "weight": 5, "max_items": 1, "keywords": ["beta"], "direct_keywords": ["beta"], "impact_keywords": [], "impact": "b"},
             },
         }
         items = [
-            Item(f"alpha news {i}", f"https://a/{i}", "", now, "x", 5) for i in range(4)
+            Item(f"alpha update news {i}", f"https://a/{i}", "", now, "x", 5) for i in range(4)
         ] + [
-            Item(f"beta news {i}", f"https://b/{i}", "", now, "x", 5) for i in range(3)
+            Item(f"beta update news {i}", f"https://b/{i}", "", now, "x", 5) for i in range(3)
         ]
         chosen = select(items, cfg, now=now)
         self.assertEqual(sum(1 for x in chosen if x.topic_key == "a"), 2)
