@@ -1,0 +1,38 @@
+[
+  {
+    "title": "docs: add call_api.py link and local proxy guide for Immersive Translate",
+    "title_key": "docsaddcallapipylinkandlocalproxyguideforimmersivetranslate",
+    "link": "https://github.com/bilibili/Index-Translate/commit/f940606e8faf18fca4f4ccfd36185e07415f848f",
+    "topic": "translation_localization",
+    "score": 21,
+    "novelty_signature": "api",
+    "pushed_at": "2026-10-08T01:46:42.669180+00:00"
+  },
+  {
+    "title": "【IPO前Anthropic推出小模型“性价比之王”，Claude Haiku 5.5运行成本降75%】Anthropic称，Haiku 5.5是该司迄今发布的最便宜、最快且能力最强小模型，瞄准高吞吐量、成本敏感型应用，编程、电脑操作等任务能力较前代4.5明显提升；首次纳入可调节的effo... - 搜狐网",
+    "title_key": "ipo前anthropic推出小模型性价比之王claudehaiku55运行成本降75anthropic称haiku55是该司迄今发布的最便宜最快且能力最强小模型瞄准高吞吐量成本敏感型应用编程电脑操作等任务能力较前代45明显提升首次纳入可调节的effo",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORDhYQUhCRndZbVo5NEdYSW1DY2h2OTFleDZ1czA4X2s4eHc0ajdjWFA1c2tTYkpoN2NrU3M2LWdEMFdUMG9PaUlrcVd0YzN6VXhHdmM2azF0MGNZQUJTdUJBZVA2dVYxUFowV0IyeEVEbi1WUnBuM0ZHX0w4SXdoN1NSd2p6UkR0Qng4?oc=5",
+    "topic": "foundation_models",
+    "score": 26,
+    "novelty_signature": "",
+    "pushed_at": "2026-10-08T01:46:42.669180+00:00"
+  },
+  {
+    "title": "Claude新Haiku发布！暴击GPT-6 Luna，比梁文谷还便宜，OpenAI只能送重置卡挽尊 - 凤凰网科技",
+    "title_key": "claude新haiku发布暴击gpt6luna比梁文谷还便宜openai只能送重置卡挽尊",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA0OHdGZTh3YmtDQjRidXhtajVCYUE4U0dhMldfdmJpY1U4a2lpbTBJc3FjRHA3bldaUlVZdFdPSzZMMWkwLWFTWlQ2ODY?oc=5",
+    "topic": "foundation_models",
+    "score": 25,
+    "novelty_signature": "",
+    "pushed_at": "2026-10-08T01:46:42.669180+00:00"
+  },
+  {
+    "title": "OpenAI全面上线GPT-6 - DoNews",
+    "title_key": "openai全面上线gpt6",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yNUZtZ0l2WkNHc2xhQlVUUTBHMmZEQXdRNVJtaUhnUGRkM2I3NngyblZUSzJMQXFIXzJWeEpRRmM3SThDQ2V3WnY0dUhXUUUzQjF1RExfS0ZYOFZRdGc?oc=5",
+    "topic": "foundation_models",
+    "score": 23,
+    "novelty_signature": "",
+    "pushed_at": "2026-10-08T01:46:42.669180+00:00"
+  }
+]
