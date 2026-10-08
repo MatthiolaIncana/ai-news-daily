@@ -34,5 +34,41 @@
     "score": 23,
     "novelty_signature": "",
     "pushed_at": "2026-10-08T01:46:42.669180+00:00"
+  },
+  {
+    "title": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊 - 量子位 QbitAI",
+    "title_key": "claude新模型发布跑分暴击gpt6luna价格比梁文谷还便宜openai只能送重置卡挽尊",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04YllTM0djSzg2cU1GNlRfMVNYVnNzQ2pUSzZBOG5ReVFOWVJIRU9oWVFaRFVBS2txa2NyUUx6MjBpcjdHRENCWlg1MFdXSVBHUU9qVw?oc=5",
+    "topic": "foundation_models",
+    "score": 29,
+    "novelty_signature": "价格",
+    "pushed_at": "2026-10-08T07:12:09.693784+00:00"
+  },
+  {
+    "title": "AI价格战升温：OpenAI借GPT-5.6逆袭，Anthropic优势不再？ - 凤凰网科技",
+    "title_key": "ai价格战升温openai借gpt56逆袭anthropic优势不再",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE81eElaVWl6YkhHVUNJdGsxVDdobU9pY0Y4YUlIZjd4ak11Mjdidld5OWxQRlhlZlRUVUVBY2NQcVU5YzVXcmhwNHAwQUw?oc=5",
+    "topic": "foundation_models",
+    "score": 26,
+    "novelty_signature": "价格",
+    "pushed_at": "2026-10-08T07:12:09.693784+00:00"
+  },
+  {
+    "title": "GPT-6向所有用户开放，ChatGPT交互升级！OpenAI：模型更聪明，也更难测试 - ThePaper.cn",
+    "title_key": "gpt6向所有用户开放chatgpt交互升级openai模型更聪明也更难测试",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40NXNFZkNpQ2RRU1JVZW9Oc1E3Vkc1SVhVTGtzRVloT25PYmxfUU9FNWV6OTI3b3JZcHRlZ1hkWXNFaHNVd2VzbERYN2xiN2EyMmhNRmJPVUp4b2hJVUhGcQ?oc=5",
+    "topic": "foundation_models",
+    "score": 25,
+    "novelty_signature": "",
+    "pushed_at": "2026-10-08T07:12:09.693784+00:00"
+  },
+  {
+    "title": "微软发布 MAI Code1.1 Flash 模型，GitHub Copilot 将支持云端与本地混合推理 ｜#AI资讯# #微软# #混合架构# - 搜狐网",
+    "title_key": "微软发布maicode11flash模型githubcopilot将支持云端与本地混合推理ai资讯微软混合架构",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOODZ0ZUF1LXg0ckg4OWNvVkdXVzcyQm5HS1ZKVU1vdnFod2dsR0x4bC1yTWJtMkRHcXZtRnFjZUVSNU9NVTFQZDMzMTA2THdxTHJnMVVfdFdhSHI3ZmJPRklFLXRDdFJiLURBajRXQ0R4LXNiREdSdXA4dDQyemxSWHBMQkJiY005TFF4RQ?oc=5",
+    "topic": "github_tools",
+    "score": 18,
+    "novelty_signature": "",
+    "pushed_at": "2026-10-08T07:12:09.693784+00:00"
   }
 ]
