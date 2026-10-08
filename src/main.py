@@ -24,6 +24,7 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 STATE_DIR = ROOT / "data" / "state"
 HISTORY_FILE = STATE_DIR / "history.json"
 DEBUG_FILE = ROOT / "data" / "last_debug.json"
+DELIVERY_FILE = STATE_DIR / "last_delivery.json"
 
 
 @dataclass
@@ -299,6 +300,51 @@ def save_history(
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     HISTORY_FILE.write_text(
         json.dumps(kept, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+def delivery_local_date(topics_cfg: dict[str, Any], now: datetime | None = None) -> str:
+    settings = topics_cfg.get("settings", {})
+    tz = ZoneInfo(str(settings.get("timezone", "Asia/Shanghai")))
+    now = now or datetime.now(timezone.utc)
+    return now.astimezone(tz).date().isoformat()
+
+
+def load_last_delivery() -> dict[str, Any]:
+    if not DELIVERY_FILE.exists():
+        return {}
+    try:
+        data = json.loads(DELIVERY_FILE.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def already_delivered_today(
+    topics_cfg: dict[str, Any],
+    now: datetime | None = None,
+) -> bool:
+    state = load_last_delivery()
+    return state.get("local_date") == delivery_local_date(topics_cfg, now=now)
+
+
+def save_last_delivery(
+    selected: list[Item],
+    errors: list[str],
+    topics_cfg: dict[str, Any],
+    now: datetime | None = None,
+) -> None:
+    now = now or datetime.now(timezone.utc)
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "local_date": delivery_local_date(topics_cfg, now=now),
+        "sent_at": now.isoformat(),
+        "selected_count": len(selected),
+        "source_errors": len(errors),
+    }
+    DELIVERY_FILE.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
@@ -707,8 +753,20 @@ def save_debug(
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="只打印结果，不发送飞书")
+    parser.add_argument(
+        "--skip-if-sent-today",
+        action="store_true",
+        help="若北京时间当天已成功发送，则直接退出；仅供定时重试使用",
+    )
     args = parser.parse_args()
     topics_cfg = load_toml(ROOT / "config" / "topics.toml")
+    if args.skip_if_sent_today and already_delivered_today(topics_cfg):
+        print(
+            f"already delivered on {delivery_local_date(topics_cfg)}; "
+            "scheduled retry skipped"
+        )
+        return 0
+
     sources_cfg = load_toml(ROOT / "config" / "sources.toml")
     raw, errors = collect(sources_cfg)
     history = load_history()
@@ -730,6 +788,7 @@ def main() -> int:
         return 2
     send_feishu(webhook, payload)
     save_history(history, selected, topics_cfg)
+    save_last_delivery(selected, errors, topics_cfg)
     print(
         f"sent {len(selected)} items; source_errors={len(errors)}; "
         f"diagnostics={len(diagnostics)}"
