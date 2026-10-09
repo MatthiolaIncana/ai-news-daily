@@ -13,25 +13,6 @@ on:
     - cron: "47 9 * * *"
       timezone: "Asia/Shanghai"
   workflow_dispatch:
-    inputs:
-      retry_mode:
-        description: "External watchdog retry; skip if Beijing date already delivered"
-        required: false
-        default: "false"
-        type: choice
-        options:
-          - "false"
-          - "true"
-      trigger_source:
-        description: "Optional trigger source for diagnostics"
-        required: false
-        default: "manual"
-        type: string
-      scheduled_time:
-        description: "Optional external scheduler timestamp"
-        required: false
-        default: ""
-        type: string
 
 permissions:
   contents: write
@@ -60,8 +41,8 @@ jobs:
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: |
-          echo "event=${{ github.event_name }} retry_mode=${{ inputs.retry_mode }} source=${{ inputs.trigger_source }}"
-          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.retry_mode }}" = "true" ]; then
+          echo "event=${{ github.event_name }}"
+          if [ "${{ github.event_name }}" = "schedule" ]; then
             python src/main.py --skip-if-sent-today
           else
             python src/main.py
