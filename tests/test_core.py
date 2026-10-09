@@ -309,8 +309,13 @@ class CoreTests(unittest.TestCase):
             },
         }
         items = [
-            Item(f"alpha update feature {i}", f"https://a/{i}", "", now, "x", 5)
-            for i in range(7)
+            Item("alpha update adds timestamp alignment", "https://a/1", "", now, "x", 5),
+            Item("alpha update improves speaker diarization", "https://a/2", "", now, "x", 5),
+            Item("alpha update reduces CUDA memory use", "https://a/3", "", now, "x", 5),
+            Item("alpha update adds batch workflow export", "https://a/4", "", now, "x", 5),
+            Item("alpha update changes API pricing", "https://a/5", "", now, "x", 5),
+            Item("alpha update expands context window", "https://a/6", "", now, "x", 5),
+            Item("alpha update improves tool use reasoning", "https://a/7", "", now, "x", 5),
         ]
         chosen = select(items, cfg, now=now)
         self.assertEqual(len(chosen), 7)
@@ -345,8 +350,13 @@ class CoreTests(unittest.TestCase):
             },
         }
         items = [
-            Item(f"alpha update feature {i}", f"https://a/{i}", "", now, "x", 1)
-            for i in range(7)
+            Item("alpha update adds timestamp alignment", "https://a/1", "", now, "x", 1),
+            Item("alpha update improves speaker diarization", "https://a/2", "", now, "x", 1),
+            Item("alpha update reduces CUDA memory use", "https://a/3", "", now, "x", 1),
+            Item("alpha update adds batch workflow export", "https://a/4", "", now, "x", 1),
+            Item("alpha update changes API pricing", "https://a/5", "", now, "x", 1),
+            Item("alpha update expands context window", "https://a/6", "", now, "x", 1),
+            Item("alpha update improves tool use reasoning", "https://a/7", "", now, "x", 1),
         ]
         chosen = select(items, cfg, now=now)
         self.assertEqual(len(chosen), 5)
@@ -398,10 +408,10 @@ class CoreTests(unittest.TestCase):
             },
         }
         items = [
-            Item("alpha update 1", "https://a/1", "", now, "x", 5),
-            Item("alpha update 2", "https://a/2", "", now, "x", 5),
-            Item("beta update 1", "https://b/1", "", now, "x", 5),
-            Item("beta update 2", "https://b/2", "", now, "x", 5),
+            Item("alpha update adds timestamp alignment", "https://a/1", "", now, "x", 5),
+            Item("alpha update changes API pricing", "https://a/2", "", now, "x", 5),
+            Item("beta update adds timeline export", "https://b/1", "", now, "x", 5),
+            Item("beta update improves local batch automation", "https://b/2", "", now, "x", 5),
         ]
         chosen = select(items, cfg, now=now)
         self.assertEqual(len(chosen), 3)
