@@ -311,6 +311,23 @@ def is_commentary_only(item: Item) -> bool:
     return any(x in title for x in commentary) and not any(x in title for x in concrete)
 
 
+def is_non_workflow_opinion(item: Item, settings: dict[str, Any]) -> bool:
+    if item.official:
+        return False
+    title = item.title.lower()
+    phrases = [
+        str(x).lower()
+        for x in settings.get("non_workflow_opinion_phrases", [])
+    ]
+    if not phrases or not any(p in title for p in phrases):
+        return False
+
+    # 人物表态、声援、抵制、争议等只有在同时包含明确产品/服务变化时才保留。
+    # 避免社会争议、学界观点占用正式工具链日报名额。
+    material_tags = set(item.event_tags) - {"release", "availability"}
+    return not material_tags
+
+
 def same_product_event(a: Item, b: Item) -> bool:
     if not a.product_key or not b.product_key or a.product_key != b.product_key:
         return False
@@ -530,6 +547,11 @@ def score_item(item: Item, topics_cfg: dict[str, Any], debug: dict[str, Any] | N
     if is_commentary_only(item):
         if debug is not None:
             debug.update({"status": "rejected", "reason": "commentary_without_concrete_change"})
+        return None
+
+    if is_non_workflow_opinion(item, settings):
+        if debug is not None:
+            debug.update({"status": "rejected", "reason": "non_workflow_opinion_or_controversy"})
         return None
 
     if is_media_rehash(item):
@@ -773,14 +795,44 @@ def select_with_diagnostics(
     selected: list[Item] = []
     selected_keys: set[tuple[str, str]] = set()
     for key, topic in topics_cfg.get("topics", {}).items():
-        quota = int(topic.get("max_items", 3))
+        legacy_quota = int(topic.get("max_items", 3))
+        soft_quota = int(topic.get("soft_max_items", legacy_quota))
+        hard_quota = int(topic.get("hard_max_items", legacy_quota))
+        hard_quota = max(soft_quota, hard_quota)
+        overflow_min_score = int(
+            topic.get(
+                "overflow_min_score",
+                settings.get("overflow_min_score", min_score),
+            )
+        )
         group = [item for item in deduped if item.topic_key == key]
-        for item in group[:quota]:
-            selected.append(item)
-            selected_keys.add((item.link, item.title))
-        for item in group[quota:]:
+
+        accepted = 0
+        for item in group:
+            if accepted < soft_quota:
+                selected.append(item)
+                selected_keys.add((item.link, item.title))
+                accepted += 1
+                continue
+            if accepted < hard_quota and item.score >= overflow_min_score:
+                selected.append(item)
+                selected_keys.add((item.link, item.title))
+                accepted += 1
+                continue
+
+            reason = (
+                "category_hard_cap_exceeded"
+                if accepted >= hard_quota
+                else "category_soft_quota_score_too_low"
+            )
             diag_by_key[(item.link, item.title)].update(
-                {"status": "rejected", "reason": "category_quota_exceeded", "quota": quota}
+                {
+                    "status": "rejected",
+                    "reason": reason,
+                    "soft_quota": soft_quota,
+                    "hard_quota": hard_quota,
+                    "overflow_min_score": overflow_min_score,
+                }
             )
 
     # 同一具体产品默认每天只保留 1 条，避免一个模型/版本占满整个分类。
@@ -796,6 +848,33 @@ def select_with_diagnostics(
             product_seen.add(item.product_key)
         product_limited.append(item)
     selected = product_limited
+
+    # 全日报总硬上限，防止极端新闻日过长；按分数优先保留真正高价值更新。
+    total_max_items = int(settings.get("total_max_items", 15))
+    if total_max_items > 0 and len(selected) > total_max_items:
+        ranked = sorted(
+            selected,
+            key=lambda x: (x.score, x.trust, x.published),
+            reverse=True,
+        )
+        keep_keys = {
+            (x.link, x.title)
+            for x in ranked[:total_max_items]
+        }
+        trimmed: list[Item] = []
+        for item in selected:
+            key = (item.link, item.title)
+            if key in keep_keys:
+                trimmed.append(item)
+            else:
+                diag_by_key[key].update(
+                    {
+                        "status": "rejected",
+                        "reason": "daily_total_hard_cap",
+                        "total_max_items": total_max_items,
+                    }
+                )
+        selected = trimmed
 
     for item in selected:
         diag_by_key[(item.link, item.title)].update(
@@ -855,7 +934,7 @@ def report_payload(items: list[Item], errors: list[str], topics_cfg: dict[str, A
             if not first_group:
                 elements.append({"tag": "hr"})
             first_group = False
-            quota = int(topic.get("max_items", 3))
+            quota = int(topic.get("hard_max_items", topic.get("max_items", 3)))
             label = str(topic.get("label", key))
             icon = icons.get(key, "📌")
             elements.append({
