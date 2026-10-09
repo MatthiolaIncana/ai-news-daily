@@ -2,11 +2,6 @@ name: Deploy Cloudflare Watchdog
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "cloudflare-watchdog/**"
-      - ".github/workflows/deploy-cloudflare-watchdog.yml"
 
 permissions:
   contents: read
