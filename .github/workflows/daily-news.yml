@@ -1,13 +1,17 @@
 name: Daily AI News
 
 on:
-  # GitHub 自带 schedule 继续保留为兜底。
-  # cron-job.org 可作为独立外部定时器，在 GitHub schedule 延迟/漏触发时兜底。
+  # 纯 GitHub 方案：避开整点高峰，并提供 4 次独立重试。
+  # 采用北京时间本地时区声明，避免手算 UTC。
   schedule:
-    - cron: "0 1 * * *"
-    - cron: "5 1 * * *"
-    - cron: "10 1 * * *"
-    - cron: "15 1 * * *"
+    - cron: "17 9 * * *"
+      timezone: "Asia/Shanghai"
+    - cron: "27 9 * * *"
+      timezone: "Asia/Shanghai"
+    - cron: "37 9 * * *"
+      timezone: "Asia/Shanghai"
+    - cron: "47 9 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
     inputs:
       retry_mode:
