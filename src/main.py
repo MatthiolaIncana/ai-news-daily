@@ -371,8 +371,9 @@ def history_duplicate(
         old_url = canonical_url(str(old.get("link", "")))
         if current_url and old_url and current_url == old_url:
             return True, old
-        old_product = str(old.get("product_key", ""))
-        old_tags = set(old.get("event_tags", []))
+        old_title = str(old.get("title", ""))
+        old_product = str(old.get("product_key", "")) or normalize_product_key(old_title)
+        old_tags = set(old.get("event_tags", [])) or set(event_tags_for_text(old_title))
         if current_product and old_product == current_product:
             # 同产品同类变化在历史窗口内视为旧事件；只有出现新的实质变化类型才允许再推。
             meaningful_current = current_tags - {"release", "availability"}
