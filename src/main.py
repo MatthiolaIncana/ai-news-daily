@@ -188,6 +188,17 @@ def phrase_hits(text: str, phrases: list[Any]) -> int:
 
 
 
+def service_tier_variant(text: str) -> str:
+    text = clean_text(text).lower()
+    if "ultrafast" in text or "ultra fast" in text:
+        return "ultrafast"
+    if re.search(r"(?<!ultra)\bfast(?:\s+mode|\s+tier)?\b", text):
+        return "fast"
+    if re.search(r"\bstandard(?:\s+mode|\s+tier)?\b", text):
+        return "standard"
+    return ""
+
+
 def normalize_product_key(text: str) -> str:
     text = clean_text(text).lower()
 
@@ -215,6 +226,10 @@ def normalize_product_key(text: str) -> str:
                     parts.append(value)
                 else:
                     parts.append(re.sub(r"[^0-9a-z]+", "", value))
+        if prefix == "gpt":
+            tier = service_tier_variant(text)
+            if tier:
+                parts.append(tier)
         return "-".join(parts)
 
     fixed = [
@@ -244,6 +259,10 @@ def event_tags_for_text(text: str) -> tuple[str, ...]:
         ],
         "performance": [
             "speed", "faster", "latency", "throughput", "速度", "延迟", "吞吐", "显存", "memory",
+        ],
+        "service_tier": [
+            "ultrafast", "ultra fast", "fast mode", "fast tier", "service_tier",
+            "服务档位", "服务层级",
         ],
         "availability": [
             "rollout", "available", "开放", "全量", "上线", "可用", "所有用户",
