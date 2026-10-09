@@ -397,17 +397,38 @@ def load_history() -> list[dict[str, Any]]:
         return []
 
 
+def history_entry_local_date(
+    entry: dict[str, Any],
+    settings: dict[str, Any],
+) -> str | None:
+    pushed_at = parse_datetime(str(entry.get("pushed_at", "")))
+    if not pushed_at:
+        return None
+    tz = ZoneInfo(str(settings.get("timezone", "Asia/Shanghai")))
+    return pushed_at.astimezone(tz).date().isoformat()
+
+
 def history_duplicate(
     item: Item,
     history: list[dict[str, Any]],
     settings: dict[str, Any],
+    now: datetime | None = None,
 ) -> tuple[bool, dict[str, Any] | None]:
     current_url = canonical_url(item.link)
     current_key = title_key(item.title)
     current_sig = novelty_signature(item, settings)
     current_product = item.product_key or normalize_product_key(f"{item.title} {item.summary}")
     current_tags = set(item.event_tags or event_tags_for_text(f"{item.title} {item.summary}"))
+    now = now or datetime.now(timezone.utc)
+    tz = ZoneInfo(str(settings.get("timezone", "Asia/Shanghai")))
+    current_local_date = now.astimezone(tz).date().isoformat()
+
     for old in history:
+        # 同一天的历史不参与“跨天重复”判断。
+        # 这样手动重跑用于测试时不会把当天已经发过的候选池越消耗越少；
+        # 次日开始，这些记录又会正常参与 14 天跨天去重。
+        if history_entry_local_date(old, settings) == current_local_date:
+            continue
         old_url = canonical_url(str(old.get("link", "")))
         if current_url and old_url and current_url == old_url:
             return True, old
@@ -768,7 +789,7 @@ def select_with_diagnostics(
             )
             continue
 
-        is_old, old = history_duplicate(candidate, history, settings)
+        is_old, old = history_duplicate(candidate, history, settings, now=now)
         if is_old:
             diag.update(
                 {
