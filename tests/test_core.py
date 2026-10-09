@@ -188,7 +188,7 @@ class CoreTests(unittest.TestCase):
     def test_product_key_for_gpt_sol_variants(self):
         self.assertEqual(
             normalize_product_key("OpenAI推出GPT-6.1 Sol Ultrafast API"),
-            "gpt-6.1-sol",
+            "gpt-6.1-sol-ultrafast",
         )
 
     def test_event_dedupe_same_product_same_event(self):
@@ -265,6 +265,17 @@ class CoreTests(unittest.TestCase):
         self.assertLessEqual(
             sum(1 for x in chosen if x.product_key == "gpt-6.1-sol"),
             1,
+        )
+
+
+    def test_base_sol_and_ultrafast_are_distinct_products(self):
+        self.assertEqual(
+            normalize_product_key("OpenAI GPT-6.1 Sol"),
+            "gpt-6.1-sol",
+        )
+        self.assertEqual(
+            normalize_product_key("OpenAI GPT-6.1 Sol Ultrafast"),
+            "gpt-6.1-sol-ultrafast",
         )
 
 
