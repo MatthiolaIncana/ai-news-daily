@@ -133,5 +133,40 @@
       "release"
     ],
     "pushed_at": "2026-10-09T03:28:04.707421+00:00"
+  },
+  {
+    "title": "Anthropic最便宜模型来了 价格暴降90% 部分超GPT-6 - 文学城",
+    "title_key": "anthropic最便宜模型来了价格暴降90部分超gpt6",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPa2RjZEd0QlFCWXdMckpBeWJQWXFWOTVGc3h4TXVMNC1MbC13d2QxcUtnR1NZYzVyUzNFd3hyaGpyVEs4aHh5dGpzejZwdHdaeW9CTXEwd2lmaUlJYnVWUXR2RlpWa20x?oc=5",
+    "topic": "foundation_models",
+    "score": 22,
+    "novelty_signature": "价格",
+    "product_key": "gpt-6",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-10-09T03:32:42.086058+00:00"
+  },
+  {
+    "title": "vectorcraft，一个用Rust重写的Adobe Illustrator工具地址：github.com/storytold/vectorcraft特点是设计时就考虑了AI Agent调用，提供给AI的API，如图2、3、4都是Agent做的​|vectorcraft|rust|adobe illustrator|ai agent_新浪新闻 - 手机新浪网",
+    "title_key": "vectorcraft一个用rust重写的adobeillustrator工具地址githubcomstorytoldvectorcraft特点是设计时就考虑了aiagent调用提供给ai的api如图234都是agent做的vectorcraftrustadobeillustratoraiagent新浪新闻",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jTDZlUzFxaWdzTUVLWE9pSk5ZamVOcnRTckNyVE5nektjTHNWVExBYzBsNXVEMjhmZGdZNWpWVWIyajBsQkp0aFRxN19FMWNXNGRjZFNXdDNmdzJyc0JOVENOdw?oc=5",
+    "topic": "foundation_models",
+    "score": 22,
+    "novelty_signature": "api",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-09T03:32:42.086058+00:00"
+  },
+  {
+    "title": "陶哲轩公开声援抵制OpenAI，数学界与AI巨头矛盾升级 - 新浪财经",
+    "title_key": "陶哲轩公开声援抵制openai数学界与ai巨头矛盾升级",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0YTd2OVA3TVd1WVRqQll6clRHSk8zTUpsZjBlcHFxTVJyNDNUajkxOTdIY3F0UENmbVNydGRRRmZKRE5qZUdTd3NNVEpaVHRyTUItZjJzNm5TR3FQV3lWUTRQMnFVblpkSW9uQTFEbEpLd2JYcy13TmtJT0M?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-09T03:32:42.086058+00:00"
   }
 ]
