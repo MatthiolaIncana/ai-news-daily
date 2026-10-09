@@ -279,5 +279,133 @@ class CoreTests(unittest.TestCase):
         )
 
 
+    def test_soft_quota_allows_high_score_overflow_to_hard_cap(self):
+        now = datetime.now(timezone.utc)
+        cfg = {
+            "settings": {
+                "negative_keywords": [],
+                "editorial_phrases": [],
+                "low_value_phrases": [],
+                "change_signals": ["update"],
+                "require_change_signal": True,
+                "lookback_hours": 30,
+                "min_score": 1,
+                "overflow_min_score": 18,
+                "total_max_items": 15,
+            },
+            "topics": {
+                "a": {
+                    "label": "A",
+                    "weight": 20,
+                    "max_items": 8,
+                    "soft_max_items": 5,
+                    "hard_max_items": 8,
+                    "overflow_min_score": 18,
+                    "keywords": ["alpha"],
+                    "direct_keywords": ["alpha"],
+                    "impact_keywords": [],
+                    "impact": "a",
+                }
+            },
+        }
+        items = [
+            Item(f"alpha update feature {i}", f"https://a/{i}", "", now, "x", 5)
+            for i in range(7)
+        ]
+        chosen = select(items, cfg, now=now)
+        self.assertEqual(len(chosen), 7)
+
+    def test_soft_quota_blocks_low_score_overflow(self):
+        now = datetime.now(timezone.utc)
+        cfg = {
+            "settings": {
+                "negative_keywords": [],
+                "editorial_phrases": [],
+                "low_value_phrases": [],
+                "change_signals": ["update"],
+                "require_change_signal": True,
+                "lookback_hours": 30,
+                "min_score": 1,
+                "overflow_min_score": 18,
+                "total_max_items": 15,
+            },
+            "topics": {
+                "a": {
+                    "label": "A",
+                    "weight": 1,
+                    "max_items": 8,
+                    "soft_max_items": 5,
+                    "hard_max_items": 8,
+                    "overflow_min_score": 18,
+                    "keywords": ["alpha"],
+                    "direct_keywords": ["alpha"],
+                    "impact_keywords": [],
+                    "impact": "a",
+                }
+            },
+        }
+        items = [
+            Item(f"alpha update feature {i}", f"https://a/{i}", "", now, "x", 1)
+            for i in range(7)
+        ]
+        chosen = select(items, cfg, now=now)
+        self.assertEqual(len(chosen), 5)
+
+    def test_non_workflow_boycott_opinion_is_rejected(self):
+        cfg = load_test_config()
+        item = Item(
+            "陶哲轩公开声援抵制OpenAI，数学界与AI巨头矛盾升级",
+            "https://example.com/opinion",
+            "A public controversy and boycott statement.",
+            datetime.now(timezone.utc),
+            "GoogleNews-Models",
+            3,
+        )
+        self.assertIsNone(score_item(item, cfg))
+
+    def test_daily_total_hard_cap(self):
+        now = datetime.now(timezone.utc)
+        cfg = {
+            "settings": {
+                "negative_keywords": [],
+                "editorial_phrases": [],
+                "low_value_phrases": [],
+                "change_signals": ["update"],
+                "require_change_signal": True,
+                "lookback_hours": 30,
+                "min_score": 1,
+                "total_max_items": 3,
+            },
+            "topics": {
+                "a": {
+                    "label": "A",
+                    "weight": 20,
+                    "max_items": 5,
+                    "keywords": ["alpha"],
+                    "direct_keywords": ["alpha"],
+                    "impact_keywords": [],
+                    "impact": "a",
+                },
+                "b": {
+                    "label": "B",
+                    "weight": 19,
+                    "max_items": 5,
+                    "keywords": ["beta"],
+                    "direct_keywords": ["beta"],
+                    "impact_keywords": [],
+                    "impact": "b",
+                },
+            },
+        }
+        items = [
+            Item("alpha update 1", "https://a/1", "", now, "x", 5),
+            Item("alpha update 2", "https://a/2", "", now, "x", 5),
+            Item("beta update 1", "https://b/1", "", now, "x", 5),
+            Item("beta update 2", "https://b/2", "", now, "x", 5),
+        ]
+        chosen = select(items, cfg, now=now)
+        self.assertEqual(len(chosen), 3)
+
+
 if __name__ == "__main__":
     unittest.main()
