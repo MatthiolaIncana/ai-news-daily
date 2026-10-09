@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item, select, load_toml
+from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item, select, load_toml, normalize_product_key, event_tags_for_text
 
 
 def load_test_config():
@@ -183,6 +183,89 @@ class CoreTests(unittest.TestCase):
         atom = b'''<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom"><entry><title>Release v1</title><link href="https://example.com/b"/><summary>Notes</summary><updated>2026-10-07T01:00:00Z</updated></entry></feed>'''
         self.assertEqual(len(parse_feed_bytes(rss, "rss", 3)), 1)
         self.assertEqual(len(parse_feed_bytes(atom, "atom", 5)), 1)
+
+
+    def test_product_key_for_gpt_sol_variants(self):
+        self.assertEqual(
+            normalize_product_key("OpenAI推出GPT-6.1 Sol Ultrafast API"),
+            "gpt-6.1-sol",
+        )
+
+    def test_event_dedupe_same_product_same_event(self):
+        now = datetime.now(timezone.utc)
+        a = Item(
+            "OpenAI推出GPT-6.1 Sol Ultrafast API定价达标准版6倍",
+            "https://a",
+            "API pricing update",
+            now,
+            "GoogleNews-Models",
+            3,
+            score=29,
+        )
+        b = Item(
+            "OpenAI推出GPT-6.1 Sol Ultrafast版：6倍价格、最高8倍速度",
+            "https://b",
+            "pricing and speed update",
+            now,
+            "GoogleNews-Models",
+            3,
+            score=27,
+        )
+        for item in (a, b):
+            item.product_key = normalize_product_key(f"{item.title} {item.summary}")
+            item.event_tags = event_tags_for_text(f"{item.title} {item.summary}")
+        self.assertEqual(len(dedupe([a, b])), 1)
+
+    def test_media_rehash_release_without_new_delta_is_rejected(self):
+        cfg = load_test_config()
+        item = Item(
+            "OpenAI推出GPT-6.1 Sol",
+            "https://example.com/rehash",
+            "OpenAI发布GPT-6.1 Sol。",
+            datetime.now(timezone.utc),
+            "GoogleNews-Models",
+            3,
+        )
+        self.assertIsNone(score_item(item, cfg))
+
+    def test_commentary_short_drama_without_concrete_change_is_rejected(self):
+        cfg = load_test_config()
+        item = Item(
+            "约九成公司亏损？媒体：别被AI短剧的数字繁荣骗了",
+            "https://example.com/commentary",
+            "行业观察文章讨论短剧成本与播放量。",
+            datetime.now(timezone.utc),
+            "GoogleNews-ShortDrama",
+            3,
+        )
+        self.assertIsNone(score_item(item, cfg))
+
+    def test_same_product_daily_limit(self):
+        now = datetime.now(timezone.utc)
+        cfg = load_test_config()
+        items = [
+            Item(
+                "OpenAI推出GPT-6.1 Sol API pricing update",
+                "https://example.com/a",
+                "API pricing price update",
+                now,
+                "GoogleNews-Models",
+                3,
+            ),
+            Item(
+                "GPT-6.1 Sol adds new tool use capability",
+                "https://example.com/b",
+                "OpenAI update adds support for tool use API",
+                now,
+                "GoogleNews-Models",
+                3,
+            ),
+        ]
+        chosen = select(items, cfg, now=now)
+        self.assertLessEqual(
+            sum(1 for x in chosen if x.product_key == "gpt-6.1-sol"),
+            1,
+        )
 
 
 if __name__ == "__main__":
