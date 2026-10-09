@@ -192,16 +192,16 @@ def normalize_product_key(text: str) -> str:
     text = clean_text(text).lower()
 
     patterns = [
-        (r"\bgpt[-\s]?(\d+(?:\.\d+)*)\s*(sol|luna|astra)?", "gpt"),
-        (r"\bclaude\s+([a-z]+)?\s*(\d+(?:\.\d+)*)?", "claude"),
-        (r"\bgemini\s+([a-z]+)?\s*(\d+(?:\.\d+)*)?", "gemini"),
-        (r"\bseedance\s*(\d+(?:\.\d+)*)?", "seedance"),
-        (r"\bveo\s*(\d+(?:\.\d+)*)?", "veo"),
-        (r"\bkling\s*(\d+(?:\.\d+)*)?", "kling"),
-        (r"\bflux[.\s-]*(\d+(?:\.\d+)*)?", "flux"),
-        (r"\bimagen\s*(\d+(?:\.\d+)*)?", "imagen"),
-        (r"\bindex[-\s]?(translate|echo|homura)\b", "index"),
-        (r"\blarge[-\s]?v(\d+)(?:[-\s]?(turbo))?", "whisper-large-v"),
+        (r"gpt[-\s]?(\d+(?:\.\d+)*)\s*(sol|luna|astra)?", "gpt"),
+        (r"claude\s+([a-z]+)?\s*(\d+(?:\.\d+)*)?", "claude"),
+        (r"gemini\s+([a-z]+)?\s*(\d+(?:\.\d+)*)?", "gemini"),
+        (r"seedance\s*(\d+(?:\.\d+)*)?", "seedance"),
+        (r"veo\s*(\d+(?:\.\d+)*)?", "veo"),
+        (r"kling\s*(\d+(?:\.\d+)*)?", "kling"),
+        (r"flux[.\s-]*(\d+(?:\.\d+)*)?", "flux"),
+        (r"imagen\s*(\d+(?:\.\d+)*)?", "imagen"),
+        (r"index[-\s]?(translate|echo|homura)\b", "index"),
+        (r"large[-\s]?v(\d+)(?:[-\s]?(turbo))?", "whisper-large-v"),
     ]
     for pattern, prefix in patterns:
         m = re.search(pattern, text, re.I)
