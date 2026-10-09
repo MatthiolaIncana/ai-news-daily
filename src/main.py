@@ -210,7 +210,11 @@ def normalize_product_key(text: str) -> str:
         parts = [prefix]
         for g in m.groups():
             if g:
-                parts.append(re.sub(r"[^0-9a-z]+", "", g.lower()))
+                value = g.lower()
+                if re.fullmatch(r"\d+(?:\.\d+)*", value):
+                    parts.append(value)
+                else:
+                    parts.append(re.sub(r"[^0-9a-z]+", "", value))
         return "-".join(parts)
 
     fixed = [
