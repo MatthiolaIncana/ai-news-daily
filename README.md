@@ -24,7 +24,7 @@
 6. 打开 `Actions -> Daily AI News -> Run workflow`，先手动运行一次。
 7. 飞书收到测试日报后，无需再操作；系统每天北京时间 09:00 自动推送。
 
-GitHub Actions 的 schedule 继续保留为兜底。为避免 GitHub schedule 偶发长时间延迟或漏触发，推荐用免费的 cron-job.org 在北京时间 09:01 / 09:06 / 09:11 / 09:16 独立调用本仓库的 `workflow_dispatch`。当天首次成功后后续触发会自动跳过，不重复推送。
+当前采用纯 GitHub Actions 方案：北京时间 09:17 / 09:27 / 09:37 / 09:47 四次独立错峰触发。第一次成功推送后会写入当天成功状态，后续重试自动跳过。这样避免依赖外部平台，同时避开 GitHub Actions 整点高峰。
 
 ## 如何新增监控内容
 
@@ -55,7 +55,7 @@ query = "Tibo AI"
 
 ## 当前推送策略
 
-- 目标为每天北京时间 09:00 左右送达；GitHub cron 保留 09:00/09:05/09:10/09:15，cron-job.org 可独立在 09:01/09:06/09:11/09:16 触发。
+- 目标为每天北京时间 09:17 左右送达；GitHub Actions 在 09:17/09:27/09:37/09:47 独立重试，首次成功后后续自动跳过。
 - 检查过去 30 小时，降低调度延迟造成的漏报概率。
 - 最低分数 13；按分类分别设定每日配额，不再用所有分类共享的总上限。
 - 相似标题自动去重。
@@ -75,7 +75,6 @@ python src/main.py --dry-run
 
 ```text
 .github/workflows/daily-news.yml                 # 日报执行 + GitHub cron 兜底
-cron-job-watchdog/README.md                       # cron-job.org 外部调度配置说明
 .github/workflows/keepalive.yml                   # 每月低频保活
 config/topics.toml                # 主题和评分
 config/sources.toml               # 新闻来源
@@ -122,10 +121,15 @@ tests/test_core.py                # 核心逻辑测试
 官方 GitHub Release 等高可信更新优先级最高；同一事件的重复标题会去重，只保留更高分版本。
 
 
-## 定时可靠性：cron-job.org Watchdog
+## 定时可靠性：纯 GitHub 重试
 
-GitHub Actions `schedule` 仍作为第一层定时；cron-job.org 作为独立第二层定时器。
+当前不依赖任何外部定时服务。
 
-cron-job.org 只负责调用 GitHub 的 `Daily AI News`，不处理新闻本身。外部调用统一传入 `retry_mode=true`，所以当天已经成功推送后，后续外部重试会自动跳过。
+`Daily AI News` 使用四个错峰的 GitHub Actions schedule：
 
-完整配置见 `cron-job-watchdog/README.md`。
+- 09:17
+- 09:27
+- 09:37
+- 09:47
+
+全部使用 `Asia/Shanghai` 时区。当天任何一次成功发送后，`data/state/last_delivery.json` 会记录当天成功状态，后续重试会自动退出，不重复发送。
