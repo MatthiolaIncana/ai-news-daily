@@ -2,8 +2,7 @@ name: Daily AI News
 
 on:
   # GitHub 自带 schedule 继续保留为兜底。
-  # Cloudflare 独立触发器会在这些时间后的第 2 分钟再次检查并触发，
-  # 避免 GitHub schedule 整体延迟/丢失成为单点故障。
+  # cron-job.org 可作为独立外部定时器，在 GitHub schedule 延迟/漏触发时兜底。
   schedule:
     - cron: "0 1 * * *"
     - cron: "5 1 * * *"
