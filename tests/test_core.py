@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item, select, load_toml, normalize_product_key, event_tags_for_text
+from main import Item, canonical_url, dedupe, parse_feed_bytes, score_item, select, load_toml, normalize_product_key, event_tags_for_text, history_duplicate
 
 
 def load_test_config():
@@ -415,6 +415,57 @@ class CoreTests(unittest.TestCase):
         ]
         chosen = select(items, cfg, now=now)
         self.assertEqual(len(chosen), 3)
+
+
+    def test_same_day_history_does_not_block_manual_rerun(self):
+        cfg = load_test_config()
+        settings = cfg["settings"]
+        now = datetime(2026, 10, 9, 3, 0, tzinfo=timezone.utc)  # 北京时间 11:00
+        item = Item(
+            "OpenAI GPT-6.1 Sol Ultrafast API pricing update",
+            "https://example.com/news",
+            "API pricing update",
+            now,
+            "GoogleNews-Models",
+            3,
+        )
+        scored = score_item(item, cfg)
+        self.assertIsNotNone(scored)
+        history = [{
+            "title": item.title,
+            "title_key": "same",
+            "link": item.link,
+            "product_key": scored.product_key,
+            "event_tags": list(scored.event_tags),
+            "pushed_at": "2026-10-09T01:00:00+00:00",
+        }]
+        duplicate, _ = history_duplicate(scored, history, settings, now=now)
+        self.assertFalse(duplicate)
+
+    def test_previous_day_history_still_blocks_duplicate(self):
+        cfg = load_test_config()
+        settings = cfg["settings"]
+        now = datetime(2026, 10, 9, 3, 0, tzinfo=timezone.utc)
+        item = Item(
+            "OpenAI GPT-6.1 Sol Ultrafast API pricing update",
+            "https://example.com/news",
+            "API pricing update",
+            now,
+            "GoogleNews-Models",
+            3,
+        )
+        scored = score_item(item, cfg)
+        self.assertIsNotNone(scored)
+        history = [{
+            "title": item.title,
+            "title_key": "same",
+            "link": item.link,
+            "product_key": scored.product_key,
+            "event_tags": list(scored.event_tags),
+            "pushed_at": "2026-10-08T01:00:00+00:00",
+        }]
+        duplicate, _ = history_duplicate(scored, history, settings, now=now)
+        self.assertTrue(duplicate)
 
 
 if __name__ == "__main__":
