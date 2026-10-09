@@ -5,6 +5,8 @@ timezone = "Asia/Shanghai"
 title = "AI 工具链情报日报"
 require_change_signal = true
 history_days = 14
+total_max_items = 15
+overflow_min_score = 18
 negative_keywords = [
   "融资", "funding round", "fundraiser", "raises $", "stock price", "shares jump",
   "celebrity", "明星", "sponsored", "advertorial", "coupon", "discount code",
@@ -17,6 +19,10 @@ editorial_phrases = [
   "could change everything", "game changer", "revolutionary",
   "必看", "盘点", "教程", "如何使用", "怎么用", "是什么", "观点",
   "访谈", "预测", "传闻", "震惊", "改变一切", "革命性"
+]
+non_workflow_opinion_phrases = [
+  "声援", "抵制", "谴责", "批评", "争议", "呼吁", "支持抵制", "反对",
+  "backs boycott", "boycott", "criticizes", "condemns", "controversy", "calls for"
 ]
 low_value_phrases = [
   "review", "hands-on", "first look", "comparison", " vs ", "best ",
@@ -317,7 +323,10 @@ reason = "涉及自动化接入或生成成本，可能影响资产生产工具�
 impact = "优先判断是否提升角色一致性、风格锁定、参考图、局部修改、分辨率或批量资产生产。"
 
 [topics.foundation_models]
-max_items = 3
+max_items = 8
+soft_max_items = 5
+hard_max_items = 8
+overflow_min_score = 18
 label = "GPT / Claude / Gemini / Agent"
 weight = 4
 keywords = ["openai", "gpt", "codex", "claude", "anthropic", "gemini", "google ai", "agent", "mcp server"]
