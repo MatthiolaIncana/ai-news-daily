@@ -40,6 +40,8 @@ class Item:
     topic_label: str = ""
     impact: str = ""
     score: int = 0
+    product_key: str = ""
+    event_tags: tuple[str, ...] = ()
 
 
 def load_toml(path: Path) -> dict[str, Any]:
@@ -185,6 +187,121 @@ def phrase_hits(text: str, phrases: list[Any]) -> int:
     return sum(1 for phrase in phrases if str(phrase).lower() in text)
 
 
+
+def normalize_product_key(text: str) -> str:
+    text = clean_text(text).lower()
+
+    patterns = [
+        (r"\bgpt[-\s]?(\d+(?:\.\d+)*)\s*(sol|luna|astra)?", "gpt"),
+        (r"\bclaude\s+([a-z]+)?\s*(\d+(?:\.\d+)*)?", "claude"),
+        (r"\bgemini\s+([a-z]+)?\s*(\d+(?:\.\d+)*)?", "gemini"),
+        (r"\bseedance\s*(\d+(?:\.\d+)*)?", "seedance"),
+        (r"\bveo\s*(\d+(?:\.\d+)*)?", "veo"),
+        (r"\bkling\s*(\d+(?:\.\d+)*)?", "kling"),
+        (r"\bflux[.\s-]*(\d+(?:\.\d+)*)?", "flux"),
+        (r"\bimagen\s*(\d+(?:\.\d+)*)?", "imagen"),
+        (r"\bindex[-\s]?(translate|echo|homura)\b", "index"),
+        (r"\blarge[-\s]?v(\d+)(?:[-\s]?(turbo))?", "whisper-large-v"),
+    ]
+    for pattern, prefix in patterns:
+        m = re.search(pattern, text, re.I)
+        if not m:
+            continue
+        parts = [prefix]
+        for g in m.groups():
+            if g:
+                parts.append(re.sub(r"[^0-9a-z]+", "", g.lower()))
+        return "-".join(parts)
+
+    fixed = [
+        "faster-whisper", "silero vad", "silero-vad", "midjourney",
+        "capcut", "剪映", "红果短剧", "chatgpt", "codex",
+    ]
+    for name in fixed:
+        if name in text:
+            return re.sub(r"\s+", "-", name.lower())
+
+    return ""
+
+
+def event_tags_for_text(text: str) -> tuple[str, ...]:
+    text = text.lower()
+    groups = {
+        "commercial": [
+            "pricing", "price", "cost", "api pricing", "价格", "定价", "降价", "涨价", "成本",
+        ],
+        "api": [" api", "api ", "接口", "sdk"],
+        "capability": [
+            "now supports", "adds support", "新增", "支持", "feature", "能力",
+            "context window", "上下文", "tool use", "工具调用",
+        ],
+        "quality": [
+            "accuracy", "benchmark", "quality", "wer", "准确率", "跑分", "质量", "错误率",
+        ],
+        "performance": [
+            "speed", "faster", "latency", "throughput", "速度", "延迟", "吞吐", "显存", "memory",
+        ],
+        "availability": [
+            "rollout", "available", "开放", "全量", "上线", "可用", "所有用户",
+        ],
+        "deprecation": ["deprecated", "deprecation", "sunset", "弃用", "下线"],
+        "quantization": ["gguf", "fp8", "fp4", "quantized", "量化"],
+        "release": [
+            "release", "released", "launch", "launched", "推出", "发布", "新模型",
+        ],
+    }
+    found = []
+    for tag, phrases in groups.items():
+        if any(p in text for p in phrases):
+            found.append(tag)
+    return tuple(sorted(found))
+
+
+def is_media_rehash(item: Item) -> bool:
+    if item.official:
+        return False
+    title = item.title.lower()
+    text = f"{item.title} {item.summary}".lower()
+    tags = set(event_tags_for_text(text))
+    launch_words = [
+        "release", "released", "launch", "launched", "推出", "发布", "上线",
+    ]
+    has_launch = any(x in title for x in launch_words)
+    # 媒体稿只重复“发布/推出”，却没有新的商业、能力、质量、性能、弃用、
+    # 量化等具体变化时，视为旧闻翻炒，不把文章发布时间当成事件发布时间。
+    material = tags - {"release", "availability"}
+    return has_launch and not material
+
+
+def is_commentary_only(item: Item) -> bool:
+    if item.official:
+        return False
+    title = item.title.lower()
+    commentary = [
+        "媒体：", "媒体:", "别被", "繁荣", "亏损", "热议", "观察",
+        "行业观察", "焦虑", "泡沫", "真相", "背后",
+    ]
+    concrete = [
+        "政策", "新规", "规则调整", "审核", "分成调整", "上线新功能",
+        "api", "版本", "新增支持", "开放", "下线", "copyright", "monetization policy",
+    ]
+    return any(x in title for x in commentary) and not any(x in title for x in concrete)
+
+
+def same_product_event(a: Item, b: Item) -> bool:
+    if not a.product_key or not b.product_key or a.product_key != b.product_key:
+        return False
+    at = set(a.event_tags)
+    bt = set(b.event_tags)
+    # 同一产品同一天默认只保留一个事件；若两条都是明确且互不相交的
+    # 实质变化，可由后续 product quota 层决定是否允许第二条。
+    if at & bt:
+        return True
+    if not at or not bt:
+        return True
+    return False
+
+
 def importance_stars(score: int) -> str:
     if score >= 20:
         return "★★★★★"
@@ -248,10 +365,23 @@ def history_duplicate(
     current_url = canonical_url(item.link)
     current_key = title_key(item.title)
     current_sig = novelty_signature(item, settings)
+    current_product = item.product_key or normalize_product_key(f"{item.title} {item.summary}")
+    current_tags = set(item.event_tags or event_tags_for_text(f"{item.title} {item.summary}"))
     for old in history:
         old_url = canonical_url(str(old.get("link", "")))
         if current_url and old_url and current_url == old_url:
             return True, old
+        old_product = str(old.get("product_key", ""))
+        old_tags = set(old.get("event_tags", []))
+        if current_product and old_product == current_product:
+            # 同产品同类变化在历史窗口内视为旧事件；只有出现新的实质变化类型才允许再推。
+            meaningful_current = current_tags - {"release", "availability"}
+            meaningful_old = old_tags - {"release", "availability"}
+            if meaningful_current and meaningful_old and meaningful_current & meaningful_old:
+                return True, old
+            if not meaningful_current and not meaningful_old:
+                return True, old
+
         old_key = str(old.get("title_key", ""))
         if not current_key or not old_key:
             continue
@@ -291,6 +421,8 @@ def save_history(
                 "topic": item.topic_key,
                 "score": item.score,
                 "novelty_signature": novelty_signature(item, settings),
+                "product_key": item.product_key,
+                "event_tags": list(item.event_tags),
                 "pushed_at": now.isoformat(),
             }
         )
@@ -353,6 +485,8 @@ def score_item(item: Item, topics_cfg: dict[str, Any], debug: dict[str, Any] | N
     settings = topics_cfg.get("settings", {})
     text = f"{item.title} {item.summary}".lower()
     title_lower = item.title.lower()
+    item.product_key = normalize_product_key(text)
+    item.event_tags = event_tags_for_text(text)
 
     if debug is not None:
         debug.update({"title": item.title, "source": item.source, "status": "evaluating"})
@@ -367,6 +501,16 @@ def score_item(item: Item, topics_cfg: dict[str, Any], debug: dict[str, Any] | N
     if phrase_hits(title_lower, settings.get("editorial_phrases", [])):
         if debug is not None:
             debug.update({"status": "rejected", "reason": "editorial_or_tutorial_filter"})
+        return None
+
+    if is_commentary_only(item):
+        if debug is not None:
+            debug.update({"status": "rejected", "reason": "commentary_without_concrete_change"})
+        return None
+
+    if is_media_rehash(item):
+        if debug is not None:
+            debug.update({"status": "rejected", "reason": "media_rehash_without_new_delta"})
         return None
 
     change_hits = phrase_hits(text, settings.get("change_signals", []))
@@ -499,6 +643,8 @@ def score_item(item: Item, topics_cfg: dict[str, Any], debug: dict[str, Any] | N
                 "score": score,
                 "impact": item.impact,
                 "official": item.official,
+                "product_key": item.product_key,
+                "event_tags": list(item.event_tags),
             }
         )
     return item
@@ -508,7 +654,7 @@ def dedupe(items: list[Item]) -> list[Item]:
     result: list[Item] = []
     seen_urls: set[str] = set()
     seen_keys: list[str] = []
-    for item in sorted(items, key=lambda x: (x.score, x.published), reverse=True):
+    for item in sorted(items, key=lambda x: (x.score, x.trust, x.published), reverse=True):
         if item.link in seen_urls:
             continue
         key = title_key(item.title)
@@ -516,11 +662,12 @@ def dedupe(items: list[Item]) -> list[Item]:
             continue
         if any(key == old or SequenceMatcher(None, key, old).ratio() >= 0.84 for old in seen_keys):
             continue
+        if any(same_product_event(item, old) for old in result):
+            continue
         seen_urls.add(item.link)
         seen_keys.append(key)
         result.append(item)
     return result
-
 
 def select_with_diagnostics(
     items: list[Item],
@@ -611,6 +758,20 @@ def select_with_diagnostics(
             diag_by_key[(item.link, item.title)].update(
                 {"status": "rejected", "reason": "category_quota_exceeded", "quota": quota}
             )
+
+    # 同一具体产品默认每天只保留 1 条，避免一个模型/版本占满整个分类。
+    product_seen: set[str] = set()
+    product_limited: list[Item] = []
+    for item in selected:
+        if item.product_key and item.product_key in product_seen:
+            diag_by_key[(item.link, item.title)].update(
+                {"status": "rejected", "reason": "same_product_daily_limit"}
+            )
+            continue
+        if item.product_key:
+            product_seen.add(item.product_key)
+        product_limited.append(item)
+    selected = product_limited
 
     for item in selected:
         diag_by_key[(item.link, item.title)].update(
@@ -739,6 +900,8 @@ def save_debug(
                 "score": x.score,
                 "impact": x.impact,
                 "official": x.official,
+                "product_key": x.product_key,
+                "event_tags": list(x.event_tags),
             }
             for x in items
         ],
