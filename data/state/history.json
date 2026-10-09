@@ -106,5 +106,32 @@
     "score": 27,
     "novelty_signature": "6.1|价格",
     "pushed_at": "2026-10-09T03:16:36.228814+00:00"
+  },
+  {
+    "title": "OpenAI突然收购，500万人Codex，永不下线 - 36Kr",
+    "title_key": "openai突然收购500万人codex永不下线",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sMXdrLUhZdS0yUGJPYndBN2thS0NaQ3ZUSW90NEhCM1hfcTVCTHBJS2o0WFFnVGRCTXpYN3BZOGx3VFV6X1E4cENabnJLdw?oc=5",
+    "topic": "foundation_models",
+    "score": 24,
+    "novelty_signature": "",
+    "product_key": "codex",
+    "event_tags": [
+      "deprecation"
+    ],
+    "pushed_at": "2026-10-09T03:28:04.707421+00:00"
+  },
+  {
+    "title": "OpenAI正式发布GPT-6，抵御“越狱攻击”能力更强，但均未触及“RSI”门槛 - 华尔街见闻",
+    "title_key": "openai正式发布gpt6抵御越狱攻击能力更强但均未触及rsi门槛",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiQWRkYk9PSE5uWDF1ZTlRTFNBazcwYmh5VXNmX0VfXzQ1ZnFCWXowaGFlQVVwNEVUNDk0dHZHMThUWlJtdUJtM1Z3b3ZfUDZRNXlv?oc=5",
+    "topic": "foundation_models",
+    "score": 23,
+    "novelty_signature": "",
+    "product_key": "gpt-6",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-10-09T03:28:04.707421+00:00"
   }
 ]
