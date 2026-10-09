@@ -24,7 +24,7 @@
 6. 打开 `Actions -> Daily AI News -> Run workflow`，先手动运行一次。
 7. 飞书收到测试日报后，无需再操作；系统每天北京时间 09:00 自动推送。
 
-GitHub Actions 的 schedule 由平台调度，09:00 是目标时间；平台繁忙时可能延迟几分钟。
+GitHub Actions 的 schedule 现在只作为兜底。主定时建议使用仓库内的 `cloudflare-watchdog`：Cloudflare 在北京时间 09:01 / 09:06 / 09:11 / 09:16 独立调用 `workflow_dispatch`，当天首次成功后后续触发自动跳过，避免 GitHub schedule 延迟或漏触发导致当天无推送。
 
 ## 如何新增监控内容
 
@@ -55,7 +55,7 @@ query = "Tibo AI"
 
 ## 当前推送策略
 
-- 每天北京时间 09:00 运行一次。
+- 目标为每天北京时间 09:00 左右送达；GitHub cron 保留 09:00/09:05/09:10/09:15 兜底，Cloudflare Watchdog 独立在 09:01/09:06/09:11/09:16 触发。
 - 检查过去 30 小时，降低调度延迟造成的漏报概率。
 - 最低分数 13；按分类分别设定每日配额，不再用所有分类共享的总上限。
 - 相似标题自动去重。
@@ -74,8 +74,10 @@ python src/main.py --dry-run
 ## 文件结构
 
 ```text
-.github/workflows/daily-news.yml  # 每日 09:00 推送
-.github/workflows/keepalive.yml   # 每月低频保活
+.github/workflows/daily-news.yml                 # 日报执行 + GitHub cron 兜底
+.github/workflows/deploy-cloudflare-watchdog.yml # 手动部署独立定时看门狗
+cloudflare-watchdog/                              # Cloudflare Worker 外部调度器
+.github/workflows/keepalive.yml                   # 每月低频保活
 config/topics.toml                # 主题和评分
 config/sources.toml               # 新闻来源
 src/main.py                       # 采集、过滤、去重、评分、飞书推送
@@ -119,3 +121,18 @@ tests/test_core.py                # 核心逻辑测试
 - 一般评测、上手、对比类文章（除非同时包含非常明确的新变化）。
 
 官方 GitHub Release 等高可信更新优先级最高；同一事件的重复标题会去重，只保留更高分版本。
+
+
+## 定时可靠性：Cloudflare Watchdog
+
+为避免 GitHub Actions `schedule` 偶发长时间延迟或完全不生成 run，仓库已经内置独立 Cloudflare Worker 看门狗。
+
+它不会处理新闻，只负责准时调用 GitHub 的 `Daily AI News`。GitHub 原有 cron 继续保留，所以两边任意一边正常即可。
+
+首次启用只需要配置 3 个 GitHub Actions Secrets：
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+- `GITHUB_DISPATCH_TOKEN`
+
+配置方法和最小权限说明见 `cloudflare-watchdog/README.md`。三个 Secret 配好后手动运行一次 `Deploy Cloudflare Watchdog` 即可。
