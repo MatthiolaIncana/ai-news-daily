@@ -1,0 +1,75 @@
+name: AI News Heartbeat Scheduler
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/news-heartbeat.yml"
+  schedule:
+    - cron: "17 * * * *"
+      timezone: "Asia/Shanghai"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-news-heartbeat
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Check Beijing delivery window
+        id: window
+        shell: bash
+        run: |
+          hour=$(TZ=Asia/Shanghai date +%H)
+          echo "beijing_hour=$hour"
+          if [ "${{ github.event_name }}" = "push" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run_now=true" >> "$GITHUB_OUTPUT"
+          elif [ "$hour" -ge 9 ] && [ "$hour" -le 18 ]; then
+            echo "run_now=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_now=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build and send daily report
+        if: steps.window.outputs.run_now == 'true'
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        run: python src/main.py --skip-if-sent-today
+
+      - name: Persist delivery state
+        if: success() && steps.window.outputs.run_now == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          [ -f data/state/history.json ] && git add data/state/history.json
+          [ -f data/state/last_delivery.json ] && git add data/state/last_delivery.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update news delivery state [skip ci]"
+            git push
+          fi
+
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-news-heartbeat-debug-${{ github.run_number }}
+          path: data/last_debug.json
+          if-no-files-found: ignore
+          retention-days: 14
