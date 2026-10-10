@@ -279,5 +279,41 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-10-09T03:54:00.715778+00:00"
+  },
+  {
+    "title": "Merge pull request #10 from SparkofSpike/fix/insttrans-eval",
+    "title_key": "mergepullrequest10fromsparkofspikefixinsttranseval",
+    "link": "https://github.com/bilibili/Index-Translate/commit/aafb1e3afc4049298ed6d8911de3e6e235eb903c",
+    "topic": "translation_localization",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-10T06:57:57.819167+00:00"
+  },
+  {
+    "title": "9日，记者在全球最大的开源平台GitHub的搜索框中输入“AI渗透测试（AI Penetration Testing）”“自主漏洞利用代理（Autonomous Exploit Agent）”等关键词.. - 매일경제",
+    "title_key": "9日记者在全球最大的开源平台github的搜索框中输入ai渗透测试aipenetrationtesting自主漏洞利用代理autonomousexploitagent等关键词",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DR3JiSlFnZkhUNHM3MTBFaDB6cUtBaENwOFNxanJka3ZUOEVKVHpFckRlUlU0LUVOS3VLVkN5S0lEUUJNOFpFNVZiU09SN1E?oc=5",
+    "topic": "foundation_models",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-10T06:57:57.819167+00:00"
+  },
+  {
+    "title": "微软推出高速决策AI模型，速度超GPT-6 Sol达35倍 - 华尔街见闻",
+    "title_key": "微软推出高速决策ai模型速度超gpt6sol达35倍",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QTURCbTBNbnlNTWdfbWw4RlZ6WUVsdmhMaVd1V005YkRoYzR4TDRvejJMaTN2RlRhcEJESGc1WHl3YUo3MDFvaFRoeHAya3pISWxN?oc=5",
+    "topic": "foundation_models",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "gpt-6-sol",
+    "event_tags": [
+      "performance",
+      "release"
+    ],
+    "pushed_at": "2026-10-10T06:57:57.819167+00:00"
   }
 ]
