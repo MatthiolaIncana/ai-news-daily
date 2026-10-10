@@ -1,12 +1,6 @@
 name: Daily AI News
 
 on:
-  # 纯 GitHub 方案：使用单个周期 cron，写法与已稳定运行的 Tibo 监控一致。
-  # 北京时间 09:17/09:47/10:17/10:47/11:17/11:47 尝试；
-  # 当天首次成功后，后续运行由 --skip-if-sent-today 自动跳过。
-  schedule:
-    - cron: "17,47 9-11 * * *"
-      timezone: "Asia/Shanghai"
   workflow_dispatch:
 
 permissions:
