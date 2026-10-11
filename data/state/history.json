@@ -315,5 +315,62 @@
       "release"
     ],
     "pushed_at": "2026-10-10T06:57:57.819167+00:00"
+  },
+  {
+    "title": "docs: update subtitle and intro to A Multilingual, Multimodal Transla…",
+    "title_key": "docsupdatesubtitleandintrotoamultilingualmultimodaltransla",
+    "link": "https://github.com/bilibili/Index-Translate/commit/e8754e3518be5143e7cdbd0e1cd246123f46478f",
+    "topic": "translation_localization",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-11T01:56:17.644722+00:00"
+  },
+  {
+    "title": "docs: update subtitle to Text & Vision",
+    "title_key": "docsupdatesubtitletotextvision",
+    "link": "https://github.com/bilibili/Index-Translate/commit/6c2a53749871f9feb8f651e565d9c2da70d1f857",
+    "topic": "translation_localization",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-11T01:56:17.644722+00:00"
+  },
+  {
+    "title": "docs: update subtitle to reflect multimodal vision & text capabilities",
+    "title_key": "docsupdatesubtitletoreflectmultimodalvisiontextcapabilities",
+    "link": "https://github.com/bilibili/Index-Translate/commit/bbf23ce823bb79bb3786540da55ac3d0409791a6",
+    "topic": "translation_localization",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-11T01:56:17.644722+00:00"
+  },
+  {
+    "title": "feat(vision): add multimodal image translation support, call_api imag…",
+    "title_key": "featvisionaddmultimodalimagetranslationsupportcallapiimag",
+    "link": "https://github.com/bilibili/Index-Translate/commit/e9731489b70bceb49dec259660763c194a8c9fea",
+    "topic": "translation_localization",
+    "score": 21,
+    "novelty_signature": "api",
+    "product_key": "",
+    "event_tags": [
+      "api"
+    ],
+    "pushed_at": "2026-10-11T01:56:17.644722+00:00"
+  },
+  {
+    "title": "巴中“95后”夫妻手搓百亿播放量AI漫剧，已更新12季，网友催更：最好一周一更丨C视频 - 四川新闻",
+    "title_key": "巴中95后夫妻手搓百亿播放量ai漫剧已更新12季网友催更最好一周一更丨c视频",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SQjhYbHJyZFBMZlFKV0dUMjNsdnlJQndqZWhFWk5ZRHBwZ0hYM3ZjRmptYkxxd3ZnSDVkUFJSZ3BvWHhua1k2eTRjWXdrczJpUjNSMUlxUElNTEF1X3QxaUs2cw?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-11T01:56:17.644722+00:00"
   }
 ]
