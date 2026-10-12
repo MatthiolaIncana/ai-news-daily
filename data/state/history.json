@@ -372,5 +372,51 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-10-11T01:56:17.644722+00:00"
+  },
+  {
+    "title": "docs: update technical report with image translation evaluation",
+    "title_key": "docsupdatetechnicalreportwithimagetranslationevaluation",
+    "link": "https://github.com/bilibili/Index-Translate/commit/1c4674e4a59fa4f6419559fea33c88bf67251d30",
+    "topic": "translation_localization",
+    "score": 18,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-12T02:49:07.550385+00:00"
+  },
+  {
+    "title": "Merge pull request #21 from fangbm/fix/sse-proxy-forwarding",
+    "title_key": "mergepullrequest21fromfangbmfixsseproxyforwarding",
+    "link": "https://github.com/bilibili/Index-Translate/commit/775a71bf7d1bd880a5aef141bb7ba70a26513454",
+    "topic": "translation_localization",
+    "score": 18,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-12T02:49:07.550385+00:00"
+  },
+  {
+    "title": "fix: forward SSE promptly and avoid duplicate HTTP responses",
+    "title_key": "fixforwardssepromptlyandavoidduplicatehttpresponses",
+    "link": "https://github.com/bilibili/Index-Translate/commit/c23522698fa5147ba60c4d3d5e15cf65cbbb956b",
+    "topic": "translation_localization",
+    "score": 18,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-12T02:49:07.550385+00:00"
+  },
+  {
+    "title": "OpenAI将GPT-6.1 Sol默认上下文长度提升至500k，取消长上下文额外收费 - SmartHey",
+    "title_key": "openai将gpt61sol默认上下文长度提升至500k取消长上下文额外收费",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qa1FsT0pTLS05N1FycmpfanQ2MmhGelRoM0o1UXpoMTFPTFBEVTl4MGVJZGsyY1NLZFNybzcxRFpQc2w5THQzTWpIdkM0V29memdyRGNsQmJURlB3amc?oc=5",
+    "topic": "foundation_models",
+    "score": 25,
+    "novelty_signature": "6.1",
+    "product_key": "gpt-6.1-sol",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-12T02:49:07.550385+00:00"
   }
 ]
