@@ -444,5 +444,38 @@
       "release"
     ],
     "pushed_at": "2026-10-14T01:14:50.556495+00:00"
+  },
+  {
+    "title": "docs: update TODO roadmap with unified multimodal translation, Echo-S…",
+    "title_key": "docsupdatetodoroadmapwithunifiedmultimodaltranslationechos",
+    "link": "https://github.com/bilibili/Index-Translate/commit/97ac750cad6cddb401930373b959405f7761750d",
+    "topic": "translation_localization",
+    "score": 18,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-15T04:43:38.617572+00:00"
+  },
+  {
+    "title": "Claude 写代码太快，Git 扛不住了：Anthropic 仅靠 7 人，5 个月重造版本控制系统 - InfoQ-CN",
+    "title_key": "claude写代码太快git扛不住了anthropic仅靠7人5个月重造版本控制系统",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13aS1zOVBfQmdaMGpveGNPR292SFIzQkpRY3Z1UWwtWjN5NVg5X25WUnl4ZTYzX3YtZ203b0F2TGxjNVJIcmk3Wjl5MGhmM01wTy1QM0FWa25nRW5lN0E?oc=5",
+    "topic": "foundation_models",
+    "score": 22,
+    "novelty_signature": "",
+    "product_key": "claude",
+    "event_tags": [],
+    "pushed_at": "2026-10-15T04:43:38.617572+00:00"
+  },
+  {
+    "title": "消息称OpenAI洽谈收购开源安全厂商Trail of Bits，为应对AI风险铺路 - 搜狐",
+    "title_key": "消息称openai洽谈收购开源安全厂商trailofbits为应对ai风险铺路",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQVhVVmphSTlpSWg4QXlFeUNQT25FeEhqZWFZOWNWZDA4LUE1M3daZFRjYjBrdTZURm5wN29ZampFVGpXQy1wWTZuZDVHOGZUVjVRdndYbnFYWDlsUFZHNE83U3kwRHlMWFBTMTlXMTNaaGI0NUhjMTZJMmFJWUQtNXE5YW9ZRHJR?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-15T04:43:38.617572+00:00"
   }
 ]
