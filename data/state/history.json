@@ -477,5 +477,87 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-10-15T04:43:38.617572+00:00"
+  },
+  {
+    "title": "可灵AI新一代模型Kling 4.0正式上线，支持最高10-bit HDR、30秒原生直出 - 搜狐",
+    "title_key": "可灵ai新一代模型kling40正式上线支持最高10bithdr30秒原生直出",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWEJLUUMteENzVHVKUl9KWUpVRmhIT0E4amFsMGl1SF9JOU05RThncGFwLWRvSGZZU2kwb1pPRk9RcU9wQXZnZDd1QWMyV1NSVF9zMEg0dHlUcVJaaDdLZEtvYzZTNFlRUThNMjA1RjRSM1NnSEVYLU1nM3N4UGpYSEplQkVxUkM3V2NDZA?oc=5",
+    "topic": "seedance_video",
+    "score": 22,
+    "novelty_signature": "",
+    "product_key": "kling-4.0",
+    "event_tags": [
+      "availability",
+      "capability"
+    ],
+    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
+  },
+  {
+    "title": "云从科技10月15日回应AI短剧话题：AI内容工厂支持短剧场景规模化生产_公司新闻 - 证券之星",
+    "title_key": "云从科技10月15日回应ai短剧话题ai内容工厂支持短剧场景规模化生产公司新闻",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mNDRUVkVHQW0za1ZGNnc1RDY4WWw4WURtUkdZWGRZOTJNLWFWYkFEaUoxbGE3ZDZMZjRaOE1fQlQ3blAxcDJxNG02d1JqRy1GbTdzb2NCcVV1a0JTa3hzRQ?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
+  },
+  {
+    "title": "Midjourney工程师开源Handwired：不用训练，直接把程序规则写成神经网络 - BlockBeats",
+    "title_key": "midjourney工程师开源handwired不用训练直接把程序规则写成神经网络",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QS2JFSnI0bV9XaExtTG5CUHBpLWlHdGh4eERqLVJYZ0VKc2ltR3c0X01ZNjJBWjRPWWdiZXJfMVFTVVJzZ1ZXYUpGVFVtTE43T1dXT3BR?oc=5",
+    "topic": "image_generation",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "midjourney",
+    "event_tags": [],
+    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
+  },
+  {
+    "title": "GPT-5.5退出ChatGPT，GPT-4o旧版API进入3个月下架倒计时- 产业链 - 光通信Pro",
+    "title_key": "gpt55退出chatgptgpt4o旧版api进入3个月下架倒计时产业链",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBndUgweDhkY2J2TVcxTVd5MnI1WkhzRlF0NHdhWGQ0WEJrdmlNY0FQR0h2OFZ1eFlVcUgzMWdOMFhyVkcwXzFHNUt0QndOSGZPd29uZWpscw?oc=5",
+    "topic": "foundation_models",
+    "score": 24,
+    "novelty_signature": "api",
+    "product_key": "gpt-5.5",
+    "event_tags": [],
+    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
+  },
+  {
+    "title": "AI安全风波升级！美国八州联合起诉OpenAI：指控ChatGPT大规模伤害未成年 - 东方财富",
+    "title_key": "ai安全风波升级美国八州联合起诉openai指控chatgpt大规模伤害未成年",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNeTBaalVDUzJaMWVIdjhOb3hQUnJvbC11enN3ZTBMZEZ6U3J4S2Q4VndCTUhoVVA0bUhlUkdfTk05Nkg5T0NnQU9kbFBpTnQ3MXhxWnNTM0xRVDl2SFhtaA?oc=5",
+    "topic": "foundation_models",
+    "score": 23,
+    "novelty_signature": "",
+    "product_key": "chatgpt",
+    "event_tags": [],
+    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
+  },
+  {
+    "title": "OpenAI拟收购安全公司，强化网络安全业务|开源软件|TRAIL|Anthropic|模型|谷歌 - finance.sina.com.cn",
+    "title_key": "openai拟收购安全公司强化网络安全业务开源软件trailanthropic模型谷歌",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNjZjMTZKekItdkVwNVBQUkVoTzdxZUFmdzRVbDNLdU5sS0NVQnJTeUltQ2JPb3hSQjdTMktyZ1pJSFdCSUVJV3RJbGowbjdPVFpZMk5CWHFQTVEwR3ZjcjlJWlFtNkpqMWN5dlNCNmdrcHR0RnhwaDRtRXRiQ3d1V2MzTDBqbUpQc2gtcExfNzB0ZzF6QkdnWnJRRVZfYmNscWpMa1lMa3gyUQ?oc=5",
+    "topic": "foundation_models",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
+  },
+  {
+    "title": "OpenAI内部惊现“窃听设备”：涉事沙特员工被FBI逮捕，公司称未发现模型权重外泄 - 新浪网",
+    "title_key": "openai内部惊现窃听设备涉事沙特员工被fbi逮捕公司称未发现模型权重外泄",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPekpyUnJNdnpDdUE5bWo5NGxKM0hXRVJIQlZiNnNtQUFsTFRYU3JKYjhqbFJSZGNXT3FVS1YtUDh1V3lMWjNyV0R3MXVzZEo1RHFwbzVfY1JHMm5KRGx0LWdUc2tNMnFYd3h5d2hBc3RhRlNsLTM0TDhOUV8tR0dnWWZB?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
   }
 ]
