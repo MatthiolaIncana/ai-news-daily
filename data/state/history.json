@@ -559,5 +559,38 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-10-16T01:23:31.882250+00:00"
+  },
+  {
+    "title": "阅文集团黄琰：AI漫剧创作浪潮下，打击盗版是魔高一尺道高一丈的攻防战|杭州市|浙江省|升级|团伙|文字 - finance.sina.com.cn",
+    "title_key": "阅文集团黄琰ai漫剧创作浪潮下打击盗版是魔高一尺道高一丈的攻防战杭州市浙江省升级团伙文字",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQVU4Y0h1N21HTEZxazNvd1gyUlZLTWFSRDQtQndudzlwR2xYM1A4bEFyWkd1NDZkUFVOcllOeDRsOEtKNE1QMmptb1JFazJjS1pzbE8zLVRHWXluMkgwUHgzRElhMnB0NjIzeExSb3ZwUHA3QmV5U0xQX3lfNlc4a0dHUHRuZTRabVczSndxZmlMNDVwTnNNVGZNUExwa0JYcG02M19JOTVoeDJ4ZHRadFFn?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-17T04:30:45.043522+00:00"
+  },
+  {
+    "title": "MOSS-Image 对比 GPT Image 2.5：权重还是端点 - OrcaRouter",
+    "title_key": "mossimage对比gptimage25权重还是端点",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE54VThWSGRoWUxWUG9vZlJNS3daeVRZbVZKRW5qT0Zlc3lLdXl0MUxzOEMyb2tUR3ZYZUVsVmxLaHRwU2ZfdGpmbTJYaFlXV3hXN3NIZ3lTNG9GUGl6VzI5WFREeG1YS0w3RE9talJiOVF4dw?oc=5",
+    "topic": "image_generation",
+    "score": 14,
+    "novelty_signature": "2.5",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-17T04:30:45.043522+00:00"
+  },
+  {
+    "title": "商业秘密诉讼升级：OpenAI指控前员工携百余份机密文件重返苹果 - 知产财经",
+    "title_key": "商业秘密诉讼升级openai指控前员工携百余份机密文件重返苹果",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OYmZxZzVvYXRVMlRmMWE0SnoyYUI0TmhLNGZmRGNtY2dzUXE5TlMyQlBrOEdsdXZjbEkwbExCeFFDTFBJdFRxa0xHdnJZNlRiVHVObXhn?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-17T04:30:45.043522+00:00"
   }
 ]
