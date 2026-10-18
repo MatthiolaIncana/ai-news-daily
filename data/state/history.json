@@ -592,5 +592,27 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-10-17T04:30:45.043522+00:00"
+  },
+  {
+    "title": "OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄 - 凤凰网科技",
+    "title_key": "opencode遭攻击部分用户openaianthropic等api密钥外泄",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBIOFhaZnRtUXlmTDlzUWJ5eUdxbFkxYndzSE44QVQ1VldnTTlGMFF1cHJWNVlnX3lwSDVOSndDYmRqZ1R6aFM5bERpNXY?oc=5",
+    "topic": "foundation_models",
+    "score": 24,
+    "novelty_signature": "api",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-18T01:05:23.885394+00:00"
+  },
+  {
+    "title": "英伟达开源机器人Harness！接入GPT-6 Astra一夜刷爆所有基准 - 凤凰网科技",
+    "title_key": "英伟达开源机器人harness接入gpt6astra一夜刷爆所有基准",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0ySWgyc2RoWXN4SVNDYWtKRWk4NVRaN05hUXRtcV9BVWJqZnhnd0lsdnEwQnRLaFZ5NDNqZl85UWhpbnd0V3h3Xy1Ld20?oc=5",
+    "topic": "foundation_models",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "gpt-6-astra",
+    "event_tags": [],
+    "pushed_at": "2026-10-18T01:05:23.885394+00:00"
   }
 ]
