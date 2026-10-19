@@ -614,5 +614,19 @@
     "product_key": "gpt-6-astra",
     "event_tags": [],
     "pushed_at": "2026-10-18T01:05:23.885394+00:00"
+  },
+  {
+    "title": "ChatGPT推出AI小队功能 GPT-6 Astra Pro重磅升级 支持分工协作+进度查询 - 36Kr",
+    "title_key": "chatgpt推出ai小队功能gpt6astrapro重磅升级支持分工协作进度查询",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jTHVNUlh3QUZGeEs3dzgyS3Y2TmZZRDNyanNPal9lMHRZMGd3WmlNNlpEc2JhaXNzTkdxVmNSbU96bUI1U24yVmZfazZDeWZmenNB?oc=5",
+    "topic": "foundation_models",
+    "score": 24,
+    "novelty_signature": "",
+    "product_key": "gpt-6-astra",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-10-19T01:21:45.184013+00:00"
   }
 ]
