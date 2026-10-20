@@ -628,5 +628,45 @@
       "release"
     ],
     "pushed_at": "2026-10-19T01:21:45.184013+00:00"
+  },
+  {
+    "title": "《四川AI漫剧产业高质量发展联盟公约》正式发布 - 新浪财经",
+    "title_key": "四川ai漫剧产业高质量发展联盟公约正式发布",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqcE4wMGlrNDBaYWlfTkoyQmhDTVRiR2dzbDFBbjdwam5Ha2FVNU1UWGo5Vng0OEJONHJETjN4QTdvZTloQnZHQjd3Y3ZVSHFqUE9RQlFYUGF5ejhhRXRpQmtWTU9LYkZzSGYzcDJ5YWVQZzY3Nkxpaw?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "quality",
+      "release"
+    ],
+    "pushed_at": "2026-10-20T06:03:26.263646+00:00"
+  },
+  {
+    "title": "谷歌开源 Harness，支持 OpenCode 和 Codex：国内开发者接入 Jev 实测“真行” - InfoQ-CN",
+    "title_key": "谷歌开源harness支持opencode和codex国内开发者接入jev实测真行",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05b0FJckdNVExscEtOdXdGZHFHZVRZQzNWMEF3b3BYOEVIUHAxakk0LVVMOElraXdwVkJXN2x1bkY2OXp4ZTFpTDE4VEUtTEZ4V3FaN2JMY2x4UQ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "codex",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-20T06:03:26.263646+00:00"
+  },
+  {
+    "title": "Mercury 3 对比 GPT-6 Astra：28 倍的价格，一次一个台阶 - OrcaRouter",
+    "title_key": "mercury3对比gpt6astra28倍的价格一次一个台阶",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpbW9ObDY3SnZnRjQ0OTdwSTRRdG42cnpLa2pmQXllMVNaS0x6ZUhwcENDdVNOT2thblVEMkJHeGFZaWRkbFhEalhxX1NJREhyYVlueGRfNGxtT1J0UThfZjVFeUM0MFpTT3h6aUhn?oc=5",
+    "topic": "foundation_models",
+    "score": 16,
+    "novelty_signature": "价格",
+    "product_key": "gpt-6-astra",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-10-20T06:03:26.263646+00:00"
   }
 ]
