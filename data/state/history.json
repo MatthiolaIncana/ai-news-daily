@@ -668,5 +668,32 @@
       "commercial"
     ],
     "pushed_at": "2026-10-20T06:03:26.263646+00:00"
+  },
+  {
+    "title": "剪剪剪剪剪：剪映 SVIP 超级会员 79 → 15 元 / 月 1.9 折年内探底，支持电脑端 - 新浪财经",
+    "title_key": "剪剪剪剪剪剪映svip超级会员7915元月19折年内探底支持电脑端",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtVHphU0R4VDhjQmdiWGloS242M21XZUdyN3lkTGljQkE2bkJlZnFzd1AxZWpLM29kQzBPcHd0WVdpLVl0N1BzeWJleDJfa3FtT3BYUEpBeVVlZWNoc19KNVQ3bEdtRVRGVk9JbDB6bVhLekt3UzcxM0pZQTRwR0U?oc=5",
+    "topic": "editing_automation",
+    "score": 18,
+    "novelty_signature": "1.9",
+    "product_key": "剪映",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-21T04:52:37.603268+00:00"
+  },
+  {
+    "title": "OpenAI新模型攻克冷门编程语言，COBOL迁移准确率飙至97.9% - 凤凰网科技",
+    "title_key": "openai新模型攻克冷门编程语言cobol迁移准确率飙至979",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3eVR4Um1rVFlrZlNFaUVxZHdrQm41OFJjQk9ReDIwczRPRHdSMXB1T2tyY2xzNi10OFJxakJ4YjFXQl9FMWVTNm1pNzA?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "准确率",
+    "product_key": "",
+    "event_tags": [
+      "quality",
+      "release"
+    ],
+    "pushed_at": "2026-10-21T04:52:37.603268+00:00"
   }
 ]
