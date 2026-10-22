@@ -1,41 +1,5 @@
 [
   {
-    "title": "docs: add call_api.py link and local proxy guide for Immersive Translate",
-    "title_key": "docsaddcallapipylinkandlocalproxyguideforimmersivetranslate",
-    "link": "https://github.com/bilibili/Index-Translate/commit/f940606e8faf18fca4f4ccfd36185e07415f848f",
-    "topic": "translation_localization",
-    "score": 21,
-    "novelty_signature": "api",
-    "pushed_at": "2026-10-08T01:46:42.669180+00:00"
-  },
-  {
-    "title": "【IPO前Anthropic推出小模型“性价比之王”，Claude Haiku 5.5运行成本降75%】Anthropic称，Haiku 5.5是该司迄今发布的最便宜、最快且能力最强小模型，瞄准高吞吐量、成本敏感型应用，编程、电脑操作等任务能力较前代4.5明显提升；首次纳入可调节的effo... - 搜狐网",
-    "title_key": "ipo前anthropic推出小模型性价比之王claudehaiku55运行成本降75anthropic称haiku55是该司迄今发布的最便宜最快且能力最强小模型瞄准高吞吐量成本敏感型应用编程电脑操作等任务能力较前代45明显提升首次纳入可调节的effo",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORDhYQUhCRndZbVo5NEdYSW1DY2h2OTFleDZ1czA4X2s4eHc0ajdjWFA1c2tTYkpoN2NrU3M2LWdEMFdUMG9PaUlrcVd0YzN6VXhHdmM2azF0MGNZQUJTdUJBZVA2dVYxUFowV0IyeEVEbi1WUnBuM0ZHX0w4SXdoN1NSd2p6UkR0Qng4?oc=5",
-    "topic": "foundation_models",
-    "score": 26,
-    "novelty_signature": "",
-    "pushed_at": "2026-10-08T01:46:42.669180+00:00"
-  },
-  {
-    "title": "Claude新Haiku发布！暴击GPT-6 Luna，比梁文谷还便宜，OpenAI只能送重置卡挽尊 - 凤凰网科技",
-    "title_key": "claude新haiku发布暴击gpt6luna比梁文谷还便宜openai只能送重置卡挽尊",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA0OHdGZTh3YmtDQjRidXhtajVCYUE4U0dhMldfdmJpY1U4a2lpbTBJc3FjRHA3bldaUlVZdFdPSzZMMWkwLWFTWlQ2ODY?oc=5",
-    "topic": "foundation_models",
-    "score": 25,
-    "novelty_signature": "",
-    "pushed_at": "2026-10-08T01:46:42.669180+00:00"
-  },
-  {
-    "title": "OpenAI全面上线GPT-6 - DoNews",
-    "title_key": "openai全面上线gpt6",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yNUZtZ0l2WkNHc2xhQlVUUTBHMmZEQXdRNVJtaUhnUGRkM2I3NngyblZUSzJMQXFIXzJWeEpRRmM3SThDQ2V3WnY0dUhXUUUzQjF1RExfS0ZYOFZRdGc?oc=5",
-    "topic": "foundation_models",
-    "score": 23,
-    "novelty_signature": "",
-    "pushed_at": "2026-10-08T01:46:42.669180+00:00"
-  },
-  {
     "title": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊 - 量子位 QbitAI",
     "title_key": "claude新模型发布跑分暴击gpt6luna价格比梁文谷还便宜openai只能送重置卡挽尊",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04YllTM0djSzg2cU1GNlRfMVNYVnNzQ2pUSzZBOG5ReVFOWVJIRU9oWVFaRFVBS2txa2NyUUx6MjBpcjdHRENCWlg1MFdXSVBHUU9qVw?oc=5",
@@ -695,5 +659,89 @@
       "release"
     ],
     "pushed_at": "2026-10-21T04:52:37.603268+00:00"
+  },
+  {
+    "title": "何必季怀 Ai漫剧 新增2个独立番外 - 手机新浪网",
+    "title_key": "何必季怀ai漫剧新增2个独立番外",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WUUwyNUNfNklZSmpWTFZxeUVUWkpmakYzLWdCLUNyOF9FNmtVTk5VREdrYjYxbHJyYVF0LXAtcmllaHZ2RTJDd3hudXZ1bEY3SzhZOTk2OU52RnVHc3V6WVlfQQ?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-22T04:52:13.897323+00:00"
+  },
+  {
+    "title": "Black Forest Labs发布开源图像生成模型FLUX 3 Image Klein：5.6B参数，8GB显存即可运行 - SmartHey",
+    "title_key": "blackforestlabs发布开源图像生成模型flux3imageklein56b参数8gb显存即可运行",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4yNkJpREZ5RXpELWpOZUpNa1NLcEVPUjlfMGxVd2c4NWlDWlVGMWltLXpPMDVUYzFaQVhMWnduMEF1dk9tazh3TV9wZk1YSWd0US1XeXBtYnhrV0xYeEE?oc=5",
+    "topic": "image_generation",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "flux-3",
+    "event_tags": [
+      "performance",
+      "release"
+    ],
+    "pushed_at": "2026-10-22T04:52:13.897323+00:00"
+  },
+  {
+    "title": "OpenAI 加码机器人研发 具身智能能力有望加快提升｜微研报 - 第一财经",
+    "title_key": "openai加码机器人研发具身智能能力有望加快提升微研报",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlT1VTczROdmttLWFvalNFbzJqOER4bDZGQTNZbTdRY0xpYWtmSWxyMzN6UzZwYlBKdnpoSF8yd19uTTRRckF4NThzZ3VEWXh4ZmRLbA?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-22T04:52:13.897323+00:00"
+  },
+  {
+    "title": "OpenAI更新使用政策！网络安全概念大幅高开 天融信一字涨停 - 搜狐",
+    "title_key": "openai更新使用政策网络安全概念大幅高开天融信一字涨停",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUFJxTFhqUzhhUHdkMmQ2Q2lWRDh2S01NNW9tVktRTW8wZVFhSWVwUGtPN0VzbXFtaDRoQ1RrU19XWkJTclkySjFKRFhsMlIxbFlyYVdrd2ZxZzdpRTFHbmloMm9vc2hWUG5nN0VIRm1KX2N5bk56S2FvdDNWdHlyYlROREdqc01QUWQ2dQ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-22T04:52:13.897323+00:00"
+  },
+  {
+    "title": "影响约70%网站：PHP高危漏洞被修复，OpenAI牵头协调全球发现/修复 - 凤凰网科技",
+    "title_key": "影响约70网站php高危漏洞被修复openai牵头协调全球发现修复",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02WVRGOXJTZ2IzVHhpMGtLdzBUa0U3eDVDZW9KRldwX2t0OWpzT1ZnNUhCSXBfWVp4TzRnLVREXy04Vk9OV3NGbE12eWM?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-22T04:52:13.897323+00:00"
+  },
+  {
+    "title": "OpenAI：更新后......_7x24快讯_新浪财经 - 手机新浪网",
+    "title_key": "openai更新后7x24快讯新浪财经",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE54Vko2cVVBSkctNWtKUUg2U2lycDltOG44V2otWllsSm1lS0NFWC10c054WkNCZ2dVUmNIUUxfY3ZudFRJS1dkWk1nOA?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-22T04:52:13.897323+00:00"
+  },
+  {
+    "title": "OpenAI更新使用政策，模型路由器、AI网关提供访问权限前需经审批 - 36Kr",
+    "title_key": "openai更新使用政策模型路由器ai网关提供访问权限前需经审批",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xNG5xSjA1bnRzYnBETzJDQ1lQeklQcXpKbjk2bjV5NUF2MTNYVzB1eWlSTlVxdkFmNlRuOXNXLXJpeGltSmhNYXpYR25zTWFZSGYzbkZBOXE?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-22T04:52:13.897323+00:00"
   }
 ]
