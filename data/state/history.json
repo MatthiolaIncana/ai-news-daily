@@ -1,250 +1,5 @@
 [
   {
-    "title": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊 - 量子位 QbitAI",
-    "title_key": "claude新模型发布跑分暴击gpt6luna价格比梁文谷还便宜openai只能送重置卡挽尊",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04YllTM0djSzg2cU1GNlRfMVNYVnNzQ2pUSzZBOG5ReVFOWVJIRU9oWVFaRFVBS2txa2NyUUx6MjBpcjdHRENCWlg1MFdXSVBHUU9qVw?oc=5",
-    "topic": "foundation_models",
-    "score": 29,
-    "novelty_signature": "价格",
-    "pushed_at": "2026-10-08T07:12:09.693784+00:00"
-  },
-  {
-    "title": "AI价格战升温：OpenAI借GPT-5.6逆袭，Anthropic优势不再？ - 凤凰网科技",
-    "title_key": "ai价格战升温openai借gpt56逆袭anthropic优势不再",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE81eElaVWl6YkhHVUNJdGsxVDdobU9pY0Y4YUlIZjd4ak11Mjdidld5OWxQRlhlZlRUVUVBY2NQcVU5YzVXcmhwNHAwQUw?oc=5",
-    "topic": "foundation_models",
-    "score": 26,
-    "novelty_signature": "价格",
-    "pushed_at": "2026-10-08T07:12:09.693784+00:00"
-  },
-  {
-    "title": "GPT-6向所有用户开放，ChatGPT交互升级！OpenAI：模型更聪明，也更难测试 - ThePaper.cn",
-    "title_key": "gpt6向所有用户开放chatgpt交互升级openai模型更聪明也更难测试",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40NXNFZkNpQ2RRU1JVZW9Oc1E3Vkc1SVhVTGtzRVloT25PYmxfUU9FNWV6OTI3b3JZcHRlZ1hkWXNFaHNVd2VzbERYN2xiN2EyMmhNRmJPVUp4b2hJVUhGcQ?oc=5",
-    "topic": "foundation_models",
-    "score": 25,
-    "novelty_signature": "",
-    "pushed_at": "2026-10-08T07:12:09.693784+00:00"
-  },
-  {
-    "title": "微软发布 MAI Code1.1 Flash 模型，GitHub Copilot 将支持云端与本地混合推理 ｜#AI资讯# #微软# #混合架构# - 搜狐网",
-    "title_key": "微软发布maicode11flash模型githubcopilot将支持云端与本地混合推理ai资讯微软混合架构",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOODZ0ZUF1LXg0ckg4OWNvVkdXVzcyQm5HS1ZKVU1vdnFod2dsR0x4bC1yTWJtMkRHcXZtRnFjZUVSNU9NVTFQZDMzMTA2THdxTHJnMVVfdFdhSHI3ZmJPRklFLXRDdFJiLURBajRXQ0R4LXNiREdSdXA4dDQyemxSWHBMQkJiY005TFF4RQ?oc=5",
-    "topic": "github_tools",
-    "score": 18,
-    "novelty_signature": "",
-    "pushed_at": "2026-10-08T07:12:09.693784+00:00"
-  },
-  {
-    "title": "约九成公司亏损？媒体：别被AI短剧的“数字繁荣”骗了|澎湃新闻|播放量|抖音|成本|上线 - 新浪财经",
-    "title_key": "约九成公司亏损媒体别被ai短剧的数字繁荣骗了澎湃新闻播放量抖音成本上线",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSzUxMm8xdzZuQ0lnWnBFMzU3MTBUU1pUclIxQm1ZYTVxWF9TaXkzeWR4N2dqWU1FSDQzQkQ1V0h2djlCX1R5VEEyMk5JaUZ4SEFRMnVXVzNHUlU0V2dRU2RBWTltWWtaY3Ffd2FpNTBYYmxqUUY4WDBSZGdldDlYSFVRRjRWajU1cFB6Ny10dmZCUGRDX2kzcjBNb1pESWd6eVZqck96NDg3Q25vZUxuTjdn?oc=5",
-    "topic": "short_drama",
-    "score": 19,
-    "novelty_signature": "",
-    "pushed_at": "2026-10-09T03:16:36.228814+00:00"
-  },
-  {
-    "title": "OpenAI推出GPT-6.1 Sol Ultrafast API定价达标准版6倍 - 搜狐网",
-    "title_key": "openai推出gpt61solultrafastapi定价达标准版6倍",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOai1qT08zQkx6VW9TcW9uaHR2aHpzYXBHc1dsX09vNGRxTDI3bU81NTVKaU8tNWZYMGp4S3RzMGpTNC05UGlSVGpseEdkUHR5V2VfRHB4ZllNRVlNV1VfQ25VZFJlZ284VnhaNGViRlplNWdiTzFzNGpseFpESzJYZnh3Tlp2TVpQ?oc=5",
-    "topic": "foundation_models",
-    "score": 29,
-    "novelty_signature": "6.1|api",
-    "pushed_at": "2026-10-09T03:16:36.228814+00:00"
-  },
-  {
-    "title": "OpenAI推出GPT-6.1 Sol 价格降至Astra五分之一 - 中华网",
-    "title_key": "openai推出gpt61sol价格降至astra五分之一",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15VFB0ZEhURWdQMi1OUXUxa2luaHB2OU0tRzdIdjBXRER1eFk2M0dkc2tRdzRteWlHVVU0WFBTZkM1cF9VVEVVRGdsR1ZoQmI2QU5mZm42SlZHempxUXVyaV9jVERrT0U5MkRsejRReVQ?oc=5",
-    "topic": "foundation_models",
-    "score": 27,
-    "novelty_signature": "6.1|价格",
-    "pushed_at": "2026-10-09T03:16:36.228814+00:00"
-  },
-  {
-    "title": "OpenAI推出GPT-6.1 Sol Ultrafast版：6倍价格、最高8倍速度 - 凤凰网科技",
-    "title_key": "openai推出gpt61solultrafast版6倍价格最高8倍速度",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1RS0VIdDlDSGl4NnNyT3hjVWx4cUJWV0RnODJLZUFPeWlBMVBHZTRwaGJzeWdxOGFDUjg5TncwU09TXzhQSDhNVTJtN24?oc=5",
-    "topic": "foundation_models",
-    "score": 27,
-    "novelty_signature": "6.1|价格",
-    "pushed_at": "2026-10-09T03:16:36.228814+00:00"
-  },
-  {
-    "title": "OpenAI突然收购，500万人Codex，永不下线 - 36Kr",
-    "title_key": "openai突然收购500万人codex永不下线",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sMXdrLUhZdS0yUGJPYndBN2thS0NaQ3ZUSW90NEhCM1hfcTVCTHBJS2o0WFFnVGRCTXpYN3BZOGx3VFV6X1E4cENabnJLdw?oc=5",
-    "topic": "foundation_models",
-    "score": 24,
-    "novelty_signature": "",
-    "product_key": "codex",
-    "event_tags": [
-      "deprecation"
-    ],
-    "pushed_at": "2026-10-09T03:28:04.707421+00:00"
-  },
-  {
-    "title": "OpenAI正式发布GPT-6，抵御“越狱攻击”能力更强，但均未触及“RSI”门槛 - 华尔街见闻",
-    "title_key": "openai正式发布gpt6抵御越狱攻击能力更强但均未触及rsi门槛",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiQWRkYk9PSE5uWDF1ZTlRTFNBazcwYmh5VXNmX0VfXzQ1ZnFCWXowaGFlQVVwNEVUNDk0dHZHMThUWlJtdUJtM1Z3b3ZfUDZRNXlv?oc=5",
-    "topic": "foundation_models",
-    "score": 23,
-    "novelty_signature": "",
-    "product_key": "gpt-6",
-    "event_tags": [
-      "capability",
-      "release"
-    ],
-    "pushed_at": "2026-10-09T03:28:04.707421+00:00"
-  },
-  {
-    "title": "Anthropic最便宜模型来了 价格暴降90% 部分超GPT-6 - 文学城",
-    "title_key": "anthropic最便宜模型来了价格暴降90部分超gpt6",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPa2RjZEd0QlFCWXdMckpBeWJQWXFWOTVGc3h4TXVMNC1MbC13d2QxcUtnR1NZYzVyUzNFd3hyaGpyVEs4aHh5dGpzejZwdHdaeW9CTXEwd2lmaUlJYnVWUXR2RlpWa20x?oc=5",
-    "topic": "foundation_models",
-    "score": 22,
-    "novelty_signature": "价格",
-    "product_key": "gpt-6",
-    "event_tags": [
-      "commercial"
-    ],
-    "pushed_at": "2026-10-09T03:32:42.086058+00:00"
-  },
-  {
-    "title": "vectorcraft，一个用Rust重写的Adobe Illustrator工具地址：github.com/storytold/vectorcraft特点是设计时就考虑了AI Agent调用，提供给AI的API，如图2、3、4都是Agent做的​|vectorcraft|rust|adobe illustrator|ai agent_新浪新闻 - 手机新浪网",
-    "title_key": "vectorcraft一个用rust重写的adobeillustrator工具地址githubcomstorytoldvectorcraft特点是设计时就考虑了aiagent调用提供给ai的api如图234都是agent做的vectorcraftrustadobeillustratoraiagent新浪新闻",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jTDZlUzFxaWdzTUVLWE9pSk5ZamVOcnRTckNyVE5nektjTHNWVExBYzBsNXVEMjhmZGdZNWpWVWIyajBsQkp0aFRxN19FMWNXNGRjZFNXdDNmdzJyc0JOVENOdw?oc=5",
-    "topic": "foundation_models",
-    "score": 22,
-    "novelty_signature": "api",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-09T03:32:42.086058+00:00"
-  },
-  {
-    "title": "陶哲轩公开声援抵制OpenAI，数学界与AI巨头矛盾升级 - 新浪财经",
-    "title_key": "陶哲轩公开声援抵制openai数学界与ai巨头矛盾升级",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0YTd2OVA3TVd1WVRqQll6clRHSk8zTUpsZjBlcHFxTVJyNDNUajkxOTdIY3F0UENmbVNydGRRRmZKRE5qZUdTd3NNVEpaVHRyTUItZjJzNm5TR3FQV3lWUTRQMnFVblpkSW9uQTFEbEpLd2JYcy13TmtJT0M?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-09T03:32:42.086058+00:00"
-  },
-  {
-    "title": "722篇数学成果一次性开源，OpenAI该不该踩刹车？| 财经时评 - 东方财富",
-    "title_key": "722篇数学成果一次性开源openai该不该踩刹车财经时评",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNNVNRbFQtVkN0MzRvODZjVnoyaHZ0dDc1YWd3OFd1eFhLajFKNDhKckt6VGczNVB0cVpNREFocHZrUEUzVGRBTlpOa0VYODFtUm1fbHMxbFBRcmFqMXZNSmtfRDg1dw?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-09T03:43:31.099272+00:00"
-  },
-  {
-    "title": "3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。 - 53AI",
-    "title_key": "3个最近爆火的personalagent在github上有开源平替了",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zNEprNU9CWFhsY3g2TmFYdF9Za1Z4WkZkc1A5aENLX2dGSk5CbWRFVjJYUlJybWdPYWtPbWtSS29DdlFGVXcwY09USURkWEI5c21EQ2w2TWp3ZnBLWjBpdTlOUWNQaHpSZmc?oc=5",
-    "topic": "foundation_models",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-09T03:43:31.099272+00:00"
-  },
-  {
-    "title": "OpenAI推出GPT-6.1 Sol Ultrafast API定价达标准版6倍 - 搜狐网",
-    "title_key": "openai推出gpt61solultrafastapi定价达标准版6倍",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOai1qT08zQkx6VW9TcW9uaHR2aHpzYXBHc1dsX09vNGRxTDI3bU81NTVKaU8tNWZYMGp4S3RzMGpTNC05UGlSVGpseEdkUHR5V2VfRHB4ZllNRVlNV1VfQ25VZFJlZ284VnhaNGViRlplNWdiTzFzNGpseFpESzJYZnh3Tlp2TVpQ?oc=5",
-    "topic": "foundation_models",
-    "score": 29,
-    "novelty_signature": "6.1|api",
-    "product_key": "gpt-6.1-sol-ultrafast",
-    "event_tags": [
-      "api",
-      "commercial",
-      "release",
-      "service_tier"
-    ],
-    "pushed_at": "2026-10-09T03:54:00.715778+00:00"
-  },
-  {
-    "title": "OpenAI推出GPT-6.1 Sol 价格降至Astra五分之一 - 中华网",
-    "title_key": "openai推出gpt61sol价格降至astra五分之一",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15VFB0ZEhURWdQMi1OUXUxa2luaHB2OU0tRzdIdjBXRER1eFk2M0dkc2tRdzRteWlHVVU0WFBTZkM1cF9VVEVVRGdsR1ZoQmI2QU5mZm42SlZHempxUXVyaV9jVERrT0U5MkRsejRReVQ?oc=5",
-    "topic": "foundation_models",
-    "score": 27,
-    "novelty_signature": "6.1|价格",
-    "product_key": "gpt-6.1-sol",
-    "event_tags": [
-      "commercial",
-      "release"
-    ],
-    "pushed_at": "2026-10-09T03:54:00.715778+00:00"
-  },
-  {
-    "title": "OpenAI突然收购，500万人Codex，永不下线 - 36Kr",
-    "title_key": "openai突然收购500万人codex永不下线",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sMXdrLUhZdS0yUGJPYndBN2thS0NaQ3ZUSW90NEhCM1hfcTVCTHBJS2o0WFFnVGRCTXpYN3BZOGx3VFV6X1E4cENabnJLdw?oc=5",
-    "topic": "foundation_models",
-    "score": 24,
-    "novelty_signature": "",
-    "product_key": "codex",
-    "event_tags": [
-      "deprecation"
-    ],
-    "pushed_at": "2026-10-09T03:54:00.715778+00:00"
-  },
-  {
-    "title": "Anthropic最便宜模型来了 价格暴降90% 部分超GPT-6 - 文学城",
-    "title_key": "anthropic最便宜模型来了价格暴降90部分超gpt6",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPa2RjZEd0QlFCWXdMckpBeWJQWXFWOTVGc3h4TXVMNC1MbC13d2QxcUtnR1NZYzVyUzNFd3hyaGpyVEs4aHh5dGpzejZwdHdaeW9CTXEwd2lmaUlJYnVWUXR2RlpWa20x?oc=5",
-    "topic": "foundation_models",
-    "score": 22,
-    "novelty_signature": "价格",
-    "product_key": "gpt-6",
-    "event_tags": [
-      "commercial"
-    ],
-    "pushed_at": "2026-10-09T03:54:00.715778+00:00"
-  },
-  {
-    "title": "vectorcraft，一个用Rust重写的Adobe Illustrator工具地址：github.com/storytold/vectorcraft特点是设计时就考虑了AI Agent调用，提供给AI的API，如图2、3、4都是Agent做的​|vectorcraft|rust|adobe illustrator|ai agent_新浪新闻 - 手机新浪网",
-    "title_key": "vectorcraft一个用rust重写的adobeillustrator工具地址githubcomstorytoldvectorcraft特点是设计时就考虑了aiagent调用提供给ai的api如图234都是agent做的vectorcraftrustadobeillustratoraiagent新浪新闻",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jTDZlUzFxaWdzTUVLWE9pSk5ZamVOcnRTckNyVE5nektjTHNWVExBYzBsNXVEMjhmZGdZNWpWVWIyajBsQkp0aFRxN19FMWNXNGRjZFNXdDNmdzJyc0JOVENOdw?oc=5",
-    "topic": "foundation_models",
-    "score": 22,
-    "novelty_signature": "api",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-09T03:54:00.715778+00:00"
-  },
-  {
-    "title": "722篇数学成果一次性开源，OpenAI该不该踩刹车？| 财经时评 - 东方财富",
-    "title_key": "722篇数学成果一次性开源openai该不该踩刹车财经时评",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNNVNRbFQtVkN0MzRvODZjVnoyaHZ0dDc1YWd3OFd1eFhLajFKNDhKckt6VGczNVB0cVpNREFocHZrUEUzVGRBTlpOa0VYODFtUm1fbHMxbFBRcmFqMXZNSmtfRDg1dw?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-09T03:54:00.715778+00:00"
-  },
-  {
-    "title": "3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。 - 53AI",
-    "title_key": "3个最近爆火的personalagent在github上有开源平替了",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zNEprNU9CWFhsY3g2TmFYdF9Za1Z4WkZkc1A5aENLX2dGSk5CbWRFVjJYUlJybWdPYWtPbWtSS29DdlFGVXcwY09USURkWEI5c21EQ2w2TWp3ZnBLWjBpdTlOUWNQaHpSZmc?oc=5",
-    "topic": "foundation_models",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-09T03:54:00.715778+00:00"
-  },
-  {
     "title": "Merge pull request #10 from SparkofSpike/fix/insttrans-eval",
     "title_key": "mergepullrequest10fromsparkofspikefixinsttranseval",
     "link": "https://github.com/bilibili/Index-Translate/commit/aafb1e3afc4049298ed6d8911de3e6e235eb903c",
@@ -743,5 +498,106 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-10-22T04:52:13.897323+00:00"
+  },
+  {
+    "title": "AI漫剧制作成本大幅下降，算力涨价、投流与平台分账挤压制作方利润 - 虎嗅",
+    "title_key": "ai漫剧制作成本大幅下降算力涨价投流与平台分账挤压制作方利润",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tT2dXLUJ6VmotM0d5bjBkOVNObDV1SFRlSFk0TGNIWGZOQ2ZpM09ld0pDY0o4NlB0OUJyMHVXMWdPaGkxdTlkbEhmbXJ1azFaaWJmXw?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-10-23T04:54:09.187227+00:00"
+  },
+  {
+    "title": "“便宜到一集只要几十元” AI漫剧制作现状：价格“10倍跳水”，一天能产600集，全在赌概率？ - 新浪财经",
+    "title_key": "便宜到一集只要几十元ai漫剧制作现状价格10倍跳水一天能产600集全在赌概率",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPamJoT0NBZWZ5Vlgxc2taWWNzVUpwTERxT2xEQWdGM3dzdDM2dGhJejVURzV6bDBrT2VJOXRza2xkeHF0RG40bmVweE9OTklTN0l2MVlURFRldFZNNFBqQ3VKaDlkbUNLS0N6WEJZb0wwWFFUX0tzMlJtb2V6aVpvZnZ2R1hmWkVjSmFlR29nWVlVWmVaRjFkTWFfeTd3R3ZoVWZyckNleUwxcmh1SlpNZXRJR0NBVF9DZVR2UU9EalJBRDZTZGg2MzhmNXhCNFZD?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "价格",
+    "product_key": "",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-10-23T04:54:09.187227+00:00"
+  },
+  {
+    "title": "OpenAI全面开放Decisions API：输出Token不收费_CNMO - CNMO",
+    "title_key": "openai全面开放decisionsapi输出token不收费cnmo",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xV3BQMUZzVEUzekRReE95djA4VmhGLWh0LTZMeXpINWJlWDNSSDZPbWhwZHY3LXB5MVZ6SEtKOEs1bmIzSXNGYi1Qdw?oc=5",
+    "topic": "foundation_models",
+    "score": 25,
+    "novelty_signature": "api",
+    "product_key": "",
+    "event_tags": [
+      "api",
+      "availability"
+    ],
+    "pushed_at": "2026-10-23T04:54:09.187227+00:00"
+  },
+  {
+    "title": "OpenAI宣布全面开放决策API-36氪 - 36kr.com",
+    "title_key": "openai宣布全面开放决策api36氪",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9teGdCNmV3a041SDhjLWNuWGdtTWZlUVFId2l1c0RFX3ZXY1gwblBzN05jcXRlSjBmR2M3RDFjNDJRYTRYVEc0eVNkWTV1LWdIN1VTSGNtd2Q?oc=5",
+    "topic": "foundation_models",
+    "score": 25,
+    "novelty_signature": "api",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-10-23T04:54:09.187227+00:00"
+  },
+  {
+    "title": "AI智能体的“说明书”转为社区共治：Anthropic捐赠Agent Skills开放标准 - 凤凰网科技",
+    "title_key": "ai智能体的说明书转为社区共治anthropic捐赠agentskills开放标准",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1UZFRpdEpYZ0FwUFVFZ3BZVDBiaGY0YUYtT19rNWxzU2l0ZWJOY3BGVXNRcDM3RUtweURrNTVhdWxFUW9jWVEwME9jMmw?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-10-23T04:54:09.187227+00:00"
+  },
+  {
+    "title": "OpenAI回应监控漏洞已修复但未获验证：METR测试发现智能体可推迟检查建议固定频次隔离监控 - 凤凰网",
+    "title_key": "openai回应监控漏洞已修复但未获验证metr测试发现智能体可推迟检查建议固定频次隔离监控",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zcG5rYTk4amVmVVlyMG1pQ1pRWGJWU2ZYeFJkT2RJYUZxMXYzV1BuaElmTTJEQWtDZVJmcTdMODVBRVpCSV8xWDhZNG4wVHVHVWc?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-23T04:54:09.187227+00:00"
+  },
+  {
+    "title": "DeepSeek才是真正的OpenAI 开源技术赢得全球赞誉 - 中华网",
+    "title_key": "deepseek才是真正的openai开源技术赢得全球赞誉",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wY0Y0ZXBtbEMyQnJlVHJ0MlBxLU1zeVg1N3hWZXdLSW1iN19kQjFBMEQ1UnlDR1pBX0FvWjRWeDQxdWhlOExQWXU2QmQ1Mml3THowZVMzZGZQR3hTMktFckNnRlkxaXIzM3JYSFlCM1o?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-23T04:54:09.187227+00:00"
+  },
+  {
+    "title": "OpenAI支持AI强制监管：致信加州州长 建议强化AI透明度法案 - 财联社",
+    "title_key": "openai支持ai强制监管致信加州州长建议强化ai透明度法案",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpTzF0VzVRRlhMVjBIbHZDcUx6LTc5anJ1UzBEVFhxZDdMOGJHR3VQM1dJUEo3aWNBc3c5Sm05ZU9ZV3cyZjRUaA?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-23T04:54:09.187227+00:00"
   }
 ]
