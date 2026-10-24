@@ -599,5 +599,95 @@
       "capability"
     ],
     "pushed_at": "2026-10-23T04:54:09.187227+00:00"
+  },
+  {
+    "title": "火山引擎发布Seedance 2.5 4K：支持480P样片预览，客户反馈画面细节与光影表现亮眼 - 凤凰网",
+    "title_key": "火山引擎发布seedance254k支持480p样片预览客户反馈画面细节与光影表现亮眼",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nby1vc1cwM1A4YzlKSUpLZFE2U0FOUGoyai1DLVI2OVIwUk9FYmR5ODRCMDZZR3E0SnZTaWJrYlBuNVcyaEV2NEFaVjUtVkk2SlE?oc=5",
+    "topic": "seedance_video",
+    "score": 22,
+    "novelty_signature": "2.5",
+    "product_key": "seedance-2.5",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-10-24T01:37:23.424073+00:00"
+  },
+  {
+    "title": "AI导演月薪可达30k+！广东AI短剧应用师实战课报名入口开放，学爆款AI短剧技巧，不限经验符合条件可参与 - 搜狐",
+    "title_key": "ai导演月薪可达30k广东ai短剧应用师实战课报名入口开放学爆款ai短剧技巧不限经验符合条件可参与",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOblNEdU9RYjJ0akU2dDNCS0tFMjVUQkhnZ0dTRnB4a0dUWDVkaHdnMV9yV3pvWF83QmxfYzNNd1VBNmx0Wmhzb0J4SHBpOHY3S2k5WDhVaEhlTnVLVjdnZVlaeTVobGo4TExIck9ZM3p4ckxjZlo2dWJTZWtfUUdyX1RpVVZYUWg1QV85Vw?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-10-24T01:37:23.424073+00:00"
+  },
+  {
+    "title": "OpenAI给GPT-6装上“快脑”！100毫秒做决策，API全面开放 - 搜狐",
+    "title_key": "openai给gpt6装上快脑100毫秒做决策api全面开放",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTkphRGU4SzNjTkQzSENJNUpITVlxTVEyalRsLUtWZ2F6VlBreDA3ZExVX2N1eTBLLWlCb0hBQ3BGY2gyOEtyN3FqZmUxbzlDLUtPR1JFQktLUFBKNDU5QWlzQVJKMElOQmtIZWpNbUlUY21jTzZVR3pvUGFiTGNEUExhUmV1ZEoybHlZdg?oc=5",
+    "topic": "foundation_models",
+    "score": 29,
+    "novelty_signature": "api",
+    "product_key": "gpt-6",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-10-24T01:37:23.424073+00:00"
+  },
+  {
+    "title": "Anthropic 捐赠 Agent Skills 开放标准 - DoNews",
+    "title_key": "anthropic捐赠agentskills开放标准",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SZENaLXJMcEdPcFhuNWE4WnpJYlkxWng4c0xLSWF2OUl1SjMwQUlXQVdaLXM5VG1kS3BBR1EyQTNha1hhZDV1RHV2UFhpU3hRUk1VenlFOFhpdUNWbkE?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-10-24T01:37:23.424073+00:00"
+  },
+  {
+    "title": "OpenAI认为现有安全措施足以支持重启前沿强化学习训练_股市直击 - 证券之星",
+    "title_key": "openai认为现有安全措施足以支持重启前沿强化学习训练股市直击",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kMEQxakhuaFBQdWFZM29XZEZJZ3NfODBtSnc1RkJZR1ZZVjZXTV9lQzAydnBuQ2M0MWZ0c2ZCRmFpa0tlTFVfLWp4VkN6aTQ2c0V1bE1GcGFsN1RVc3d6a0RR?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-24T01:37:23.424073+00:00"
+  },
+  {
+    "title": "美国最先进大模型绝不能开源 OpenAI再次辩解：这将摧毁网络安全 - 驱动之家",
+    "title_key": "美国最先进大模型绝不能开源openai再次辩解这将摧毁网络安全",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aYlR0VlRlTU9VaWQxR1hEY3BQZUZiUmJheTJfMHB4OFdSaTZLX2hyNDMtRjE4b0FLWTM5UFhQNl9PVUlaV3ptczl2LWRJMHBGRnQ1VTVsNlQ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-24T01:37:23.424073+00:00"
+  },
+  {
+    "title": "随着决策模型竞争升温 OpenAI向所有用户开放Jev竞品 - 新浪财经",
+    "title_key": "随着决策模型竞争升温openai向所有用户开放jev竞品",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNjZ0Y1p0S1hEQU0zd1hLV0VxQzVLTU9meE9WTjhaYWxWaHJtNE93ajYybHJNd1ZrNDNmM3B4bDZ3RWJ0Wm5oN3FmMUxmRjE0Z3daVnZjTERvaDNNRU9USi16UWp4QVN5M2RTRWJ2V2QxcEtvMlFsT1VnRGFiN3lZNVN0ZTRneWUta3NmV2NvcmVGaFNPYkJETDQ0MUNhN012aEQ1dDJOdElYU0FEZW5CWE1VTnk5WTFYU05wVkE4aDk3d3U3STN4VlpwWmIyc1BqYWZfeTJCczF0d05TUURr?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-10-24T01:37:23.424073+00:00"
   }
 ]
