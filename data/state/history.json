@@ -1,41 +1,5 @@
 [
   {
-    "title": "Merge pull request #10 from SparkofSpike/fix/insttrans-eval",
-    "title_key": "mergepullrequest10fromsparkofspikefixinsttranseval",
-    "link": "https://github.com/bilibili/Index-Translate/commit/aafb1e3afc4049298ed6d8911de3e6e235eb903c",
-    "topic": "translation_localization",
-    "score": 20,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-10T06:57:57.819167+00:00"
-  },
-  {
-    "title": "9日，记者在全球最大的开源平台GitHub的搜索框中输入“AI渗透测试（AI Penetration Testing）”“自主漏洞利用代理（Autonomous Exploit Agent）”等关键词.. - 매일경제",
-    "title_key": "9日记者在全球最大的开源平台github的搜索框中输入ai渗透测试aipenetrationtesting自主漏洞利用代理autonomousexploitagent等关键词",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DR3JiSlFnZkhUNHM3MTBFaDB6cUtBaENwOFNxanJka3ZUOEVKVHpFckRlUlU0LUVOS3VLVkN5S0lEUUJNOFpFNVZiU09SN1E?oc=5",
-    "topic": "foundation_models",
-    "score": 20,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-10T06:57:57.819167+00:00"
-  },
-  {
-    "title": "微软推出高速决策AI模型，速度超GPT-6 Sol达35倍 - 华尔街见闻",
-    "title_key": "微软推出高速决策ai模型速度超gpt6sol达35倍",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QTURCbTBNbnlNTWdfbWw4RlZ6WUVsdmhMaVd1V005YkRoYzR4TDRvejJMaTN2RlRhcEJESGc1WHl3YUo3MDFvaFRoeHAya3pISWxN?oc=5",
-    "topic": "foundation_models",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "gpt-6-sol",
-    "event_tags": [
-      "performance",
-      "release"
-    ],
-    "pushed_at": "2026-10-10T06:57:57.819167+00:00"
-  },
-  {
     "title": "docs: update subtitle and intro to A Multilingual, Multimodal Transla…",
     "title_key": "docsupdatesubtitleandintrotoamultilingualmultimodaltransla",
     "link": "https://github.com/bilibili/Index-Translate/commit/e8754e3518be5143e7cdbd0e1cd246123f46478f",
@@ -689,5 +653,55 @@
       "availability"
     ],
     "pushed_at": "2026-10-24T01:37:23.424073+00:00"
+  },
+  {
+    "title": "Seedance 2.5 4K 与 Seedance 2.5：升级带来了什么 - OrcaRouter",
+    "title_key": "seedance254k与seedance25升级带来了什么",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RUlNybzZiaW1ERVR1cnRaNWJGMkxCeU9BUnR5dTJkVC1vSkM5dXhadFZIMEF6YzFvTE9KNTZMb29GV2RlcWZ2NG1tZG9TVjFRaUNTYjhfUEVFeUJreTlFNUFXeHFZaHY5Ny1GWFlnd0NiSVVEN3pV?oc=5",
+    "topic": "seedance_video",
+    "score": 20,
+    "novelty_signature": "2.5",
+    "product_key": "seedance-2.5",
+    "event_tags": [],
+    "pushed_at": "2026-10-25T01:12:34.183567+00:00"
+  },
+  {
+    "title": "AI短剧公司几乎不需要基础岗 岗位替代与新增并存 - 中华网",
+    "title_key": "ai短剧公司几乎不需要基础岗岗位替代与新增并存",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WeE0waG5jdzk1MldrejJ4WUlRTlM2c3E4cFZVWmdGdEN3aERpczFicElxalZzWGJZTElseFBSU182MnE5RkJFenVjc3NOUWpHblhOS0pxZnppVmRNSjdBckdVRXcwdC1IbVR5TDlzd1E?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-25T01:12:34.183567+00:00"
+  },
+  {
+    "title": "Anthropic Claude付款页面新增中国及港澳台地区选项，支持银联卡支付 - 凤凰网科技",
+    "title_key": "anthropicclaude付款页面新增中国及港澳台地区选项支持银联卡支付",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15SXU4b2stMTBSQnc5M2w5dkkzVVlnVkVrT2Q2S1NHZGdDY1d5MEl3Q0Q3Yi1CUG5aNXp4YzZ0SFlmMmw0V3ZELVFCekU?oc=5",
+    "topic": "foundation_models",
+    "score": 23,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-25T01:12:34.183567+00:00"
+  },
+  {
+    "title": "英国投1亿英镑建AI生物安全实验室 OpenAI等提供模型额度支持 - 凤凰网",
+    "title_key": "英国投1亿英镑建ai生物安全实验室openai等提供模型额度支持",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrNXdtZFB2QVg0N2xoc3NkeDdpUWxXWEx4ZGFMQlZNWGw2blNaRGpIaUMyd1FqOGxacTI4VTY5eXl1a1FxRTBJOEVIQXo3RU1XYXc?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-25T01:12:34.183567+00:00"
   }
 ]
