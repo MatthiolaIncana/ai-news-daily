@@ -1,51 +1,5 @@
 [
   {
-    "title": "docs: update technical report with image translation evaluation",
-    "title_key": "docsupdatetechnicalreportwithimagetranslationevaluation",
-    "link": "https://github.com/bilibili/Index-Translate/commit/1c4674e4a59fa4f6419559fea33c88bf67251d30",
-    "topic": "translation_localization",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-12T02:49:07.550385+00:00"
-  },
-  {
-    "title": "Merge pull request #21 from fangbm/fix/sse-proxy-forwarding",
-    "title_key": "mergepullrequest21fromfangbmfixsseproxyforwarding",
-    "link": "https://github.com/bilibili/Index-Translate/commit/775a71bf7d1bd880a5aef141bb7ba70a26513454",
-    "topic": "translation_localization",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-12T02:49:07.550385+00:00"
-  },
-  {
-    "title": "fix: forward SSE promptly and avoid duplicate HTTP responses",
-    "title_key": "fixforwardssepromptlyandavoidduplicatehttpresponses",
-    "link": "https://github.com/bilibili/Index-Translate/commit/c23522698fa5147ba60c4d3d5e15cf65cbbb956b",
-    "topic": "translation_localization",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-12T02:49:07.550385+00:00"
-  },
-  {
-    "title": "OpenAI将GPT-6.1 Sol默认上下文长度提升至500k，取消长上下文额外收费 - SmartHey",
-    "title_key": "openai将gpt61sol默认上下文长度提升至500k取消长上下文额外收费",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qa1FsT0pTLS05N1FycmpfanQ2MmhGelRoM0o1UXpoMTFPTFBEVTl4MGVJZGsyY1NLZFNybzcxRFpQc2w5THQzTWpIdkM0V29memdyRGNsQmJURlB3amc?oc=5",
-    "topic": "foundation_models",
-    "score": 25,
-    "novelty_signature": "6.1",
-    "product_key": "gpt-6.1-sol",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-12T02:49:07.550385+00:00"
-  },
-  {
     "title": "OpenAI前沿模型再现数学突破，AI安全监管同步升级！全球光通信龙头：至2029年初的产能已售罄！云计算ETF汇添富(159273)连续5日吸金！ - Jiemian.com",
     "title_key": "openai前沿模型再现数学突破ai安全监管同步升级全球光通信龙头至2029年初的产能已售罄云计算etf汇添富159273连续5日吸金",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42akZ5LXE3aksxeTNVeC1LeExBSkJjSXZzdzRtOWt2M3VINWpZbzRCMHRQOXdPUmJ1SzQ5MG1mWlJ3WXRWTVQzX3lEM003eS13aFUyaWcwd2U?oc=5",
@@ -646,5 +600,74 @@
       "capability"
     ],
     "pushed_at": "2026-10-25T01:12:34.183567+00:00"
+  },
+  {
+    "title": "即梦AI上线“短剧工作室”：一站式整合剧本创作、资产管理和智能分镜，深度融合小云雀短剧Agent能力 - SmartHey",
+    "title_key": "即梦ai上线短剧工作室一站式整合剧本创作资产管理和智能分镜深度融合小云雀短剧agent能力",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yWDhRSDB0WVN2UnBmM3pOYUw1MWhtVEl0LVJaLUFZWF9iQk9CRkt5WWVQeFFOZ1RNNHBkakJBZDB3Zk9RRFp4aDczUmtlQV9NZGNxc3F1eDNvaDdwbmc?oc=5",
+    "topic": "seedance_video",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability",
+      "capability"
+    ],
+    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
+  },
+  {
+    "title": "整合小云雀成熟能力 即梦正式上线 “短剧工作室” - 手机新浪网",
+    "title_key": "整合小云雀成熟能力即梦正式上线短剧工作室",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFZUo4YWkzMnVOU2ZnNGZPaF9CTzd5MlVQeklrMkY4NS1RSEJ5TE9VLS1HNXNoSHAyRzRYZ2NEOUFqd2Q1dno4LU14Zw?oc=5",
+    "topic": "seedance_video",
+    "score": 18,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability",
+      "capability"
+    ],
+    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
+  },
+  {
+    "title": "feat(inference): add SGLang serving script, MTP speculative decoding …",
+    "title_key": "featinferenceaddsglangservingscriptmtpspeculativedecoding",
+    "link": "https://github.com/bilibili/Index-Translate/commit/912e86c8325d6c7c29a6a0b09c5f53482c6602f6",
+    "topic": "translation_localization",
+    "score": 16,
+    "novelty_signature": "benchmark",
+    "product_key": "",
+    "event_tags": [
+      "quality"
+    ],
+    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
+  },
+  {
+    "title": "OpenAI发布新模型GPT-6.1 Terra：主打电脑操作，API价格下调50% - 搜狐网",
+    "title_key": "openai发布新模型gpt61terra主打电脑操作api价格下调50",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY09OcjNEeTZJejVPNzVBc2QxN3ZhUXcteDdMUkJMWnFIcjhJekx1c01TMWJSV3pWV25iZkFQQWc0eVVucDBUSm9nQ1UwWnB1OXZNM0ZlN3FKSktBZUxjeGN4UDNfZmRjQ0w1dGNmQV9nLWNuLThia0NDaVE1U3VJNS1yRkZ2dG1z?oc=5",
+    "topic": "foundation_models",
+    "score": 33,
+    "novelty_signature": "6.1|api|价格",
+    "product_key": "gpt-6.1",
+    "event_tags": [
+      "commercial",
+      "release"
+    ],
+    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
+  },
+  {
+    "title": "Anthropic交表同日，OpenAI新模型价格砍半 - 新浪财经",
+    "title_key": "anthropic交表同日openai新模型价格砍半",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jcFJWLXJ5ZWdMUWxyMzFtZDlselExTzRtTHRzV1BZSXV0c3FDWnlKbXQ4bTdTaEZtWGsyYm1Hb1dFaWlBcG1qOWRvWkdNS3hTM1R2amE5YUppaExfOG9FRUs0YUl1TmxqT05PeHNVN2Rfa0U5N2hRWDdidTdWU00?oc=5",
+    "topic": "foundation_models",
+    "score": 22,
+    "novelty_signature": "价格",
+    "product_key": "",
+    "event_tags": [
+      "commercial",
+      "release"
+    ],
+    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
   }
 ]
