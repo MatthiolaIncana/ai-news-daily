@@ -1,31 +1,5 @@
 [
   {
-    "title": "OpenAI前沿模型再现数学突破，AI安全监管同步升级！全球光通信龙头：至2029年初的产能已售罄！云计算ETF汇添富(159273)连续5日吸金！ - Jiemian.com",
-    "title_key": "openai前沿模型再现数学突破ai安全监管同步升级全球光通信龙头至2029年初的产能已售罄云计算etf汇添富159273连续5日吸金",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42akZ5LXE3aksxeTNVeC1LeExBSkJjSXZzdzRtOWt2M3VINWpZbzRCMHRQOXdPUmJ1SzQ5MG1mWlJ3WXRWTVQzX3lEM003eS13aFUyaWcwd2U?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-13T07:44:55.194049+00:00"
-  },
-  {
-    "title": "由 MegaETH 动力支持的MNX 正式上线，推出 OpenAI、Anthropic 及 DeepSeek 的 IPO 前期期货产品 - CoinDesk",
-    "title_key": "由megaeth动力支持的mnx正式上线推出openaianthropic及deepseek的ipo前期期货产品",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbndSMkN1a1NWeHhLNEVvYXAtcVBpZWxvX08tMjAya1NoNlp1OVNqR29jRkd0Q0FJTm1WNXZWZW9lQnN5endqcFJiNDg1QUhtdG5OTzFyRHRSSERZRlFxdVk1ZmVGRTk2b1lCV04xWFhCeGxCVllVYlJZVUdUbEoyTnVfUHpHdHVSUmxNOHZLdmlVN2oyUkZVeUxGTmt0RnMzMUhxZ2d0ckkzaVBJRmZ2RlBKenhyOFVQWUMyU2dnNA?oc=5",
-    "topic": "foundation_models",
-    "score": 24,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "availability",
-      "capability",
-      "release"
-    ],
-    "pushed_at": "2026-10-14T01:14:50.556495+00:00"
-  },
-  {
     "title": "docs: update TODO roadmap with unified multimodal translation, Echo-S…",
     "title_key": "docsupdatetodoroadmapwithunifiedmultimodaltranslationechos",
     "link": "https://github.com/bilibili/Index-Translate/commit/97ac750cad6cddb401930373b959405f7761750d",
@@ -669,5 +643,70 @@
       "release"
     ],
     "pushed_at": "2026-10-27T06:18:42.121166+00:00"
+  },
+  {
+    "title": "价格跌96%，AI漫剧老板：行业已死 - 36Kr",
+    "title_key": "价格跌96ai漫剧老板行业已死",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xZi1ESVJobUo4a08tVi1vZ2JMbW9KZlV5cWZwa3ZaM1h5RVZOQ0cyUUtTQUhhWnNDbWstLTlyRmx0NE9vM3JVUFNlR3JsZw?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "价格",
+    "product_key": "",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
+  },
+  {
+    "title": "OpenAI开放新插件：用户授权后可充当AI管家，管理邮件、日程等 - 手机新浪网",
+    "title_key": "openai开放新插件用户授权后可充当ai管家管理邮件日程等",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14RzBPeUZjb2NmQXpseFdQV3NqWGJoYzZKd25Ua1pFc2ZIVkVETVlHWDdVaUxUTl9JTWYtTFI2MTk2MkVvNVB0Q0RjT2R1Wk54YlA5SVlVYTFWd2R4WDlvX21ja25pdm5JamZtOUtHZnJoUUplQVhoaWhKUDlUSG8?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
+  },
+  {
+    "title": "OpenAI开放iCloud邮件与日程插件 - 手机新浪网",
+    "title_key": "openai开放icloud邮件与日程插件",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2TUZRbEVqU09LSXlLQmZaX1VPbXRpYlFIUDJvYlBBR0thWTQ2bzFaLVdwU21xMW9wbG45YXZraEFJck50YjRwamZRZG1BeThUcTlnLTRESWNzZUVna0t0cDZZcElBcEZlQU5DV1REN2hlQW4xZzZMQ3BpZ1kwZw?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
+  },
+  {
+    "title": "华尔街量化公司深入高校招揽科学家 与OpenAI等争夺顶尖人才 - 新浪财经",
+    "title_key": "华尔街量化公司深入高校招揽科学家与openai等争夺顶尖人才",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdVJ0SU01ZHZ2cDFKQnQ0N0xUcXg4enlmWlBlZV9WeEU0d1BzZWh5a0tZWmFKRkV6Q2xGb0lmd3Rqdlh4MlNWNUZIU3dCLWp4VV9WU0FtTW51cnU3R2F3NlpIWndxNUxXT1pTUnlVRkV0QTQtTWJueDF2bFNHTmpsLTl1bXVTbDJpSlgzUldVQjhVb2Q5NU15bkNiaVppblBhcEc5QXh6MnpnOUN1TGNIRWNUY0o0dGo5eFZwbXpKcVhYSmx4U3NNNmFIbHFIWGQtSFVqejdUNWYtZ0tCSGVn?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "量化",
+    "product_key": "",
+    "event_tags": [
+      "quantization"
+    ],
+    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
+  },
+  {
+    "title": "MAI-Image-2.7 对比 GPT-Image-2.5：更锐利的编辑器，无 API - OrcaRouter",
+    "title_key": "maiimage27对比gptimage25更锐利的编辑器无api",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaUhmQkVhX1UzMkVHc0lPTUJHUm03SG04QjI4ZzNMUFFuNkxieGthZnYwdlpyaFRzamZPZXJva1h6VUk4cjhzZDBYTVBFUHJWaEZpNVZ0NGtxbllMRHRjNGFOdXhkRFdlSkpzRWhheGw3UWdfaVVzRVU4aFVEaExVOA?oc=5",
+    "topic": "foundation_models",
+    "score": 18,
+    "novelty_signature": "2.5|2.7|api",
+    "product_key": "",
+    "event_tags": [
+      "api"
+    ],
+    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
   }
 ]
