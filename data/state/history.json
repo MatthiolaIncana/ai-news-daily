@@ -1,38 +1,5 @@
 [
   {
-    "title": "docs: update TODO roadmap with unified multimodal translation, Echo-S…",
-    "title_key": "docsupdatetodoroadmapwithunifiedmultimodaltranslationechos",
-    "link": "https://github.com/bilibili/Index-Translate/commit/97ac750cad6cddb401930373b959405f7761750d",
-    "topic": "translation_localization",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-15T04:43:38.617572+00:00"
-  },
-  {
-    "title": "Claude 写代码太快，Git 扛不住了：Anthropic 仅靠 7 人，5 个月重造版本控制系统 - InfoQ-CN",
-    "title_key": "claude写代码太快git扛不住了anthropic仅靠7人5个月重造版本控制系统",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13aS1zOVBfQmdaMGpveGNPR292SFIzQkpRY3Z1UWwtWjN5NVg5X25WUnl4ZTYzX3YtZ203b0F2TGxjNVJIcmk3Wjl5MGhmM01wTy1QM0FWa25nRW5lN0E?oc=5",
-    "topic": "foundation_models",
-    "score": 22,
-    "novelty_signature": "",
-    "product_key": "claude",
-    "event_tags": [],
-    "pushed_at": "2026-10-15T04:43:38.617572+00:00"
-  },
-  {
-    "title": "消息称OpenAI洽谈收购开源安全厂商Trail of Bits，为应对AI风险铺路 - 搜狐",
-    "title_key": "消息称openai洽谈收购开源安全厂商trailofbits为应对ai风险铺路",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQVhVVmphSTlpSWg4QXlFeUNQT25FeEhqZWFZOWNWZDA4LUE1M3daZFRjYjBrdTZURm5wN29ZampFVGpXQy1wWTZuZDVHOGZUVjVRdndYbnFYWDlsUFZHNE83U3kwRHlMWFBTMTlXMTNaaGI0NUhjMTZJMmFJWUQtNXE5YW9ZRHJR?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-15T04:43:38.617572+00:00"
-  },
-  {
     "title": "可灵AI新一代模型Kling 4.0正式上线，支持最高10-bit HDR、30秒原生直出 - 搜狐",
     "title_key": "可灵ai新一代模型kling40正式上线支持最高10bithdr30秒原生直出",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWEJLUUMteENzVHVKUl9KWUpVRmhIT0E4amFsMGl1SF9JOU05RThncGFwLWRvSGZZU2kwb1pPRk9RcU9wQXZnZDd1QWMyV1NSVF9zMEg0dHlUcVJaaDdLZEtvYzZTNFlRUThNMjA1RjRSM1NnSEVYLU1nM3N4UGpYSEplQkVxUkM3V2NDZA?oc=5",
@@ -719,5 +686,54 @@
     "product_key": "seedance",
     "event_tags": [],
     "pushed_at": "2026-10-29T01:48:50.835514+00:00"
+  },
+  {
+    "title": "港大发布Gen AI视频生成能力测评报告：Seedance 2.0 Pro生成力最佳 - 搜狐网",
+    "title_key": "港大发布genai视频生成能力测评报告seedance20pro生成力最佳",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdklNVzFCcVBrLW5oc0pyYnFQV1lKZW5TV1lCMGdWQ1NFNzdXQm1pcXMydTg3b3VHX3BHeVJTaU85MWk4TzY3TDlxTVVBaTZoZ1dWR2Q5bGEzYmRxcy16VVRuLTNiekdLTVhJRnJYNU12ZnI3V014S0s3VkpOX1ZDdndvcTk4dTU2SG5RWQ?oc=5",
+    "topic": "seedance_video",
+    "score": 15,
+    "novelty_signature": "2.0",
+    "product_key": "seedance-2.0",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-10-30T01:03:03.309922+00:00"
+  },
+  {
+    "title": "GPT Image 2.6 泄露：规范文档中提及，API 中却不见踪影 - OrcaRouter",
+    "title_key": "gptimage26泄露规范文档中提及api中却不见踪影",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XVUtkdmc2SG5jcUlJTUw0amh6WUF5Um1QZUVjZVZOSFExYjRtWWxPX1h6WHBiOUlvMmliQVZGMVQxU1NiamFvRGFEc3pxVjVyU0pYLWdaTkV1MHFEUUN1ZV8wQk12UQ?oc=5",
+    "topic": "image_generation",
+    "score": 23,
+    "novelty_signature": "2.6|api",
+    "product_key": "",
+    "event_tags": [
+      "api"
+    ],
+    "pushed_at": "2026-10-30T01:03:03.309922+00:00"
+  },
+  {
+    "title": "OpenAI更新《模型规范》：围绕五大价值观重构，忠于人类意图为核心 - 凤凰网",
+    "title_key": "openai更新模型规范围绕五大价值观重构忠于人类意图为核心",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JMzcwa3ZSeTBqal85SzkxbG9zQ09PMGdGWC1ROW1ONmk1RFlWdTZrM3BzODVVYXB0RXBLRHZCNmgwcVJrTG8tTWdrZVQxUDNFaGc?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-10-30T01:03:03.309922+00:00"
+  },
+  {
+    "title": "Mistral Large 4 对比 GPT-6.1 Sol：拥有权重，还是租用？ - OrcaRouter",
+    "title_key": "mistrallarge4对比gpt61sol拥有权重还是租用",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aS01oeTExdzdpR1J3TXVCMS1aTC1LTmp4Z0J5WFU5ZUhwTThRV0xDVmdYYmlmZ0VUWUt1bmJrbHhGc1VqcGpuYXpLb29YQVpWTGJEdHpoRklKb0N0M24wd1ZoMUpGQlMzOUt2WjAzc3FLNEYyU1E?oc=5",
+    "topic": "foundation_models",
+    "score": 14,
+    "novelty_signature": "6.1",
+    "product_key": "gpt-6.1-sol",
+    "event_tags": [],
+    "pushed_at": "2026-10-30T01:03:03.309922+00:00"
   }
 ]
