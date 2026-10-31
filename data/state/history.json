@@ -1,120 +1,5 @@
 [
   {
-    "title": "可灵AI新一代模型Kling 4.0正式上线，支持最高10-bit HDR、30秒原生直出 - 搜狐",
-    "title_key": "可灵ai新一代模型kling40正式上线支持最高10bithdr30秒原生直出",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWEJLUUMteENzVHVKUl9KWUpVRmhIT0E4amFsMGl1SF9JOU05RThncGFwLWRvSGZZU2kwb1pPRk9RcU9wQXZnZDd1QWMyV1NSVF9zMEg0dHlUcVJaaDdLZEtvYzZTNFlRUThNMjA1RjRSM1NnSEVYLU1nM3N4UGpYSEplQkVxUkM3V2NDZA?oc=5",
-    "topic": "seedance_video",
-    "score": 22,
-    "novelty_signature": "",
-    "product_key": "kling-4.0",
-    "event_tags": [
-      "availability",
-      "capability"
-    ],
-    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
-  },
-  {
-    "title": "云从科技10月15日回应AI短剧话题：AI内容工厂支持短剧场景规模化生产_公司新闻 - 证券之星",
-    "title_key": "云从科技10月15日回应ai短剧话题ai内容工厂支持短剧场景规模化生产公司新闻",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mNDRUVkVHQW0za1ZGNnc1RDY4WWw4WURtUkdZWGRZOTJNLWFWYkFEaUoxbGE3ZDZMZjRaOE1fQlQ3blAxcDJxNG02d1JqRy1GbTdzb2NCcVV1a0JTa3hzRQ?oc=5",
-    "topic": "short_drama",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
-  },
-  {
-    "title": "Midjourney工程师开源Handwired：不用训练，直接把程序规则写成神经网络 - BlockBeats",
-    "title_key": "midjourney工程师开源handwired不用训练直接把程序规则写成神经网络",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QS2JFSnI0bV9XaExtTG5CUHBpLWlHdGh4eERqLVJYZ0VKc2ltR3c0X01ZNjJBWjRPWWdiZXJfMVFTVVJzZ1ZXYUpGVFVtTE43T1dXT3BR?oc=5",
-    "topic": "image_generation",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "midjourney",
-    "event_tags": [],
-    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
-  },
-  {
-    "title": "GPT-5.5退出ChatGPT，GPT-4o旧版API进入3个月下架倒计时- 产业链 - 光通信Pro",
-    "title_key": "gpt55退出chatgptgpt4o旧版api进入3个月下架倒计时产业链",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBndUgweDhkY2J2TVcxTVd5MnI1WkhzRlF0NHdhWGQ0WEJrdmlNY0FQR0h2OFZ1eFlVcUgzMWdOMFhyVkcwXzFHNUt0QndOSGZPd29uZWpscw?oc=5",
-    "topic": "foundation_models",
-    "score": 24,
-    "novelty_signature": "api",
-    "product_key": "gpt-5.5",
-    "event_tags": [],
-    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
-  },
-  {
-    "title": "AI安全风波升级！美国八州联合起诉OpenAI：指控ChatGPT大规模伤害未成年 - 东方财富",
-    "title_key": "ai安全风波升级美国八州联合起诉openai指控chatgpt大规模伤害未成年",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNeTBaalVDUzJaMWVIdjhOb3hQUnJvbC11enN3ZTBMZEZ6U3J4S2Q4VndCTUhoVVA0bUhlUkdfTk05Nkg5T0NnQU9kbFBpTnQ3MXhxWnNTM0xRVDl2SFhtaA?oc=5",
-    "topic": "foundation_models",
-    "score": 23,
-    "novelty_signature": "",
-    "product_key": "chatgpt",
-    "event_tags": [],
-    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
-  },
-  {
-    "title": "OpenAI拟收购安全公司，强化网络安全业务|开源软件|TRAIL|Anthropic|模型|谷歌 - finance.sina.com.cn",
-    "title_key": "openai拟收购安全公司强化网络安全业务开源软件trailanthropic模型谷歌",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNjZjMTZKekItdkVwNVBQUkVoTzdxZUFmdzRVbDNLdU5sS0NVQnJTeUltQ2JPb3hSQjdTMktyZ1pJSFdCSUVJV3RJbGowbjdPVFpZMk5CWHFQTVEwR3ZjcjlJWlFtNkpqMWN5dlNCNmdrcHR0RnhwaDRtRXRiQ3d1V2MzTDBqbUpQc2gtcExfNzB0ZzF6QkdnWnJRRVZfYmNscWpMa1lMa3gyUQ?oc=5",
-    "topic": "foundation_models",
-    "score": 20,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
-  },
-  {
-    "title": "OpenAI内部惊现“窃听设备”：涉事沙特员工被FBI逮捕，公司称未发现模型权重外泄 - 新浪网",
-    "title_key": "openai内部惊现窃听设备涉事沙特员工被fbi逮捕公司称未发现模型权重外泄",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPekpyUnJNdnpDdUE5bWo5NGxKM0hXRVJIQlZiNnNtQUFsTFRYU3JKYjhqbFJSZGNXT3FVS1YtUDh1V3lMWjNyV0R3MXVzZEo1RHFwbzVfY1JHMm5KRGx0LWdUc2tNMnFYd3h5d2hBc3RhRlNsLTM0TDhOUV8tR0dnWWZB?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-16T01:23:31.882250+00:00"
-  },
-  {
-    "title": "阅文集团黄琰：AI漫剧创作浪潮下，打击盗版是魔高一尺道高一丈的攻防战|杭州市|浙江省|升级|团伙|文字 - finance.sina.com.cn",
-    "title_key": "阅文集团黄琰ai漫剧创作浪潮下打击盗版是魔高一尺道高一丈的攻防战杭州市浙江省升级团伙文字",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQVU4Y0h1N21HTEZxazNvd1gyUlZLTWFSRDQtQndudzlwR2xYM1A4bEFyWkd1NDZkUFVOcllOeDRsOEtKNE1QMmptb1JFazJjS1pzbE8zLVRHWXluMkgwUHgzRElhMnB0NjIzeExSb3ZwUHA3QmV5U0xQX3lfNlc4a0dHUHRuZTRabVczSndxZmlMNDVwTnNNVGZNUExwa0JYcG02M19JOTVoeDJ4ZHRadFFn?oc=5",
-    "topic": "short_drama",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-17T04:30:45.043522+00:00"
-  },
-  {
-    "title": "MOSS-Image 对比 GPT Image 2.5：权重还是端点 - OrcaRouter",
-    "title_key": "mossimage对比gptimage25权重还是端点",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE54VThWSGRoWUxWUG9vZlJNS3daeVRZbVZKRW5qT0Zlc3lLdXl0MUxzOEMyb2tUR3ZYZUVsVmxLaHRwU2ZfdGpmbTJYaFlXV3hXN3NIZ3lTNG9GUGl6VzI5WFREeG1YS0w3RE9talJiOVF4dw?oc=5",
-    "topic": "image_generation",
-    "score": 14,
-    "novelty_signature": "2.5",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-17T04:30:45.043522+00:00"
-  },
-  {
-    "title": "商业秘密诉讼升级：OpenAI指控前员工携百余份机密文件重返苹果 - 知产财经",
-    "title_key": "商业秘密诉讼升级openai指控前员工携百余份机密文件重返苹果",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OYmZxZzVvYXRVMlRmMWE0SnoyYUI0TmhLNGZmRGNtY2dzUXE5TlMyQlBrOEdsdXZjbEkwbExCeFFDTFBJdFRxa0xHdnJZNlRiVHVObXhn?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-17T04:30:45.043522+00:00"
-  },
-  {
     "title": "OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄 - 凤凰网科技",
     "title_key": "opencode遭攻击部分用户openaianthropic等api密钥外泄",
     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBIOFhaZnRtUXlmTDlzUWJ5eUdxbFkxYndzSE44QVQ1VldnTTlGMFF1cHJWNVlnX3lwSDVOSndDYmRqZ1R6aFM5bERpNXY?oc=5",
@@ -735,5 +620,44 @@
     "product_key": "gpt-6.1-sol",
     "event_tags": [],
     "pushed_at": "2026-10-30T01:03:03.309922+00:00"
+  },
+  {
+    "title": "国产AI漫剧出海从“翻译搬运”走向“本土智造” 海外市场成产业新增长极 - 上海热线",
+    "title_key": "国产ai漫剧出海从翻译搬运走向本土智造海外市场成产业新增长极",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2YXFaaDhYczgwTEJ2bG1lY1ZsUC1SU0FsenJ1LXNLRWxTVHZiM3BRaFAwY3E0VzBMR0d1QVhUbWZZa0NlTzZmRkdoVEg1RlNBU243UEhERzRFRHpwSVFqYTdxSUNvMGlXNUFDdElDQmYwUEFTb1Y0dXVxRDJlQQ?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-31T05:46:22.607154+00:00"
+  },
+  {
+    "title": "OpenAI、Google、Microsoft 和 Anthropic 支持统一的 AI 抓取退出机制 - Mezha.net",
+    "title_key": "openaigooglemicrosoft和anthropic支持统一的ai抓取退出机制",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaEpkd1lMa0FrYTA5MUJRMk5iUFQtRE4yNTd2RUh2SURuWG0xLU1IZjlNMDY3eVZvZW9iMGoyWmZza3pxM1l2dDZpa2RHdFNHRy10RkxyWlRmWEluT1MxU3pkbGNIaUhnRWtwdkxLeEd4TERFczJLUGFZR3kyaVpLVGJhVm9tYmxOamFqSWFkWlFpYWVtNi00UDI0M2VNUkdNekE?oc=5",
+    "topic": "foundation_models",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-31T05:46:22.607154+00:00"
+  },
+  {
+    "title": "OpenAI、Google和微软支持网站新标准——The Verge - UA.NEWS",
+    "title_key": "openaigoogle和微软支持网站新标准theverge",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVmd2TkExdTl0TW5EaVZZS0FKVzl4QVluRUNEZ3FpSGtLb1Y3bDM5Uk1PdVpmRnAyR0VwSmJnMHJKVjMwMGMwSFpEdTVwUE1HUmVMZTBYNXpSNVd0eTQ2b0s2b0EtZlBKbjIwWERaNzFSRXZvN0psZXZuVzAzejhadkRGOS1mNzVVUVVnbjE0aTZWMTBTQXFVbWJ2Rm5KLXhCX01ZNU1oT08?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-10-31T05:46:22.607154+00:00"
   }
 ]
