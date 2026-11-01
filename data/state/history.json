@@ -1,27 +1,5 @@
 [
   {
-    "title": "OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄 - 凤凰网科技",
-    "title_key": "opencode遭攻击部分用户openaianthropic等api密钥外泄",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBIOFhaZnRtUXlmTDlzUWJ5eUdxbFkxYndzSE44QVQ1VldnTTlGMFF1cHJWNVlnX3lwSDVOSndDYmRqZ1R6aFM5bERpNXY?oc=5",
-    "topic": "foundation_models",
-    "score": 24,
-    "novelty_signature": "api",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-18T01:05:23.885394+00:00"
-  },
-  {
-    "title": "英伟达开源机器人Harness！接入GPT-6 Astra一夜刷爆所有基准 - 凤凰网科技",
-    "title_key": "英伟达开源机器人harness接入gpt6astra一夜刷爆所有基准",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0ySWgyc2RoWXN4SVNDYWtKRWk4NVRaN05hUXRtcV9BVWJqZnhnd0lsdnEwQnRLaFZ5NDNqZl85UWhpbnd0V3h3Xy1Ld20?oc=5",
-    "topic": "foundation_models",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "gpt-6-astra",
-    "event_tags": [],
-    "pushed_at": "2026-10-18T01:05:23.885394+00:00"
-  },
-  {
     "title": "ChatGPT推出AI小队功能 GPT-6 Astra Pro重磅升级 支持分工协作+进度查询 - 36Kr",
     "title_key": "chatgpt推出ai小队功能gpt6astrapro重磅升级支持分工协作进度查询",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jTHVNUlh3QUZGeEs3dzgyS3Y2TmZZRDNyanNPal9lMHRZMGd3WmlNNlpEc2JhaXNzTkdxVmNSbU96bUI1U24yVmZfazZDeWZmenNB?oc=5",
@@ -659,5 +637,29 @@
       "capability"
     ],
     "pushed_at": "2026-10-31T05:46:22.607154+00:00"
+  },
+  {
+    "title": "人类要关停，AI不能躲！OpenAI更新模型家法 - 智源社区",
+    "title_key": "人类要关停ai不能躲openai更新模型家法",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lWUVTLXZzV2FlUloyREdjMVV0Z0RuRmhvNVdveTBYR3VCQ2RjY29GcVEwZ0dSN3BhVW1HWmFMcGJMdUFIOUxUUg?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "release"
+    ],
+    "pushed_at": "2026-11-01T01:13:04.261623+00:00"
+  },
+  {
+    "title": "刚刚，DeepSeek 开源新 Agent 架构：可接 Github 和飞书，研究让 AI 自己接活 - 新浪财经",
+    "title_key": "刚刚deepseek开源新agent架构可接github和飞书研究让ai自己接活",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oeElGNnJ6Y002ajVfU3JHNXAwOGNVZjM3SzVGelpRMEhXd1VoYm5JVFBmZnotMkpNbWxjMk1EcnZGRHd6ZGFlSzJ0aXpsUTZNZnVQRms4RUxIQWswcll4OE1DdDZWbWN5NXB6WmlUU1FpeUI4bmtuRw?oc=5",
+    "topic": "foundation_models",
+    "score": 18,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-01T01:13:04.261623+00:00"
   }
 ]
