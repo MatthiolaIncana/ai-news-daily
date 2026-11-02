@@ -1,19 +1,5 @@
 [
   {
-    "title": "ChatGPT推出AI小队功能 GPT-6 Astra Pro重磅升级 支持分工协作+进度查询 - 36Kr",
-    "title_key": "chatgpt推出ai小队功能gpt6astrapro重磅升级支持分工协作进度查询",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jTHVNUlh3QUZGeEs3dzgyS3Y2TmZZRDNyanNPal9lMHRZMGd3WmlNNlpEc2JhaXNzTkdxVmNSbU96bUI1U24yVmZfazZDeWZmenNB?oc=5",
-    "topic": "foundation_models",
-    "score": 24,
-    "novelty_signature": "",
-    "product_key": "gpt-6-astra",
-    "event_tags": [
-      "capability",
-      "release"
-    ],
-    "pushed_at": "2026-10-19T01:21:45.184013+00:00"
-  },
-  {
     "title": "《四川AI漫剧产业高质量发展联盟公约》正式发布 - 新浪财经",
     "title_key": "四川ai漫剧产业高质量发展联盟公约正式发布",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqcE4wMGlrNDBaYWlfTkoyQmhDTVRiR2dzbDFBbjdwam5Ha2FVNU1UWGo5Vng0OEJONHJETjN4QTdvZTloQnZHQjd3Y3ZVSHFqUE9RQlFYUGF5ejhhRXRpQmtWTU9LYkZzSGYzcDJ5YWVQZzY3Nkxpaw?oc=5",
@@ -661,5 +647,30 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-11-01T01:13:04.261623+00:00"
+  },
+  {
+    "title": "OpenAI 调整配额管理：ChatGPT 与 Codex 将共享使用限额 ｜#AI资讯# #OpenAI# #产品更新# - 搜狐网",
+    "title_key": "openai调整配额管理chatgpt与codex将共享使用限额ai资讯openai产品更新",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc0M1M3FVZmdxb29URUk1TXBIQ1g5djUtNUVrWVM5Wi1ydEZXaTU0RW5meHF3dkxuRk9hSGh0THpSMXJKd29oeXg5a1pSMlZieWtXUnh6TEN5a09DQlRXc2k2QUhFbExXTHU3Q3BEVVA1YzlISTE0dlZBOEJuOXZNQnZYR215VW5hWjFUag?oc=5",
+    "topic": "foundation_models",
+    "score": 27,
+    "novelty_signature": "",
+    "product_key": "chatgpt",
+    "event_tags": [],
+    "pushed_at": "2026-11-02T06:10:27.991291+00:00"
+  },
+  {
+    "title": "2027 款 CX-5 定价稳住，新增 Gemini AI，混动值得等吗？ - 汽车之家",
+    "title_key": "2027款cx5定价稳住新增geminiai混动值得等吗",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tVVdUSmJ0SkxwQS1fNEl6ekNMdEJMRkktNk50QUlzMFNRZjJOc0xqSmFjQXJMSTMzd0NwRGk3R1dwSHZOanlqWFl1alhOaW1hTW1FOHJwZ0JNOXc?oc=5",
+    "topic": "foundation_models",
+    "score": 18,
+    "novelty_signature": "",
+    "product_key": "gemini-ai",
+    "event_tags": [
+      "capability",
+      "commercial"
+    ],
+    "pushed_at": "2026-11-02T06:10:27.991291+00:00"
   }
 ]
