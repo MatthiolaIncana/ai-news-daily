@@ -1,45 +1,5 @@
 [
   {
-    "title": "《四川AI漫剧产业高质量发展联盟公约》正式发布 - 新浪财经",
-    "title_key": "四川ai漫剧产业高质量发展联盟公约正式发布",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqcE4wMGlrNDBaYWlfTkoyQmhDTVRiR2dzbDFBbjdwam5Ha2FVNU1UWGo5Vng0OEJONHJETjN4QTdvZTloQnZHQjd3Y3ZVSHFqUE9RQlFYUGF5ejhhRXRpQmtWTU9LYkZzSGYzcDJ5YWVQZzY3Nkxpaw?oc=5",
-    "topic": "short_drama",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "quality",
-      "release"
-    ],
-    "pushed_at": "2026-10-20T06:03:26.263646+00:00"
-  },
-  {
-    "title": "谷歌开源 Harness，支持 OpenCode 和 Codex：国内开发者接入 Jev 实测“真行” - InfoQ-CN",
-    "title_key": "谷歌开源harness支持opencode和codex国内开发者接入jev实测真行",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05b0FJckdNVExscEtOdXdGZHFHZVRZQzNWMEF3b3BYOEVIUHAxakk0LVVMOElraXdwVkJXN2x1bkY2OXp4ZTFpTDE4VEUtTEZ4V3FaN2JMY2x4UQ?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "codex",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-20T06:03:26.263646+00:00"
-  },
-  {
-    "title": "Mercury 3 对比 GPT-6 Astra：28 倍的价格，一次一个台阶 - OrcaRouter",
-    "title_key": "mercury3对比gpt6astra28倍的价格一次一个台阶",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpbW9ObDY3SnZnRjQ0OTdwSTRRdG42cnpLa2pmQXllMVNaS0x6ZUhwcENDdVNOT2thblVEMkJHeGFZaWRkbFhEalhxX1NJREhyYVlueGRfNGxtT1J0UThfZjVFeUM0MFpTT3h6aUhn?oc=5",
-    "topic": "foundation_models",
-    "score": 16,
-    "novelty_signature": "价格",
-    "product_key": "gpt-6-astra",
-    "event_tags": [
-      "commercial"
-    ],
-    "pushed_at": "2026-10-20T06:03:26.263646+00:00"
-  },
-  {
     "title": "剪剪剪剪剪：剪映 SVIP 超级会员 79 → 15 元 / 月 1.9 折年内探底，支持电脑端 - 新浪财经",
     "title_key": "剪剪剪剪剪剪映svip超级会员7915元月19折年内探底支持电脑端",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtVHphU0R4VDhjQmdiWGloS242M21XZUdyN3lkTGljQkE2bkJlZnFzd1AxZWpLM29kQzBPcHd0WVdpLVl0N1BzeWJleDJfa3FtT3BYUEpBeVVlZWNoc19KNVQ3bEdtRVRGVk9JbDB6bVhLekt3UzcxM0pZQTRwR0U?oc=5",
@@ -672,5 +632,87 @@
       "commercial"
     ],
     "pushed_at": "2026-11-02T06:10:27.991291+00:00"
+  },
+  {
+    "title": "效果接近Seedance 2.5，价格更低：Topview T1是啥来头？ - 搜狐网",
+    "title_key": "效果接近seedance25价格更低topviewt1是啥来头",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSHBXbTVtNHZiTkVtWUJGWXB0Y0JITHhhNXJKZ3VWSGczU19RR1hYcE9kZkp5X1J2eHB4UlU2MG5yWkZsQk01N01mWXJXcFA3eWtKb3ozNjYtT0xXZ3Azc1N4V3pzcmRSckFfNnBFb0tlMG8zVlRlOVM2cVdQQV96aUxrRDMzal9tU3VqLQ?oc=5",
+    "topic": "seedance_video",
+    "score": 20,
+    "novelty_signature": "2.5|价格",
+    "product_key": "seedance-2.5",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
+  },
+  {
+    "title": "【今日投资机会】政策预期点燃修复行情，AI漫剧掀涨停潮 - 东方财富",
+    "title_key": "今日投资机会政策预期点燃修复行情ai漫剧掀涨停潮",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfR1BoN01lTUkwT09nR0V2WEFjWnRkMm5aUm1CYktPTC1BdmpOU3kxeWVKUGRMNjU3N1VyREJNQlVLYnh3aHZ6dEpBdl80T2ZUbU12T3MybWZkY1ZDTHRveDI3aWp1UQ?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
+  },
+  {
+    "title": "科创50跌超4%，“易中天”集体大跌，AI漫剧、电池产业链爆发，恒科指涨近1%，权重科网股局部上涨 - 华尔街见闻",
+    "title_key": "科创50跌超4易中天集体大跌ai漫剧电池产业链爆发恒科指涨近1权重科网股局部上涨",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xQ21tN2RpYUpuNFJKMDJOVWp4cnRSbGEyc2pydUFvR21ieHpZaVl6c3RMREszVjY4TE5qcTVfMWV1TnpIM0luRjJTdEwwT0ZCdUFJ?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
+  },
+  {
+    "title": "指数震荡修复情绪回暖，AI漫剧爆发领衔热点轮动 - 财联社",
+    "title_key": "指数震荡修复情绪回暖ai漫剧爆发领衔热点轮动",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1SZ0FvOW84N04wLU5UMlpPZGdOZHkydDgyQUFRMG51SG1yNU15Nk5lM1Q5VVRGUi1HQXJqNk55M2REX0tZajY1eA?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
+  },
+  {
+    "title": "OpenAI 发布 LifeVal 基准：评估 AI 的日常任务能力 - 搜狐网",
+    "title_key": "openai发布lifeval基准评估ai的日常任务能力",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQXI4dzNtWWIzSFRVbFphaTQ0QVRGaklPaGJGRmxVT2VxMGd0ekVtTHhaZEVyR1JqV3cxdlNRRFByc1U1OHZ6dVJFNE1YN3l0OHp3TFFfMlRyUG93VWFOblBxUVZabXAwZ1BoVS1QMkRjMEl0cDRERjkxQzNLSS1VVGdlV0RPX1VrY2hvMQ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
+  },
+  {
+    "title": "GPT-6 Astra 实现“权重空间编程”：仅修改0.016%参数即可大幅提升小模型性能 - SmartHey",
+    "title_key": "gpt6astra实现权重空间编程仅修改0016参数即可大幅提升小模型性能",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0takNFNnpfc3hoNDN6THNaLU5QR28zVmhPb21vc2RONW5WRVpVZkhJVE01d1hYRUV0Q1Y1Q3FMeDRlZVo2cWdUX3pMSFVhbDJmZDNCSVlsZG44SUgtZVE?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "gpt-6-astra",
+    "event_tags": [],
+    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
+  },
+  {
+    "title": "Trail of Bits 公开 Patch the Planet 工作流：用 Codex 批量回补安全修复，149 个 CVE 补丁已进入Linux 稳定内核 - 智源社区",
+    "title_key": "trailofbits公开patchtheplanet工作流用codex批量回补安全修复149个cve补丁已进入linux稳定内核",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tU2QzQ01mTTFmWjlCWFBpd0hiM3RJamlKc3ZoeWRMUzVJX3Nyd0lCeHNhS1UzaWRIZnBFbUJoTUw4RjVQbHdvQg?oc=5",
+    "topic": "foundation_models",
+    "score": 18,
+    "novelty_signature": "",
+    "product_key": "codex",
+    "event_tags": [],
+    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
   }
 ]
