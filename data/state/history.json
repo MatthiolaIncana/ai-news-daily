@@ -714,5 +714,42 @@
     "product_key": "codex",
     "event_tags": [],
     "pushed_at": "2026-11-03T06:51:19.638655+00:00"
+  },
+  {
+    "title": "指数震荡修复情绪回暖，AI漫剧爆发领衔热点轮动_主力动向_市场_中金在线 - 中金在线",
+    "title_key": "指数震荡修复情绪回暖ai漫剧爆发领衔热点轮动主力动向市场中金在线",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8taTBmeUhsako0ZHFCQzMxcVV5RUxKeVF6YVV4a0FKYlFEQzE2NlMzbFdRRTcyZUFReUpaNjczdEw4bVNDaXcyWXMxQ1FrNko2OVdaOGV5ZlF4TzBqSUhLTWZIR3A1eTF3dG9iX3BR?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-04T01:24:26.919052+00:00"
+  },
+  {
+    "title": "OpenAI披露ChatGPT最新增长数据：每周活跃用户达12亿 - cnBeta.COM",
+    "title_key": "openai披露chatgpt最新增长数据每周活跃用户达12亿",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oSnZ2WndESmtxU2dzRENmaml3YTBnV2x3dFlNUFd6NDBnWWQtQ0pscVhDYTJrOW1Ubm1hUUpJU0haRU1PUlpLUFlMWHZzNlpCWUZjMk16emxsSG9GaFF4LQ?oc=5",
+    "topic": "foundation_models",
+    "score": 23,
+    "novelty_signature": "",
+    "product_key": "chatgpt",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-04T01:24:26.919052+00:00"
+  },
+  {
+    "title": "GPT-6爆改模型权重，数学能力狂飙6倍，MIT博一新作破圈了 - 36氪",
+    "title_key": "gpt6爆改模型权重数学能力狂飙6倍mit博一新作破圈了",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wQm95dkVaNE4tQWVFeTl1NF8tLTZLZElKRnRuZ3c0eXJJSU1GRXN6cmhaa2lVTXFRT24tTDc4VWlQZWNnSzk0VUxfSnJidw?oc=5",
+    "topic": "foundation_models",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "gpt-6",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-04T01:24:26.919052+00:00"
   }
 ]
