@@ -689,5 +689,66 @@
     "product_key": "gpt-6.2-astra",
     "event_tags": [],
     "pushed_at": "2026-11-05T06:51:17.571750+00:00"
+  },
+  {
+    "title": "Update Omni 35BA3B speech results and release status",
+    "title_key": "updateomni35ba3bspeechresultsandreleasestatus",
+    "link": "https://github.com/bilibili/Index-Translate/commit/473e2108fa53de1a6827c9a63c26c0289659ef61",
+    "topic": "translation_localization",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "release"
+    ],
+    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
+  },
+  {
+    "title": "OpenAI调整数据中心选址政策：弃用保密协议并加强社区沟通- AI 人工智能 - cnBeta.COM",
+    "title_key": "openai调整数据中心选址政策弃用保密协议并加强社区沟通ai人工智能",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLdlhyZENWcS1XYlM2cU9takRheXYydV9uRU5FTndfSWR1Qml4am5hZE1UUHZhZjgzbURFNmpsYlNINHhJVG1VamxwT1g1eUxqRHAzTFdKaDI4S0hUekJpdw?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "弃用",
+    "product_key": "",
+    "event_tags": [
+      "deprecation"
+    ],
+    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
+  },
+  {
+    "title": "GPT-6 Cyber 与 GPT-6 Astra：双倍价格能换来什么 - OrcaRouter",
+    "title_key": "gpt6cyber与gpt6astra双倍价格能换来什么",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QREc0VFQ3ZUVRR0tPMVFibTItRDFINk9McmZUSXFEa0RfbXo1RV83eDA4Skh3d3VtLVJXejZlZXBQQ1lYMTJEYnRFbmxzX3VtMnVNQ3FQN2U4MkllM2d5MnVHeDNYUU5J?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "价格",
+    "product_key": "gpt-6",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
+  },
+  {
+    "title": "OpenAI承诺提升数据中心建设透明度 应对中期选举凸显的民意逆风 - 财联社",
+    "title_key": "openai承诺提升数据中心建设透明度应对中期选举凸显的民意逆风",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1JVlFNSTJmZmYtNW9TX2pKVjFjLUtGbDZabUVVbTBaSm94YWdFeWFFNFhwUlR1WWpnWVJUYWx0TGlyenZzMnUzbw?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
+  },
+  {
+    "title": "OpenAI称，其流程发现了Linux内核中的948个权限提升漏洞 - Mezha.net",
+    "title_key": "openai称其流程发现了linux内核中的948个权限提升漏洞",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZk1NcEFrYURHcXY4U2g2SEZKUHNUR1RWR29NTENoLTRNM0pBSDFXV3luclV2aFI5N3pLTFp2Mno5UzRldjhIVnZFcUViSk95cWFlVTBiXzZVZGNKZ1R3cUtnenJaUFdhR1J2QXphelVzYTZIV2RmREl5VnpsV050NDZrckJETjZrZ1JaNEplSFJUUVNrVFdJ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
   }
 ]
