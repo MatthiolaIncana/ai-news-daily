@@ -1,55 +1,5 @@
 [
   {
-    "title": "Seedance 2.5 4K 与 Seedance 2.5：升级带来了什么 - OrcaRouter",
-    "title_key": "seedance254k与seedance25升级带来了什么",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RUlNybzZiaW1ERVR1cnRaNWJGMkxCeU9BUnR5dTJkVC1vSkM5dXhadFZIMEF6YzFvTE9KNTZMb29GV2RlcWZ2NG1tZG9TVjFRaUNTYjhfUEVFeUJreTlFNUFXeHFZaHY5Ny1GWFlnd0NiSVVEN3pV?oc=5",
-    "topic": "seedance_video",
-    "score": 20,
-    "novelty_signature": "2.5",
-    "product_key": "seedance-2.5",
-    "event_tags": [],
-    "pushed_at": "2026-10-25T01:12:34.183567+00:00"
-  },
-  {
-    "title": "AI短剧公司几乎不需要基础岗 岗位替代与新增并存 - 中华网",
-    "title_key": "ai短剧公司几乎不需要基础岗岗位替代与新增并存",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WeE0waG5jdzk1MldrejJ4WUlRTlM2c3E4cFZVWmdGdEN3aERpczFicElxalZzWGJZTElseFBSU182MnE5RkJFenVjc3NOUWpHblhOS0pxZnppVmRNSjdBckdVRXcwdC1IbVR5TDlzd1E?oc=5",
-    "topic": "short_drama",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-25T01:12:34.183567+00:00"
-  },
-  {
-    "title": "Anthropic Claude付款页面新增中国及港澳台地区选项，支持银联卡支付 - 凤凰网科技",
-    "title_key": "anthropicclaude付款页面新增中国及港澳台地区选项支持银联卡支付",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15SXU4b2stMTBSQnc5M2w5dkkzVVlnVkVrT2Q2S1NHZGdDY1d5MEl3Q0Q3Yi1CUG5aNXp4YzZ0SFlmMmw0V3ZELVFCekU?oc=5",
-    "topic": "foundation_models",
-    "score": 23,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-25T01:12:34.183567+00:00"
-  },
-  {
-    "title": "英国投1亿英镑建AI生物安全实验室 OpenAI等提供模型额度支持 - 凤凰网",
-    "title_key": "英国投1亿英镑建ai生物安全实验室openai等提供模型额度支持",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrNXdtZFB2QVg0N2xoc3NkeDdpUWxXWEx4ZGFMQlZNWGw2blNaRGpIaUMyd1FqOGxacTI4VTY5eXl1a1FxRTBJOEVIQXo3RU1XYXc?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-25T01:12:34.183567+00:00"
-  },
-  {
     "title": "即梦AI上线“短剧工作室”：一站式整合剧本创作、资产管理和智能分镜，深度融合小云雀短剧Agent能力 - SmartHey",
     "title_key": "即梦ai上线短剧工作室一站式整合剧本创作资产管理和智能分镜深度融合小云雀短剧agent能力",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yWDhRSDB0WVN2UnBmM3pOYUw1MWhtVEl0LVJaLUFZWF9iQk9CRkt5WWVQeFFOZ1RNNHBkakJBZDB3Zk9RRFp4aDczUmtlQV9NZGNxc3F1eDNvaDdwbmc?oc=5",
@@ -622,5 +572,19 @@
       "capability"
     ],
     "pushed_at": "2026-11-07T02:50:16.114256+00:00"
+  },
+  {
+    "title": "Vals AI 网络攻防基准：受限GPT-6 Sol 完成 80.8% 攻击目标，开放权重DeepSeek 以 72.8% 紧随、单次成本约3 美元对22 美元 - 智源社区",
+    "title_key": "valsai网络攻防基准受限gpt6sol完成808攻击目标开放权重deepseek以728紧随单次成本约3美元对22美元",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ZVUZyTXl3RlZ4UEZMR3BGMEctQmxORzRjc0h6cnZYM0hWa1Y3bEl4bm9LeEhFVzNTdU5sd2J4MjFOT0FlbF81SQ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "72.8|80.8",
+    "product_key": "gpt-6-sol",
+    "event_tags": [
+      "availability",
+      "commercial"
+    ],
+    "pushed_at": "2026-11-08T07:24:13.697810+00:00"
   }
 ]
