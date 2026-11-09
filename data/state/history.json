@@ -586,5 +586,55 @@
       "commercial"
     ],
     "pushed_at": "2026-11-08T07:24:13.697810+00:00"
+  },
+  {
+    "title": "下载→《AI短剧行业透视:规模爆发、平台竞速与商业化路径升级》 - 今日流媒体",
+    "title_key": "下载ai短剧行业透视规模爆发平台竞速与商业化路径升级",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14T2FORVV4MmYweE9TVXJUVTVmcGNIRThrLTNqTzdTSWg3N25oeVhLN2Y4c0RRUkl5al9meHR2WXNGMkprbHFzbzlCTm00RG5IRWZEdmZzTnY3azRxdmtvUEVyeTRac2gwRHg0?oc=5",
+    "topic": "short_drama",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-09T06:37:01.836766+00:00"
+  },
+  {
+    "title": "Claude Code 在 1,122 个 GitHub 文件中泄露密码和 API 密钥 - Pasquale Pillitteri",
+    "title_key": "claudecode在1122个github文件中泄露密码和api密钥",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSl9ncjlTRXZBZzNXbFNZOXZ2dF9TQmJtZEcyZkM1Wi01b1dZanBTLUtuSHlNSlg0RVZyUVVCdDViMDN5T1NDb3RNRzNnbDdxWk03bWVaNFJEWC1CcG9saTdQbVV3U0VJaXhwTnFFUkROdk00ZTBERVNMY0c1UXZXMUxycHdvTzh4MWJ4LVZFQ3FkT293?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "api",
+    "product_key": "claude-code",
+    "event_tags": [
+      "api"
+    ],
+    "pushed_at": "2026-11-09T06:37:01.836766+00:00"
+  },
+  {
+    "title": "Google 和 Microsoft 加入 OpenAI 与 Anthropic，共同支持一项供 robots.txt 使用的 AI 训练信号 - Mezha.net",
+    "title_key": "google和microsoft加入openai与anthropic共同支持一项供robotstxt使用的ai训练信号",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdUxSWFA3S2p3X3JGSm54Wk5tZThoRnRsb2JyVTROZkpEbDZnOWRJbDdmRkx0bGliZ1BIQ1lCd2hSaUZQdTJUOUNsSVYybDdsa2liTkg0NzE0bU53dS1kam05VjlvdU9Ia1A0ZnRoU1BxUmYyNW5xZnlNbXB1QnZPLTVoZXVmZVp1eHJUYXMySHJLTXl0cENQU1JB?oc=5",
+    "topic": "foundation_models",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-09T06:37:01.836766+00:00"
+  },
+  {
+    "title": "OpenAI：正通过Daybreak Red，向Hacktron开放更多前沿模型的访问权限。 - 新浪网",
+    "title_key": "openai正通过daybreakred向hacktron开放更多前沿模型的访问权限",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ReXlRU0lIZ1lySVZBcG1Bd184cDhlT01IdmdCOW8zTjN5SzdILUMwNmg3V3czWlB0VWZ0QUF0dFFSZVRvY21vQk94QQ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-11-09T06:37:01.836766+00:00"
   }
 ]
