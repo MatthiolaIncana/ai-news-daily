@@ -636,5 +636,49 @@
       "availability"
     ],
     "pushed_at": "2026-11-09T06:37:01.836766+00:00"
+  },
+  {
+    "title": "j9 九游发布全国首个支持1000秒AI漫剧创作平台，零门槛一键生成长内容 - DoNews",
+    "title_key": "j9九游发布全国首个支持1000秒ai漫剧创作平台零门槛一键生成长内容",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hd2diaU92Zy1vMEFGLW9ka2ZIUkY5Uy1ZLWczYXl0WE5LQlRXNXhSMzctRG8weU1xTTUwY1Q1Q2pEUy0tUFZzMlMzUjZhUW9rRk5vVWZxVEw?oc=5",
+    "topic": "short_drama",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-11-10T01:34:21.578265+00:00"
+  },
+  {
+    "title": "Anthropic发布Claude Fable 5.2和Mythos 5.2：速度提升30% API价格降20% - cnBeta.COM",
+    "title_key": "anthropic发布claudefable52和mythos52速度提升30api价格降20",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Ub0Fvc2JCU1l1b3cwa3FiRlF4M0RSX1ZYYjE3c1lLZGNuZV9UREJKN2cyenFMc1BiazFUR3RUdDZ1RWVLUXlpMURQbzNhclM1ZVptR1M0MVhTTGozWnFaZQ?oc=5",
+    "topic": "foundation_models",
+    "score": 28,
+    "novelty_signature": "5.2|api|价格",
+    "product_key": "claude-fable-5.2",
+    "event_tags": [
+      "api",
+      "commercial",
+      "performance",
+      "release"
+    ],
+    "pushed_at": "2026-11-10T01:34:21.578265+00:00"
+  },
+  {
+    "title": "OpenAI、Anthropic、Google 各有接口，开放标准离统一还有多远？ - InfoQ.cn",
+    "title_key": "openaianthropicgoogle各有接口开放标准离统一还有多远",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TcmhZRlBFaHlIeGpTeUlrTmpzSUZCTF9uOXBqb2ZrZVcyY2REQllMWUlyaGJNQ29YZXE5d1VoNmdGMVdpSHZGanRfblkxSzF0Wjd4NElRSU5VR0hxTFE?oc=5",
+    "topic": "foundation_models",
+    "score": 22,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "api",
+      "availability"
+    ],
+    "pushed_at": "2026-11-10T01:34:21.578265+00:00"
   }
 ]
