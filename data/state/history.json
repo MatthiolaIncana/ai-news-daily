@@ -1,139 +1,5 @@
 [
   {
-    "title": "即梦AI上线“短剧工作室”：一站式整合剧本创作、资产管理和智能分镜，深度融合小云雀短剧Agent能力 - SmartHey",
-    "title_key": "即梦ai上线短剧工作室一站式整合剧本创作资产管理和智能分镜深度融合小云雀短剧agent能力",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yWDhRSDB0WVN2UnBmM3pOYUw1MWhtVEl0LVJaLUFZWF9iQk9CRkt5WWVQeFFOZ1RNNHBkakJBZDB3Zk9RRFp4aDczUmtlQV9NZGNxc3F1eDNvaDdwbmc?oc=5",
-    "topic": "seedance_video",
-    "score": 20,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "availability",
-      "capability"
-    ],
-    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
-  },
-  {
-    "title": "整合小云雀成熟能力 即梦正式上线 “短剧工作室” - 手机新浪网",
-    "title_key": "整合小云雀成熟能力即梦正式上线短剧工作室",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFZUo4YWkzMnVOU2ZnNGZPaF9CTzd5MlVQeklrMkY4NS1RSEJ5TE9VLS1HNXNoSHAyRzRYZ2NEOUFqd2Q1dno4LU14Zw?oc=5",
-    "topic": "seedance_video",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "availability",
-      "capability"
-    ],
-    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
-  },
-  {
-    "title": "feat(inference): add SGLang serving script, MTP speculative decoding …",
-    "title_key": "featinferenceaddsglangservingscriptmtpspeculativedecoding",
-    "link": "https://github.com/bilibili/Index-Translate/commit/912e86c8325d6c7c29a6a0b09c5f53482c6602f6",
-    "topic": "translation_localization",
-    "score": 16,
-    "novelty_signature": "benchmark",
-    "product_key": "",
-    "event_tags": [
-      "quality"
-    ],
-    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
-  },
-  {
-    "title": "OpenAI发布新模型GPT-6.1 Terra：主打电脑操作，API价格下调50% - 搜狐网",
-    "title_key": "openai发布新模型gpt61terra主打电脑操作api价格下调50",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY09OcjNEeTZJejVPNzVBc2QxN3ZhUXcteDdMUkJMWnFIcjhJekx1c01TMWJSV3pWV25iZkFQQWc0eVVucDBUSm9nQ1UwWnB1OXZNM0ZlN3FKSktBZUxjeGN4UDNfZmRjQ0w1dGNmQV9nLWNuLThia0NDaVE1U3VJNS1yRkZ2dG1z?oc=5",
-    "topic": "foundation_models",
-    "score": 33,
-    "novelty_signature": "6.1|api|价格",
-    "product_key": "gpt-6.1",
-    "event_tags": [
-      "commercial",
-      "release"
-    ],
-    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
-  },
-  {
-    "title": "Anthropic交表同日，OpenAI新模型价格砍半 - 新浪财经",
-    "title_key": "anthropic交表同日openai新模型价格砍半",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jcFJWLXJ5ZWdMUWxyMzFtZDlselExTzRtTHRzV1BZSXV0c3FDWnlKbXQ4bTdTaEZtWGsyYm1Hb1dFaWlBcG1qOWRvWkdNS3hTM1R2amE5YUppaExfOG9FRUs0YUl1TmxqT05PeHNVN2Rfa0U5N2hRWDdidTdWU00?oc=5",
-    "topic": "foundation_models",
-    "score": 22,
-    "novelty_signature": "价格",
-    "product_key": "",
-    "event_tags": [
-      "commercial",
-      "release"
-    ],
-    "pushed_at": "2026-10-27T06:18:42.121166+00:00"
-  },
-  {
-    "title": "价格跌96%，AI漫剧老板：行业已死 - 36Kr",
-    "title_key": "价格跌96ai漫剧老板行业已死",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xZi1ESVJobUo4a08tVi1vZ2JMbW9KZlV5cWZwa3ZaM1h5RVZOQ0cyUUtTQUhhWnNDbWstLTlyRmx0NE9vM3JVUFNlR3JsZw?oc=5",
-    "topic": "short_drama",
-    "score": 17,
-    "novelty_signature": "价格",
-    "product_key": "",
-    "event_tags": [
-      "commercial"
-    ],
-    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
-  },
-  {
-    "title": "OpenAI开放新插件：用户授权后可充当AI管家，管理邮件、日程等 - 手机新浪网",
-    "title_key": "openai开放新插件用户授权后可充当ai管家管理邮件日程等",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14RzBPeUZjb2NmQXpseFdQV3NqWGJoYzZKd25Ua1pFc2ZIVkVETVlHWDdVaUxUTl9JTWYtTFI2MTk2MkVvNVB0Q0RjT2R1Wk54YlA5SVlVYTFWd2R4WDlvX21ja25pdm5JamZtOUtHZnJoUUplQVhoaWhKUDlUSG8?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "availability"
-    ],
-    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
-  },
-  {
-    "title": "OpenAI开放iCloud邮件与日程插件 - 手机新浪网",
-    "title_key": "openai开放icloud邮件与日程插件",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2TUZRbEVqU09LSXlLQmZaX1VPbXRpYlFIUDJvYlBBR0thWTQ2bzFaLVdwU21xMW9wbG45YXZraEFJck50YjRwamZRZG1BeThUcTlnLTRESWNzZUVna0t0cDZZcElBcEZlQU5DV1REN2hlQW4xZzZMQ3BpZ1kwZw?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "availability"
-    ],
-    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
-  },
-  {
-    "title": "华尔街量化公司深入高校招揽科学家 与OpenAI等争夺顶尖人才 - 新浪财经",
-    "title_key": "华尔街量化公司深入高校招揽科学家与openai等争夺顶尖人才",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdVJ0SU01ZHZ2cDFKQnQ0N0xUcXg4enlmWlBlZV9WeEU0d1BzZWh5a0tZWmFKRkV6Q2xGb0lmd3Rqdlh4MlNWNUZIU3dCLWp4VV9WU0FtTW51cnU3R2F3NlpIWndxNUxXT1pTUnlVRkV0QTQtTWJueDF2bFNHTmpsLTl1bXVTbDJpSlgzUldVQjhVb2Q5NU15bkNiaVppblBhcEc5QXh6MnpnOUN1TGNIRWNUY0o0dGo5eFZwbXpKcVhYSmx4U3NNNmFIbHFIWGQtSFVqejdUNWYtZ0tCSGVn?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "量化",
-    "product_key": "",
-    "event_tags": [
-      "quantization"
-    ],
-    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
-  },
-  {
-    "title": "MAI-Image-2.7 对比 GPT-Image-2.5：更锐利的编辑器，无 API - OrcaRouter",
-    "title_key": "maiimage27对比gptimage25更锐利的编辑器无api",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaUhmQkVhX1UzMkVHc0lPTUJHUm03SG04QjI4ZzNMUFFuNkxieGthZnYwdlpyaFRzamZPZXJva1h6VUk4cjhzZDBYTVBFUHJWaEZpNVZ0NGtxbllMRHRjNGFOdXhkRFdlSkpzRWhheGw3UWdfaVVzRVU4aFVEaExVOA?oc=5",
-    "topic": "foundation_models",
-    "score": 18,
-    "novelty_signature": "2.5|2.7|api",
-    "product_key": "",
-    "event_tags": [
-      "api"
-    ],
-    "pushed_at": "2026-10-28T02:18:06.711965+00:00"
-  },
-  {
     "title": "Seedance、可灵、Opus等密集更新，AI视频应用赛道或洗牌？ - 搜狐网",
     "title_key": "seedance可灵opus等密集更新ai视频应用赛道或洗牌",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLTFULUdOQTFWU21vaHdqMkQxV0lRMlItZVNjREZYTk1MVmhwSnQ5eU1MR2dPcXkwclY1X0VKV01pVi1jbndISWFPb2JZcGpiaGkyX09MTE1pdlNlQnluTGROamR2dHdXeVI3MWtObm9lOFpTbWpDTW55RUdyYkVFdEZiOUNwM3pQRkJR?oc=5",
@@ -680,5 +546,31 @@
       "availability"
     ],
     "pushed_at": "2026-11-10T01:34:21.578265+00:00"
+  },
+  {
+    "title": "字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦 图像创作能力升级 - 中华网",
+    "title_key": "字节跳动发布seedream55上线豆包豆包工作即梦图像创作能力升级",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PdDRRS2JQWlZ2NVZwaUJkRk5MQmFINmljNjhLTDBLeEtaeUtqcG5hazhBVWRJeW9pVE1obHJYblpVcmxfdXVONDdPd3JBN2J6V1lSOEFoX19nMllfMC05QTE5M29LN0hrd0dSRDFlM0w?oc=5",
+    "topic": "seedance_video",
+    "score": 22,
+    "novelty_signature": "5.5",
+    "product_key": "",
+    "event_tags": [
+      "availability",
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-11-11T06:27:48.502006+00:00"
+  },
+  {
+    "title": "A股三大股指盘初齐涨，创业板涨超1%，光模块大涨、“易中天”拉升，AI短剧调整，恒科指跌超1%，权重股科网股回落 - 华尔街见闻",
+    "title_key": "a股三大股指盘初齐涨创业板涨超1光模块大涨易中天拉升ai短剧调整恒科指跌超1权重股科网股回落",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZcFdnRUswVk5XM2VNd25rdG9hWkZ3N0ZqTUJ6V3F6S2FPNFV5emdvQ0V3MXU2M3lZRlZtZGo5LUtqdDRJR0Z5V2wwVS1Ob1hPRG5J?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-11T06:27:48.502006+00:00"
   }
 ]
