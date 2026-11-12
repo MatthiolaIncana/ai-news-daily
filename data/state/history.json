@@ -1,16 +1,5 @@
 [
   {
-    "title": "Seedance、可灵、Opus等密集更新，AI视频应用赛道或洗牌？ - 搜狐网",
-    "title_key": "seedance可灵opus等密集更新ai视频应用赛道或洗牌",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLTFULUdOQTFWU21vaHdqMkQxV0lRMlItZVNjREZYTk1MVmhwSnQ5eU1MR2dPcXkwclY1X0VKV01pVi1jbndISWFPb2JZcGpiaGkyX09MTE1pdlNlQnluTGROamR2dHdXeVI3MWtObm9lOFpTbWpDTW55RUdyYkVFdEZiOUNwM3pQRkJR?oc=5",
-    "topic": "seedance_video",
-    "score": 20,
-    "novelty_signature": "",
-    "product_key": "seedance",
-    "event_tags": [],
-    "pushed_at": "2026-10-29T01:48:50.835514+00:00"
-  },
-  {
     "title": "港大发布Gen AI视频生成能力测评报告：Seedance 2.0 Pro生成力最佳 - 搜狐网",
     "title_key": "港大发布genai视频生成能力测评报告seedance20pro生成力最佳",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdklNVzFCcVBrLW5oc0pyYnFQV1lKZW5TV1lCMGdWQ1NFNzdXQm1pcXMydTg3b3VHX3BHeVJTaU85MWk4TzY3TDlxTVVBaTZoZ1dWR2Q5bGEzYmRxcy16VVRuLTNiekdLTVhJRnJYNU12ZnI3V014S0s3VkpOX1ZDdndvcTk4dTU2SG5RWQ?oc=5",
@@ -572,5 +561,40 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-11-11T06:27:48.502006+00:00"
+  },
+  {
+    "title": "Seedance 2.5 对比 Seedance 2.0：版本更新，但上限更低 - OrcaRouter",
+    "title_key": "seedance25对比seedance20版本更新但上限更低",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xSFFKaHZZeGVkZVhDNTVaTXN1R013SmlpbHVCR1R0UEhmZDRVZl8zSk5ZZEo5UGJwNm4xU3EzaEM3aW9uQm1TQXAxc1VhWW9JYURwZ1RlcVZtV1FYZkgzc0llektQTTRjaUdrYW91Y2xLdlBMcnRCaURUbGNIUQ?oc=5",
+    "topic": "seedance_video",
+    "score": 17,
+    "novelty_signature": "2.0|2.5",
+    "product_key": "seedance-2.5",
+    "event_tags": [],
+    "pushed_at": "2026-11-12T03:02:04.594392+00:00"
+  },
+  {
+    "title": "#赵丽颖起诉红果短剧# 赵丽颖被AI漫剧融脸真是一点都不惯着！这波狠狠支持赵姐了！ ​ - 新浪网",
+    "title_key": "赵丽颖起诉红果短剧赵丽颖被ai漫剧融脸真是一点都不惯着这波狠狠支持赵姐了",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBybDdwSksyd2MwZU4zQ19mdUhiei1YZjFBQmNUc21XZXhlM3ZHeFBYUjlHMldCN2lTdllMd3dYZEFQQnIxSkdQVDdPSUVLSDRrdzFaR0hwYW8wUEZEclZzN1lzSQ?oc=5",
+    "topic": "short_drama",
+    "score": 23,
+    "novelty_signature": "",
+    "product_key": "红果短剧",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-12T03:02:04.594392+00:00"
+  },
+  {
+    "title": "AI短剧竞争升级：平台争夺创作者，产业链迎来洗牌_财经报道_财经 - 证券之星",
+    "title_key": "ai短剧竞争升级平台争夺创作者产业链迎来洗牌财经报道财经",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mNDZXY2Z5NHUwZF9ENU1qcldsbTV1T0JjTnJ5T3VyS3F6SHNhWTVJemFOeDl1Vjh1SmEtaWhtNWhvZ0lpdVJKSndJWkFDc0R2TnRXLXc1UG1KaGFZN1M0aw?oc=5",
+    "topic": "short_drama",
+    "score": 23,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-12T03:02:04.594392+00:00"
   }
 ]
