@@ -1,54 +1,5 @@
 [
   {
-    "title": "港大发布Gen AI视频生成能力测评报告：Seedance 2.0 Pro生成力最佳 - 搜狐网",
-    "title_key": "港大发布genai视频生成能力测评报告seedance20pro生成力最佳",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdklNVzFCcVBrLW5oc0pyYnFQV1lKZW5TV1lCMGdWQ1NFNzdXQm1pcXMydTg3b3VHX3BHeVJTaU85MWk4TzY3TDlxTVVBaTZoZ1dWR2Q5bGEzYmRxcy16VVRuLTNiekdLTVhJRnJYNU12ZnI3V014S0s3VkpOX1ZDdndvcTk4dTU2SG5RWQ?oc=5",
-    "topic": "seedance_video",
-    "score": 15,
-    "novelty_signature": "2.0",
-    "product_key": "seedance-2.0",
-    "event_tags": [
-      "capability",
-      "release"
-    ],
-    "pushed_at": "2026-10-30T01:03:03.309922+00:00"
-  },
-  {
-    "title": "GPT Image 2.6 泄露：规范文档中提及，API 中却不见踪影 - OrcaRouter",
-    "title_key": "gptimage26泄露规范文档中提及api中却不见踪影",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XVUtkdmc2SG5jcUlJTUw0amh6WUF5Um1QZUVjZVZOSFExYjRtWWxPX1h6WHBiOUlvMmliQVZGMVQxU1NiamFvRGFEc3pxVjVyU0pYLWdaTkV1MHFEUUN1ZV8wQk12UQ?oc=5",
-    "topic": "image_generation",
-    "score": 23,
-    "novelty_signature": "2.6|api",
-    "product_key": "",
-    "event_tags": [
-      "api"
-    ],
-    "pushed_at": "2026-10-30T01:03:03.309922+00:00"
-  },
-  {
-    "title": "OpenAI更新《模型规范》：围绕五大价值观重构，忠于人类意图为核心 - 凤凰网",
-    "title_key": "openai更新模型规范围绕五大价值观重构忠于人类意图为核心",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JMzcwa3ZSeTBqal85SzkxbG9zQ09PMGdGWC1ROW1ONmk1RFlWdTZrM3BzODVVYXB0RXBLRHZCNmgwcVJrTG8tTWdrZVQxUDNFaGc?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-10-30T01:03:03.309922+00:00"
-  },
-  {
-    "title": "Mistral Large 4 对比 GPT-6.1 Sol：拥有权重，还是租用？ - OrcaRouter",
-    "title_key": "mistrallarge4对比gpt61sol拥有权重还是租用",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aS01oeTExdzdpR1J3TXVCMS1aTC1LTmp4Z0J5WFU5ZUhwTThRV0xDVmdYYmlmZ0VUWUt1bmJrbHhGc1VqcGpuYXpLb29YQVpWTGJEdHpoRklKb0N0M24wd1ZoMUpGQlMzOUt2WjAzc3FLNEYyU1E?oc=5",
-    "topic": "foundation_models",
-    "score": 14,
-    "novelty_signature": "6.1",
-    "product_key": "gpt-6.1-sol",
-    "event_tags": [],
-    "pushed_at": "2026-10-30T01:03:03.309922+00:00"
-  },
-  {
     "title": "国产AI漫剧出海从“翻译搬运”走向“本土智造” 海外市场成产业新增长极 - 上海热线",
     "title_key": "国产ai漫剧出海从翻译搬运走向本土智造海外市场成产业新增长极",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2YXFaaDhYczgwTEJ2bG1lY1ZsUC1SU0FsenJ1LXNLRWxTVHZiM3BRaFAwY3E0VzBMR0d1QVhUbWZZa0NlTzZmRkdoVEg1RlNBU243UEhERzRFRHpwSVFqYTdxSUNvMGlXNUFDdElDQmYwUEFTb1Y0dXVxRDJlQQ?oc=5",
@@ -596,5 +547,59 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-11-12T03:02:04.594392+00:00"
+  },
+  {
+    "title": "视频生成降到一秒0.99元！字节跳动发布Seedance 2.5 flash：生成速度翻倍 - 驱动之家",
+    "title_key": "视频生成降到一秒099元字节跳动发布seedance25flash生成速度翻倍",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JbTAySWppWHJGVGtUZXl4UHVCNC0xeVEzbUtac0Q4WldsR3p1XzkwOEZKNGZfUGM5Ti03VnJZUWt5NTdsTXZKSUxsUnMySW5KdDFQNnBIZEQ?oc=5",
+    "topic": "seedance_video",
+    "score": 18,
+    "novelty_signature": "2.5",
+    "product_key": "seedance-2.5",
+    "event_tags": [
+      "performance",
+      "release"
+    ],
+    "pushed_at": "2026-11-13T01:06:24.507544+00:00"
+  },
+  {
+    "title": "docs: close Chinese README sync issue",
+    "title_key": "docsclosechinesereadmesyncissue",
+    "link": "https://github.com/bilibili/Index-Translate/commit/d55408179d28f8c5f007a352145674ce9b84cbcf",
+    "topic": "translation_localization",
+    "score": 24,
+    "novelty_signature": "量化",
+    "product_key": "index-translate",
+    "event_tags": [
+      "quantization",
+      "release"
+    ],
+    "pushed_at": "2026-11-13T01:06:24.507544+00:00"
+  },
+  {
+    "title": "docs: sync Chinese README with Omni release",
+    "title_key": "docssyncchinesereadmewithomnirelease",
+    "link": "https://github.com/bilibili/Index-Translate/commit/57e52d7759ef1601d518d91abd9f31b5e9705c8f",
+    "topic": "translation_localization",
+    "score": 23,
+    "novelty_signature": "benchmark",
+    "product_key": "",
+    "event_tags": [
+      "quality",
+      "quantization",
+      "release"
+    ],
+    "pushed_at": "2026-11-13T01:06:24.507544+00:00"
+  },
+  {
+    "title": "三点更新 | 赵丽颖起诉红果短剧：AI换脸偷流量，平台不能只分钱不担责 - 新湖南",
+    "title_key": "三点更新赵丽颖起诉红果短剧ai换脸偷流量平台不能只分钱不担责",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LTUhQNGJ1SWZNTl9RR2djSmlteUFPaWI1LW94SEpDS2tCUUIzUjNuM01XWUs4NzR2d0gyNm95OGllSkx2R3VKS01Oc0FuN2RNSXNId3ZBTTAtUTZtcWJn?oc=5",
+    "topic": "short_drama",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "红果短剧",
+    "event_tags": [],
+    "pushed_at": "2026-11-13T01:06:24.507544+00:00"
   }
 ]
