@@ -601,5 +601,42 @@
     "product_key": "红果短剧",
     "event_tags": [],
     "pushed_at": "2026-11-13T01:06:24.507544+00:00"
+  },
+  {
+    "title": "题材轮动加剧，国产算力逆势走强，关注机器人、AI漫剧修复强度 - 财联社",
+    "title_key": "题材轮动加剧国产算力逆势走强关注机器人ai漫剧修复强度",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1V3MwVGxVbEVXTDFEaUZWMEZHcmV4dnQyVDcyV1JSNHFIZ3N4TWNSWEx1bTJpeWpfRHRmTDA5RW9kT0c4NzBZWQ?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-14T03:19:08.443621+00:00"
+  },
+  {
+    "title": "Anthropic称：Claude.AI和Claude API正在恢复 - 东方财富",
+    "title_key": "anthropic称claudeai和claudeapi正在恢复",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81RWpZSzFtOVpTNFN1cmt4SFhiQkNDMi02SDZXckJVVlZPSjloS3R0SzRIdWF5YU85TmdyYTkxaTFQQ1otLXFZVG0xSHBZRURKeXE3Skk3eV84cU1mMFZPcXlGNA?oc=5",
+    "topic": "foundation_models",
+    "score": 24,
+    "novelty_signature": "api",
+    "product_key": "claude-api",
+    "event_tags": [
+      "api"
+    ],
+    "pushed_at": "2026-11-14T03:19:08.443621+00:00"
+  },
+  {
+    "title": "GPT-6 Luna vs Claude Sonnet 5.5：20 倍价格，两大差距 - OrcaRouter",
+    "title_key": "gpt6lunavsclaudesonnet5520倍价格两大差距",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PQU10LU1aQWU0ZXFrWDlodHNqX05KMWp0WTVQbnAzQkpGRWcwSEY1R0ZEaTU4VmZrN3ZNN3FJSGdQMDFuUEgwd0laM1NZSFVDWVlrdjBiOFc5dkRLRy1XNHlWbnZUVEJKWHRQend3dFNJYkVSMWRZ?oc=5",
+    "topic": "foundation_models",
+    "score": 17,
+    "novelty_signature": "5.5|价格",
+    "product_key": "gpt-6-luna",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-11-14T03:19:08.443621+00:00"
   }
 ]
