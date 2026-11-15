@@ -1,68 +1,5 @@
 [
   {
-    "title": "国产AI漫剧出海从“翻译搬运”走向“本土智造” 海外市场成产业新增长极 - 上海热线",
-    "title_key": "国产ai漫剧出海从翻译搬运走向本土智造海外市场成产业新增长极",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2YXFaaDhYczgwTEJ2bG1lY1ZsUC1SU0FsenJ1LXNLRWxTVHZiM3BRaFAwY3E0VzBMR0d1QVhUbWZZa0NlTzZmRkdoVEg1RlNBU243UEhERzRFRHpwSVFqYTdxSUNvMGlXNUFDdElDQmYwUEFTb1Y0dXVxRDJlQQ?oc=5",
-    "topic": "short_drama",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-31T05:46:22.607154+00:00"
-  },
-  {
-    "title": "OpenAI、Google、Microsoft 和 Anthropic 支持统一的 AI 抓取退出机制 - Mezha.net",
-    "title_key": "openaigooglemicrosoft和anthropic支持统一的ai抓取退出机制",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaEpkd1lMa0FrYTA5MUJRMk5iUFQtRE4yNTd2RUh2SURuWG0xLU1IZjlNMDY3eVZvZW9iMGoyWmZza3pxM1l2dDZpa2RHdFNHRy10RkxyWlRmWEluT1MxU3pkbGNIaUhnRWtwdkxLeEd4TERFczJLUGFZR3kyaVpLVGJhVm9tYmxOamFqSWFkWlFpYWVtNi00UDI0M2VNUkdNekE?oc=5",
-    "topic": "foundation_models",
-    "score": 20,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-31T05:46:22.607154+00:00"
-  },
-  {
-    "title": "OpenAI、Google和微软支持网站新标准——The Verge - UA.NEWS",
-    "title_key": "openaigoogle和微软支持网站新标准theverge",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVmd2TkExdTl0TW5EaVZZS0FKVzl4QVluRUNEZ3FpSGtLb1Y3bDM5Uk1PdVpmRnAyR0VwSmJnMHJKVjMwMGMwSFpEdTVwUE1HUmVMZTBYNXpSNVd0eTQ2b0s2b0EtZlBKbjIwWERaNzFSRXZvN0psZXZuVzAzejhadkRGOS1mNzVVUVVnbjE0aTZWMTBTQXFVbWJ2Rm5KLXhCX01ZNU1oT08?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-10-31T05:46:22.607154+00:00"
-  },
-  {
-    "title": "人类要关停，AI不能躲！OpenAI更新模型家法 - 智源社区",
-    "title_key": "人类要关停ai不能躲openai更新模型家法",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lWUVTLXZzV2FlUloyREdjMVV0Z0RuRmhvNVdveTBYR3VCQ2RjY29GcVEwZ0dSN3BhVW1HWmFMcGJMdUFIOUxUUg?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "release"
-    ],
-    "pushed_at": "2026-11-01T01:13:04.261623+00:00"
-  },
-  {
-    "title": "刚刚，DeepSeek 开源新 Agent 架构：可接 Github 和飞书，研究让 AI 自己接活 - 新浪财经",
-    "title_key": "刚刚deepseek开源新agent架构可接github和飞书研究让ai自己接活",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oeElGNnJ6Y002ajVfU3JHNXAwOGNVZjM3SzVGelpRMEhXd1VoYm5JVFBmZnotMkpNbWxjMk1EcnZGRHd6ZGFlSzJ0aXpsUTZNZnVQRms4RUxIQWswcll4OE1DdDZWbWN5NXB6WmlUU1FpeUI4bmtuRw?oc=5",
-    "topic": "foundation_models",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-01T01:13:04.261623+00:00"
-  },
-  {
     "title": "OpenAI 调整配额管理：ChatGPT 与 Codex 将共享使用限额 ｜#AI资讯# #OpenAI# #产品更新# - 搜狐网",
     "title_key": "openai调整配额管理chatgpt与codex将共享使用限额ai资讯openai产品更新",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc0M1M3FVZmdxb29URUk1TXBIQ1g5djUtNUVrWVM5Wi1ydEZXaTU0RW5meHF3dkxuRk9hSGh0THpSMXJKd29oeXg5a1pSMlZieWtXUnh6TEN5a09DQlRXc2k2QUhFbExXTHU3Q3BEVVA1YzlISTE0dlZBOEJuOXZNQnZYR215VW5hWjFUag?oc=5",
@@ -638,5 +575,29 @@
       "commercial"
     ],
     "pushed_at": "2026-11-14T03:19:08.443621+00:00"
+  },
+  {
+    "title": "黄仁勋卸任英伟达CEO！OpenAI与Anthropic支持限制AI芯片出口中国，全球AI格局迎来重大变数！$NVDA - Moomoo",
+    "title_key": "黄仁勋卸任英伟达ceoopenai与anthropic支持限制ai芯片出口中国全球ai格局迎来重大变数nvda",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObS00Vmp6dDNNTEZtWlcwbGFjOXlIcjVTX05OSHZpNWVpX0pLNXV6SEdqVVFDUkgtQXQyWFEtZ0YyaGFIMjAySGJYYjVReFE4Z0duMDV0OXMyUTktcF8yVlpoaF9oVzBZWnhNbHluUjhwSEVFQXpXRS1VaThiUmoyVi1aeFJTekxYWFNqT3BDWEtSZG9LbWt6RFQ4VVB1Zm5TMnlUQ2dSR3kxcWx5bzRv?oc=5",
+    "topic": "foundation_models",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-15T02:41:48.190958+00:00"
+  },
+  {
+    "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学 - 智源社区",
+    "title_key": "高难盲测超越gpt6astra与opus5无界前沿开源fxbio1031把rsi带进生命科学",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE03Y0ZpN0UzVlFsMHlVQl9udGt0WUh3RG1uaWpfTmlwTV9yaXFTeHBxNHlFNEF2UkJtZDVXaU4wWDBjVGprUkpEVw?oc=5",
+    "topic": "foundation_models",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "gpt-6",
+    "event_tags": [],
+    "pushed_at": "2026-11-15T02:41:48.190958+00:00"
   }
 ]
