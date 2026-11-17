@@ -1,30 +1,5 @@
 [
   {
-    "title": "OpenAI 调整配额管理：ChatGPT 与 Codex 将共享使用限额 ｜#AI资讯# #OpenAI# #产品更新# - 搜狐网",
-    "title_key": "openai调整配额管理chatgpt与codex将共享使用限额ai资讯openai产品更新",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc0M1M3FVZmdxb29URUk1TXBIQ1g5djUtNUVrWVM5Wi1ydEZXaTU0RW5meHF3dkxuRk9hSGh0THpSMXJKd29oeXg5a1pSMlZieWtXUnh6TEN5a09DQlRXc2k2QUhFbExXTHU3Q3BEVVA1YzlISTE0dlZBOEJuOXZNQnZYR215VW5hWjFUag?oc=5",
-    "topic": "foundation_models",
-    "score": 27,
-    "novelty_signature": "",
-    "product_key": "chatgpt",
-    "event_tags": [],
-    "pushed_at": "2026-11-02T06:10:27.991291+00:00"
-  },
-  {
-    "title": "2027 款 CX-5 定价稳住，新增 Gemini AI，混动值得等吗？ - 汽车之家",
-    "title_key": "2027款cx5定价稳住新增geminiai混动值得等吗",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tVVdUSmJ0SkxwQS1fNEl6ekNMdEJMRkktNk50QUlzMFNRZjJOc0xqSmFjQXJMSTMzd0NwRGk3R1dwSHZOanlqWFl1alhOaW1hTW1FOHJwZ0JNOXc?oc=5",
-    "topic": "foundation_models",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "gemini-ai",
-    "event_tags": [
-      "capability",
-      "commercial"
-    ],
-    "pushed_at": "2026-11-02T06:10:27.991291+00:00"
-  },
-  {
     "title": "效果接近Seedance 2.5，价格更低：Topview T1是啥来头？ - 搜狐网",
     "title_key": "效果接近seedance25价格更低topviewt1是啥来头",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSHBXbTVtNHZiTkVtWUJGWXB0Y0JITHhhNXJKZ3VWSGczU19RR1hYcE9kZkp5X1J2eHB4UlU2MG5yWkZsQk01N01mWXJXcFA3eWtKb3ozNjYtT0xXZ3Azc1N4V3pzcmRSckFfNnBFb0tlMG8zVlRlOVM2cVdQQV96aUxrRDMzal9tU3VqLQ?oc=5",
@@ -599,5 +574,43 @@
     "product_key": "gpt-6",
     "event_tags": [],
     "pushed_at": "2026-11-15T02:41:48.190958+00:00"
+  },
+  {
+    "title": "火山引擎正式开放 Seedance 2.5 4K 模型 API ｜#AI资讯# #火山引擎# #视频生成# - Sohu",
+    "title_key": "火山引擎正式开放seedance254k模型apiai资讯火山引擎视频生成",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMGE5bkZNRzZkcVBPV0dxY1NfZ29PY2I3LTNjaGNDbzBfc0FKNDhMMXlBbTFLTC1kejkzM1lRbGd0WjlKc0xfbXZqeXdva3FMaGRIOFZ1TU5Ga3dEdFc3T1I3NmhRbE85TDVwZXRQM1VSOW1BX2NULWM2YUZOYWx4UkR3bEh3STc2ZmVRbw?oc=5",
+    "topic": "seedance_video",
+    "score": 26,
+    "novelty_signature": "2.5|api",
+    "product_key": "seedance-2.5",
+    "event_tags": [
+      "api",
+      "availability"
+    ],
+    "pushed_at": "2026-11-17T04:30:26.612857+00:00"
+  },
+  {
+    "title": "红果AI漫剧11月热播榜TOP10更新，《持械入宋》排名变化幅度大，新剧层出不穷迭代快 - 凤凰网",
+    "title_key": "红果ai漫剧11月热播榜top10更新持械入宋排名变化幅度大新剧层出不穷迭代快",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uc0VRQnZJRzNKWmIycnlCYkJiek9Edkd4MWdUc2xLSWU2SzJjOU5zTnpXdkRkcUQ3WGt5TWoyOHJhZGJwckVJRDBnMA?oc=5",
+    "topic": "short_drama",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-17T04:30:26.612857+00:00"
+  },
+  {
+    "title": "OpenAI新增用于检测人工智能生成的儿童性虐待材料的工具 - Mezha.net",
+    "title_key": "openai新增用于检测人工智能生成的儿童性虐待材料的工具",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0duWnpLODl4N0NMSTNDbTduOWV0WTNTUDVNZ25uRVdnTlNxUmV2bnBJaktRUUg4RkJXVFFQc3ppN2pPcWNxcUpRSFliVHVza2s4eTEwN3hLTjgzeVloQW0zUlFwTXVZOEROTHZjN0J0Y2pKYmo1TFhnN1NPRUVJNkF3c0NzMDN2aFJ1ZVRGRjUzUQ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-17T04:30:26.612857+00:00"
   }
 ]
