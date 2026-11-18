@@ -1,124 +1,5 @@
 [
   {
-    "title": "效果接近Seedance 2.5，价格更低：Topview T1是啥来头？ - 搜狐网",
-    "title_key": "效果接近seedance25价格更低topviewt1是啥来头",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSHBXbTVtNHZiTkVtWUJGWXB0Y0JITHhhNXJKZ3VWSGczU19RR1hYcE9kZkp5X1J2eHB4UlU2MG5yWkZsQk01N01mWXJXcFA3eWtKb3ozNjYtT0xXZ3Azc1N4V3pzcmRSckFfNnBFb0tlMG8zVlRlOVM2cVdQQV96aUxrRDMzal9tU3VqLQ?oc=5",
-    "topic": "seedance_video",
-    "score": 20,
-    "novelty_signature": "2.5|价格",
-    "product_key": "seedance-2.5",
-    "event_tags": [
-      "commercial"
-    ],
-    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
-  },
-  {
-    "title": "【今日投资机会】政策预期点燃修复行情，AI漫剧掀涨停潮 - 东方财富",
-    "title_key": "今日投资机会政策预期点燃修复行情ai漫剧掀涨停潮",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfR1BoN01lTUkwT09nR0V2WEFjWnRkMm5aUm1CYktPTC1BdmpOU3kxeWVKUGRMNjU3N1VyREJNQlVLYnh3aHZ6dEpBdl80T2ZUbU12T3MybWZkY1ZDTHRveDI3aWp1UQ?oc=5",
-    "topic": "short_drama",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
-  },
-  {
-    "title": "科创50跌超4%，“易中天”集体大跌，AI漫剧、电池产业链爆发，恒科指涨近1%，权重科网股局部上涨 - 华尔街见闻",
-    "title_key": "科创50跌超4易中天集体大跌ai漫剧电池产业链爆发恒科指涨近1权重科网股局部上涨",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xQ21tN2RpYUpuNFJKMDJOVWp4cnRSbGEyc2pydUFvR21ieHpZaVl6c3RMREszVjY4TE5qcTVfMWV1TnpIM0luRjJTdEwwT0ZCdUFJ?oc=5",
-    "topic": "short_drama",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
-  },
-  {
-    "title": "指数震荡修复情绪回暖，AI漫剧爆发领衔热点轮动 - 财联社",
-    "title_key": "指数震荡修复情绪回暖ai漫剧爆发领衔热点轮动",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1SZ0FvOW84N04wLU5UMlpPZGdOZHkydDgyQUFRMG51SG1yNU15Nk5lM1Q5VVRGUi1HQXJqNk55M2REX0tZajY1eA?oc=5",
-    "topic": "short_drama",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
-  },
-  {
-    "title": "OpenAI 发布 LifeVal 基准：评估 AI 的日常任务能力 - 搜狐网",
-    "title_key": "openai发布lifeval基准评估ai的日常任务能力",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQXI4dzNtWWIzSFRVbFphaTQ0QVRGaklPaGJGRmxVT2VxMGd0ekVtTHhaZEVyR1JqV3cxdlNRRFByc1U1OHZ6dVJFNE1YN3l0OHp3TFFfMlRyUG93VWFOblBxUVZabXAwZ1BoVS1QMkRjMEl0cDRERjkxQzNLSS1VVGdlV0RPX1VrY2hvMQ?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability",
-      "release"
-    ],
-    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
-  },
-  {
-    "title": "GPT-6 Astra 实现“权重空间编程”：仅修改0.016%参数即可大幅提升小模型性能 - SmartHey",
-    "title_key": "gpt6astra实现权重空间编程仅修改0016参数即可大幅提升小模型性能",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0takNFNnpfc3hoNDN6THNaLU5QR28zVmhPb21vc2RONW5WRVpVZkhJVE01d1hYRUV0Q1Y1Q3FMeDRlZVo2cWdUX3pMSFVhbDJmZDNCSVlsZG44SUgtZVE?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "gpt-6-astra",
-    "event_tags": [],
-    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
-  },
-  {
-    "title": "Trail of Bits 公开 Patch the Planet 工作流：用 Codex 批量回补安全修复，149 个 CVE 补丁已进入Linux 稳定内核 - 智源社区",
-    "title_key": "trailofbits公开patchtheplanet工作流用codex批量回补安全修复149个cve补丁已进入linux稳定内核",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tU2QzQ01mTTFmWjlCWFBpd0hiM3RJamlKc3ZoeWRMUzVJX3Nyd0lCeHNhS1UzaWRIZnBFbUJoTUw4RjVQbHdvQg?oc=5",
-    "topic": "foundation_models",
-    "score": 18,
-    "novelty_signature": "",
-    "product_key": "codex",
-    "event_tags": [],
-    "pushed_at": "2026-11-03T06:51:19.638655+00:00"
-  },
-  {
-    "title": "指数震荡修复情绪回暖，AI漫剧爆发领衔热点轮动_主力动向_市场_中金在线 - 中金在线",
-    "title_key": "指数震荡修复情绪回暖ai漫剧爆发领衔热点轮动主力动向市场中金在线",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8taTBmeUhsako0ZHFCQzMxcVV5RUxKeVF6YVV4a0FKYlFEQzE2NlMzbFdRRTcyZUFReUpaNjczdEw4bVNDaXcyWXMxQ1FrNko2OVdaOGV5ZlF4TzBqSUhLTWZIR3A1eTF3dG9iX3BR?oc=5",
-    "topic": "short_drama",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-04T01:24:26.919052+00:00"
-  },
-  {
-    "title": "OpenAI披露ChatGPT最新增长数据：每周活跃用户达12亿 - cnBeta.COM",
-    "title_key": "openai披露chatgpt最新增长数据每周活跃用户达12亿",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oSnZ2WndESmtxU2dzRENmaml3YTBnV2x3dFlNUFd6NDBnWWQtQ0pscVhDYTJrOW1Ubm1hUUpJU0haRU1PUlpLUFlMWHZzNlpCWUZjMk16emxsSG9GaFF4LQ?oc=5",
-    "topic": "foundation_models",
-    "score": 23,
-    "novelty_signature": "",
-    "product_key": "chatgpt",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-11-04T01:24:26.919052+00:00"
-  },
-  {
-    "title": "GPT-6爆改模型权重，数学能力狂飙6倍，MIT博一新作破圈了 - 36氪",
-    "title_key": "gpt6爆改模型权重数学能力狂飙6倍mit博一新作破圈了",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wQm95dkVaNE4tQWVFeTl1NF8tLTZLZElKRnRuZ3c0eXJJSU1GRXN6cmhaa2lVTXFRT24tTDc4VWlQZWNnSzk0VUxfSnJidw?oc=5",
-    "topic": "foundation_models",
-    "score": 17,
-    "novelty_signature": "",
-    "product_key": "gpt-6",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-11-04T01:24:26.919052+00:00"
-  },
-  {
     "title": "可灵 AI 宣布 Kling 4.0 Flash 全面开放，深度融入专业影视工作流 - AIBase",
     "title_key": "可灵ai宣布kling40flash全面开放深度融入专业影视工作流",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyR2hMaUNkOXFBc1k4OGpqa2RhZUN2ZUl5SVEwbi1xcjR0RmRmSzJoMjg5Wlo1cnNjRF9UbjRtZzNURVBLMG1GZjRYczloUQ?oc=5",
@@ -612,5 +493,76 @@
       "capability"
     ],
     "pushed_at": "2026-11-17T04:30:26.612857+00:00"
+  },
+  {
+    "title": "微软MAI Image 2.7登场，用1/5价格击败GPT Image 2.6登顶 - 凤凰网科技",
+    "title_key": "微软maiimage27登场用15价格击败gptimage26登顶",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0wcUY2RkM1SW9uWTJ5QW5JVWp1TVFJTXFfaC0wT3Q5cjlNdkZWRHNuc0ZfeTNDQzhUT3dKZ2xYaUszQlFMTFFwWmMwdzY?oc=5",
+    "topic": "image_generation",
+    "score": 19,
+    "novelty_signature": "价格",
+    "product_key": "",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-11-18T04:25:37.578961+00:00"
+  },
+  {
+    "title": "OpenAI推出GPT-6.2 Astra与Sol两款模型 Astra API价格下调20% - 新浪财经_金融信息服务商",
+    "title_key": "openai推出gpt62astra与sol两款模型astraapi价格下调20",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEgxLUZ3TVpsc2ROZDVzOWM3V0gtZ2tYV1ViYWhvRUZXUDlIYzN3M2NETmEzNUtidEJOX0lnRkRTcFc2NFJOYTJwTjYxVWlCUjl6a0RMdm5CT3VFUk52OUhHSkF2Q180NkJ2ZkRyOEtKeFUwRVZqSzh6MWtnZmFiUUMxbGFMUkZyZ2pweTNtR0twYzRKenZwbDJva3g?oc=5",
+    "topic": "foundation_models",
+    "score": 31,
+    "novelty_signature": "6.2|api|价格",
+    "product_key": "gpt-6.2-astra",
+    "event_tags": [
+      "api",
+      "commercial",
+      "release"
+    ],
+    "pushed_at": "2026-11-18T04:25:37.578961+00:00"
+  },
+  {
+    "title": "OpenAI发布GPT-6.2系列：Astra与Sol上线，基准超Fable 5.2且成本仅5% - 凤凰网",
+    "title_key": "openai发布gpt62系列astra与sol上线基准超fable52且成本仅5",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IRTBxR0xMS251Ym9PNC1EX3BKNkhlVzBsZnVXczhhSWhXLVQwcHdfdFZvYTFQcjM2WmxnX0tyV01DblBhU21FbU5oV2drd0Fid2c?oc=5",
+    "topic": "foundation_models",
+    "score": 25,
+    "novelty_signature": "",
+    "product_key": "gpt-6.2",
+    "event_tags": [
+      "availability",
+      "commercial",
+      "release"
+    ],
+    "pushed_at": "2026-11-18T04:25:37.578961+00:00"
+  },
+  {
+    "title": "微软(MSFT.US)Ignite大会发布六款专用AI模型：以低成本挑战OpenAI与Anthropic 提供者智通财经 - 英为财情 Investing.com",
+    "title_key": "微软msftusignite大会发布六款专用ai模型以低成本挑战openai与anthropic提供者智通财经",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yLWYwNmtqRHRhQmhGeUp0SlUtY1JvWWtqSHloSkVsOVp5QkswLTdnZGxRSUd6cHZvUUJZeXQyZklUWGZ6NWJ2SVZEMXlrcFFLRlhwbW40dVpReXdzak1FU25YMThEdWZNQTVhRFVhLUk?oc=5",
+    "topic": "foundation_models",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "commercial",
+      "release"
+    ],
+    "pushed_at": "2026-11-18T04:25:37.578961+00:00"
+  },
+  {
+    "title": "OpenAI 上线 Business Hub：AI 搜索迈入官方后台时代，软文街补齐GEO 归因诊断能力_行业新闻 - 证券之星",
+    "title_key": "openai上线businesshubai搜索迈入官方后台时代软文街补齐geo归因诊断能力行业新闻",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82UjBTNHhRT2JaNWhudzhpUEpicllJcUpwOERZWWs2ZmJUSk1ubDB4NDFsSUt6cHdrREwwWmp1dUE5OGVnOUV3WWJxc3AtX2F0TjlOaW5tU3Z6VjZGR0k5N2xMZTM?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability",
+      "capability"
+    ],
+    "pushed_at": "2026-11-18T04:25:37.578961+00:00"
   }
 ]
