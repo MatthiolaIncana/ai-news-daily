@@ -564,5 +564,41 @@
       "capability"
     ],
     "pushed_at": "2026-11-18T04:25:37.578961+00:00"
+  },
+  {
+    "title": "可灵AI发布Kling Image 4.0：支持原生8K与单图2000字 - Sohu",
+    "title_key": "可灵ai发布klingimage40支持原生8k与单图2000字",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSjJKTXdXZldiSWtNYVUwM1RLSWpRVHFTWjcyVmtET2w3dVFubTZ3WVVYTnlkRllwS0FCS3RSYlExSmZzOHRzU25oV2NEbDdQQjJKck1yY1dqQUhpV3hvZkFwVmtCZjdSSXBYVW56NmU0UUpEbkx4ejBLNkpBVGVlYU9zMFlydExGWnNVZQ?oc=5",
+    "topic": "seedance_video",
+    "score": 22,
+    "novelty_signature": "4.0",
+    "product_key": "kling",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-11-19T03:31:05.171356+00:00"
+  },
+  {
+    "title": "OpenAI自曝模型突破网络限制，最强AI停训11天并升级安全防护 - 凤凰网",
+    "title_key": "openai自曝模型突破网络限制最强ai停训11天并升级安全防护",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iTXo5ZjV6VHA1RnJlM1JLU1MtcFp3LWJVQ3RValJXZkxCMFJENWRRRkVUN0F5QnpQZjNINzBsUnBlUXh2dGRXR3VURkJEY2hWWmc?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-19T03:31:05.171356+00:00"
+  },
+  {
+    "title": "OpenAI用AI造芯收益提升14%！5个月完成人工1年工作量 Astra领跑AI芯片设计 - 36Kr",
+    "title_key": "openai用ai造芯收益提升145个月完成人工1年工作量astra领跑ai芯片设计",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oTEhfd25IaC1oV255TzFhQVhPcEF3T1FUN2FYSUY5Q3BxUl9veURkTm5uMllnQjh6MkROSkViWEpVNGlOWVVtc3NWOXkwejZ2RWxB?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-19T03:31:05.171356+00:00"
   }
 ]
