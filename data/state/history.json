@@ -1,115 +1,5 @@
 [
   {
-    "title": "可灵 AI 宣布 Kling 4.0 Flash 全面开放，深度融入专业影视工作流 - AIBase",
-    "title_key": "可灵ai宣布kling40flash全面开放深度融入专业影视工作流",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyR2hMaUNkOXFBc1k4OGpqa2RhZUN2ZUl5SVEwbi1xcjR0RmRmSzJoMjg5Wlo1cnNjRF9UbjRtZzNURVBLMG1GZjRYczloUQ?oc=5",
-    "topic": "seedance_video",
-    "score": 20,
-    "novelty_signature": "4.0",
-    "product_key": "kling-4.0",
-    "event_tags": [
-      "availability"
-    ],
-    "pushed_at": "2026-11-05T06:51:17.571750+00:00"
-  },
-  {
-    "title": "docs: pin Index-Translate-Omni release and benchmarks",
-    "title_key": "docspinindextranslateomnireleaseandbenchmarks",
-    "link": "https://github.com/bilibili/Index-Translate/commit/87885a17d66b4c77293e5d5f9bebc362f3800857",
-    "topic": "translation_localization",
-    "score": 23,
-    "novelty_signature": "benchmark",
-    "product_key": "index-translate",
-    "event_tags": [
-      "quality",
-      "release"
-    ],
-    "pushed_at": "2026-11-05T06:51:17.571750+00:00"
-  },
-  {
-    "title": "作家陆琪直言AI短剧爆火本质 人类的娱乐需求从未改变，变的只是平台载体与交互方式。（潮新闻记者 王晓洁 翁柔 编辑 张安阳 剪辑 张依靖 ）#乌镇网事 #2026世界互联网大会乌镇峰会 #人工智能嘉年华 #乌镇峰会开源大V说 - 搜狐网",
-    "title_key": "作家陆琪直言ai短剧爆火本质人类的娱乐需求从未改变变的只是平台载体与交互方式潮新闻记者王晓洁翁柔编辑张安阳剪辑张依靖乌镇网事2026世界互联网大会乌镇峰会人工智能嘉年华乌镇峰会开源大v说",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZTBpeHZhb2diczFGU2JMaTg3dzU3QUJQX1pQMWdzbXhCN05NdGtPdXJPaml1RUp0aWpUVS1xc2Q2MGdES21JM0VsSFJSTFhtbVM0Y3JYY2xCSkhGU0lIZnVQSi13bHl6RlRFcUtMdnU3YjF3X3E2MzBzQlZLaVVFRkFvdzVjdFhwMWRKSQ?oc=5",
-    "topic": "short_drama",
-    "score": 21,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-05T06:51:17.571750+00:00"
-  },
-  {
-    "title": "GPT-6.2 Astra要来了！神秘「双模型」闪现API，OpenAI火速撤回 - 智源社区",
-    "title_key": "gpt62astra要来了神秘双模型闪现apiopenai火速撤回",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9SYW1fWlBxamV1YlA2dTBMcHlZRTB5MUtDcTJxUy1iejlUUmYtazNFZWVaYVNnUUhUcjVrc0lZZlNJT2VuY0YzUQ?oc=5",
-    "topic": "foundation_models",
-    "score": 27,
-    "novelty_signature": "6.2|api",
-    "product_key": "gpt-6.2-astra",
-    "event_tags": [],
-    "pushed_at": "2026-11-05T06:51:17.571750+00:00"
-  },
-  {
-    "title": "Update Omni 35BA3B speech results and release status",
-    "title_key": "updateomni35ba3bspeechresultsandreleasestatus",
-    "link": "https://github.com/bilibili/Index-Translate/commit/473e2108fa53de1a6827c9a63c26c0289659ef61",
-    "topic": "translation_localization",
-    "score": 21,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "release"
-    ],
-    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
-  },
-  {
-    "title": "OpenAI调整数据中心选址政策：弃用保密协议并加强社区沟通- AI 人工智能 - cnBeta.COM",
-    "title_key": "openai调整数据中心选址政策弃用保密协议并加强社区沟通ai人工智能",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLdlhyZENWcS1XYlM2cU9takRheXYydV9uRU5FTndfSWR1Qml4am5hZE1UUHZhZjgzbURFNmpsYlNINHhJVG1VamxwT1g1eUxqRHAzTFdKaDI4S0hUekJpdw?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "弃用",
-    "product_key": "",
-    "event_tags": [
-      "deprecation"
-    ],
-    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
-  },
-  {
-    "title": "GPT-6 Cyber 与 GPT-6 Astra：双倍价格能换来什么 - OrcaRouter",
-    "title_key": "gpt6cyber与gpt6astra双倍价格能换来什么",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QREc0VFQ3ZUVRR0tPMVFibTItRDFINk9McmZUSXFEa0RfbXo1RV83eDA4Skh3d3VtLVJXejZlZXBQQ1lYMTJEYnRFbmxzX3VtMnVNQ3FQN2U4MkllM2d5MnVHeDNYUU5J?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "价格",
-    "product_key": "gpt-6",
-    "event_tags": [
-      "commercial"
-    ],
-    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
-  },
-  {
-    "title": "OpenAI承诺提升数据中心建设透明度 应对中期选举凸显的民意逆风 - 财联社",
-    "title_key": "openai承诺提升数据中心建设透明度应对中期选举凸显的民意逆风",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1JVlFNSTJmZmYtNW9TX2pKVjFjLUtGbDZabUVVbTBaSm94YWdFeWFFNFhwUlR1WWpnWVJUYWx0TGlyenZzMnUzbw?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
-  },
-  {
-    "title": "OpenAI称，其流程发现了Linux内核中的948个权限提升漏洞 - Mezha.net",
-    "title_key": "openai称其流程发现了linux内核中的948个权限提升漏洞",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZk1NcEFrYURHcXY4U2g2SEZKUHNUR1RWR29NTENoLTRNM0pBSDFXV3luclV2aFI5N3pLTFp2Mno5UzRldjhIVnZFcUViSk95cWFlVTBiXzZVZGNKZ1R3cUtnenJaUFdhR1J2QXphelVzYTZIV2RmREl5VnpsV050NDZrckJETjZrZ1JaNEplSFJUUVNrVFdJ?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-06T02:29:10.818609+00:00"
-  },
-  {
     "title": "Update the Omni release roadmap in the READMEs",
     "title_key": "updatetheomnireleaseroadmapinthereadmes",
     "link": "https://github.com/bilibili/Index-Translate/commit/d259910ccc5332f9729ec3178f2a63c8e51882b3",
@@ -600,5 +490,46 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-11-19T03:31:05.171356+00:00"
+  },
+  {
+    "title": "Genie 4 对比 Google Veo 3.1：是\"场所\"还是\"片段\"，价格几何 - OrcaRouter",
+    "title_key": "genie4对比googleveo31是场所还是片段价格几何",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yZmlIS3VrVkVweEZyd05zVHVzOHRaaHAxWnJmYzNJVEpEa2pBZEJrTmUzd0hHUEcyZnRSLUdpU3IwbXJOZjZiMHBCQy1Jb19IUHVPWFNoZWxwSUdBUjEteXdtSXN5MXI0WHJET01xbw?oc=5",
+    "topic": "seedance_video",
+    "score": 22,
+    "novelty_signature": "3.1|价格",
+    "product_key": "veo-3.1",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-11-20T03:19:41.578231+00:00"
+  },
+  {
+    "title": "OpenAI开放GPT-Live-1.1 API：支持实时双向对话，智能体可边聊天边处理复杂任务 - 凤凰网科技",
+    "title_key": "openai开放gptlive11api支持实时双向对话智能体可边聊天边处理复杂任务",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBxVkJCSXlBeXFicTF3VFdhMFdfU2l2eHR6eXJwUXVYZmpQZkdBWWQ1d1d1ZWdpOVJ0WDUyeDNYcjlmaVU1am9yVWxCZGQ?oc=5",
+    "topic": "foundation_models",
+    "score": 29,
+    "novelty_signature": "1.1|api",
+    "product_key": "",
+    "event_tags": [
+      "api",
+      "availability",
+      "capability"
+    ],
+    "pushed_at": "2026-11-20T03:19:41.578231+00:00"
+  },
+  {
+    "title": "GPT-Live-1.1语音模型向开发者开放：可边聊天边处理复杂任务 - 凤凰网",
+    "title_key": "gptlive11语音模型向开发者开放可边聊天边处理复杂任务",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSazFyMEloUTlSdm4yRGNaRTJNbHVMaE1BQTBtb1RfRUJoeS01NllkXzltT3o2eU9iR1I2V184OTJkQlpMWWFJemltaXlubUlub2c?oc=5",
+    "topic": "foundation_models",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability"
+    ],
+    "pushed_at": "2026-11-20T03:19:41.578231+00:00"
   }
 ]
