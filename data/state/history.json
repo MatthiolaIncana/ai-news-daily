@@ -531,5 +531,81 @@
       "availability"
     ],
     "pushed_at": "2026-11-20T03:19:41.578231+00:00"
+  },
+  {
+    "title": "Merge pull request #33 from POPY0714/docs/nativelong-9b-v1.1",
+    "title_key": "mergepullrequest33frompopy0714docsnativelong9bv11",
+    "link": "https://github.com/bilibili/Index-Translate/commit/5bc437dffea3a7605604e70e6a459c44e6fea19f",
+    "topic": "translation_localization",
+    "score": 18,
+    "novelty_signature": "v1.1",
+    "product_key": "",
+    "event_tags": [
+      "release"
+    ],
+    "pushed_at": "2026-11-21T02:19:12.447361+00:00"
+  },
+  {
+    "title": "AI日报：ChatGPT上线实时听写功能；谷歌主页新增AI搜索侧边栏；微信12月起强制要求AI短剧提交生成证明 - AIBase",
+    "title_key": "ai日报chatgpt上线实时听写功能谷歌主页新增ai搜索侧边栏微信12月起强制要求ai短剧提交生成证明",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PV2hqSzlUakgtbjlZdElNQV81LWJLd05hOVRyS3dET2tRZXVQR3I3YjJ2REQzbm5Mbm55dlBka29KdzVGeWVKWGpfd3hoSWM?oc=5",
+    "topic": "short_drama",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "chatgpt",
+    "event_tags": [
+      "availability",
+      "capability"
+    ],
+    "pushed_at": "2026-11-21T02:19:12.447361+00:00"
+  },
+  {
+    "title": "#娱乐圈可爱多[超话]# 今日份11月21日AI短剧合集，需要自取！实时更新会有提醒！ ​ - 手机新浪网",
+    "title_key": "娱乐圈可爱多超话今日份11月21日ai短剧合集需要自取实时更新会有提醒",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WNkJBMm5oZGdqbXVieW5wS1doR0NpeGFWdFNCc3lmdlpFOTNsN0ZBTnN2dmJON0dHZGo2TVdXRHlXWnI4eVkzamltcjk1NFJpaDZLU2JSZ1BfTHhFbjEybFA3WQ?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-21T02:19:12.447361+00:00"
+  },
+  {
+    "title": "OpenAI推出MedChemBench基准，评估AI辅助药物研发能力 - 凤凰网科技",
+    "title_key": "openai推出medchembench基准评估ai辅助药物研发能力",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5XY2ZXaGp3ellnblpiZVp2LUtZVnh0V2hUajJHWnFkX2F6TnMtVE5fYVN6bjBrekR5T3lvUkFrZHRrRFdueE1LYWtNMWU?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-11-21T02:19:12.447361+00:00"
+  },
+  {
+    "title": "OpenAI自曝递归自我提升！智能体指数级爆发，人类已成瓶颈 - 智源社区",
+    "title_key": "openai自曝递归自我提升智能体指数级爆发人类已成瓶颈",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9LaUxVZ3dpLU41Q3R0dXFvWEFIdTVobWVtVFpCeWtmTVE0Mnp0WGdRVEdtSmhxa0RCdFhfUGh3Tm9lVzJrbENMYg?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-21T02:19:12.447361+00:00"
+  },
+  {
+    "title": "Hy4 对比 GPT-6.1 Sol：Token 价格究竟掩盖了什么 - OrcaRouter",
+    "title_key": "hy4对比gpt61soltoken价格究竟掩盖了什么",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sdzhNc2JRWWd2MENFVXZFOXBENXRkNHN6MjlaSGZfTFFqR3J0UXk5eGFwZ1lNaU83djZMRkgxMGRIUHVDa2VqQzF1ZDNydnJkZTZqV0ZOZWFTal80VDZudVVDaUhSaHIzV09nRlplVjY?oc=5",
+    "topic": "foundation_models",
+    "score": 16,
+    "novelty_signature": "6.1|价格",
+    "product_key": "gpt-6.1-sol",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-11-21T02:19:12.447361+00:00"
   }
 ]
