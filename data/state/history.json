@@ -1,19 +1,5 @@
 [
   {
-    "title": "Vals AI 网络攻防基准：受限GPT-6 Sol 完成 80.8% 攻击目标，开放权重DeepSeek 以 72.8% 紧随、单次成本约3 美元对22 美元 - 智源社区",
-    "title_key": "valsai网络攻防基准受限gpt6sol完成808攻击目标开放权重deepseek以728紧随单次成本约3美元对22美元",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ZVUZyTXl3RlZ4UEZMR3BGMEctQmxORzRjc0h6cnZYM0hWa1Y3bEl4bm9LeEhFVzNTdU5sd2J4MjFOT0FlbF81SQ?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "72.8|80.8",
-    "product_key": "gpt-6-sol",
-    "event_tags": [
-      "availability",
-      "commercial"
-    ],
-    "pushed_at": "2026-11-08T07:24:13.697810+00:00"
-  },
-  {
     "title": "下载→《AI短剧行业透视:规模爆发、平台竞速与商业化路径升级》 - 今日流媒体",
     "title_key": "下载ai短剧行业透视规模爆发平台竞速与商业化路径升级",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14T2FORVV4MmYweE9TVXJUVTVmcGNIRThrLTNqTzdTSWg3N25oeVhLN2Y4c0RRUkl5al9meHR2WXNGMkprbHFzbzlCTm00RG5IRWZEdmZzTnY3azRxdmtvUEVyeTRac2gwRHg0?oc=5",
@@ -555,5 +541,82 @@
     "product_key": "chatgpt",
     "event_tags": [],
     "pushed_at": "2026-11-22T06:53:41.417057+00:00"
+  },
+  {
+    "title": "微软AI负责人表态支持OpenAI提升人工智能透明度倡议 - Sohu",
+    "title_key": "微软ai负责人表态支持openai提升人工智能透明度倡议",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNnRVejVRR0c0VjNwY1hqazBJOUw3WEVVLWdZQ1dueHVRM0drcGFmeUNqZEJheDBwV3cwV05GWGFybjFRUTloUEN1Q29XZlA5UW9yblA1b3NXR0RCWVM0ZlhkMExiNjRJQ2d3RWFQRC1HV1psWFp0YzdhMnVOQnFCUHp2cDZxaTBUOU1NVFVB?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-23T02:48:28.972846+00:00"
+  },
+  {
+    "title": "奥特曼公开支持OpenAI限制模型开发提议 OpenAI首席执行官*「Pachocki的文章是OpenAI一段时间以来发布的最重要内容」*就限制模型开发提议公开表示支持 - Sohu",
+    "title_key": "奥特曼公开支持openai限制模型开发提议openai首席执行官pachocki的文章是openai一段时间以来发布的最重要内容就限制模型开发提议公开表示支持",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPanR4UVFqM3NRSmRucVBkTTZFS05NYTlpUXNjUXF6X2pKSW8xdHJxU3E4Qjd4S0lNTDRuYjVqMENBNlZlZDh0M1plVVJqZWpiYmxpa2IxOXJ1RTk3N2cxOTFxdDhVTW44RnVKbjYydUNhbGdnekdFY0FSZjB6WjY4ZTdOb3lybXJC?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-11-23T02:48:28.972846+00:00"
+  },
+  {
+    "title": "微软AI负责人苏莱曼：支持OpenAI提高透明度的倡议 - 手机新浪网",
+    "title_key": "微软ai负责人苏莱曼支持openai提高透明度的倡议",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZUmlGdVdZY3l6ZkYtdVBOalFrM01jenRCeTI1c2hKald1WWhfeGl3bnU0RXR2TldoNTRnTi1xeVh6U3dKY2dLT2tpVlduMVEzanU2RWtzalhqaGFEQjdueGFoanAwbU9sR25weGlydGQ?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-23T02:48:28.972846+00:00"
+  },
+  {
+    "title": "两俄罗斯人假冒乌政要骗OpenAI高管 恶搞骗局再升级 - 中华网",
+    "title_key": "两俄罗斯人假冒乌政要骗openai高管恶搞骗局再升级",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kOGYwVnZ0ZDdNX3FrczlpY1pGWHNmMTJjODRsWU5yYkJ0REdFSXpUbTZIRHlXUXAzMlc5UzB0cktQbWJUaEtXSGlxaE5iYnE1LUw1Y1JOTnN2SGF6V3dIbUF1MHpKbFY5WVJqa1h2Z1g?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-23T02:48:28.972846+00:00"
+  },
+  {
+    "title": "OpenAI首席科学家警告：AI最快2027年实现自我进化，奥特曼支持限制 - Sohu",
+    "title_key": "openai首席科学家警告ai最快2027年实现自我进化奥特曼支持限制",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTHVfNmhsZURnTHI3Z2R3b2FSRzY5MktMVHBkSTgxUTk4U1V0cFZEbGpXZnhDbldQYU1tOGpNbE9ZdlRlVXlCdmxveTlfQU9jZ3VQMy1rVllQYmtMakFwSzEwU0FkZEp2a0x2RWZvSHE5bllsTnA5V1ZSUl8xSS05YlNIOTk2RkZO?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-23T02:48:28.972846+00:00"
+  },
+  {
+    "title": "奥特曼公开支持OpenAI限制模型开发提议 - Sohu",
+    "title_key": "奥特曼公开支持openai限制模型开发提议",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQi1UOUgtSjRjM29NRHk4aTg5WjljaFdub1ZMSF9OVDFaenFGTVFlTDFsTHcwdVJzTWp1aHJ0c0VZblRDcDRLbzMyMV9ZSnc1SW5uMGhyX1ViQUtKX0hWTy1TOHpGSGpNeGhySjRNRmQzOVpuaTdSRXBqb3YwRWtLak1DUmNvUnJf?oc=5",
+    "topic": "foundation_models",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-23T02:48:28.972846+00:00"
   }
 ]
