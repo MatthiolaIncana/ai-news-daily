@@ -1,99 +1,5 @@
 [
   {
-    "title": "下载→《AI短剧行业透视:规模爆发、平台竞速与商业化路径升级》 - 今日流媒体",
-    "title_key": "下载ai短剧行业透视规模爆发平台竞速与商业化路径升级",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14T2FORVV4MmYweE9TVXJUVTVmcGNIRThrLTNqTzdTSWg3N25oeVhLN2Y4c0RRUkl5al9meHR2WXNGMkprbHFzbzlCTm00RG5IRWZEdmZzTnY3azRxdmtvUEVyeTRac2gwRHg0?oc=5",
-    "topic": "short_drama",
-    "score": 21,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-09T06:37:01.836766+00:00"
-  },
-  {
-    "title": "Claude Code 在 1,122 个 GitHub 文件中泄露密码和 API 密钥 - Pasquale Pillitteri",
-    "title_key": "claudecode在1122个github文件中泄露密码和api密钥",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSl9ncjlTRXZBZzNXbFNZOXZ2dF9TQmJtZEcyZkM1Wi01b1dZanBTLUtuSHlNSlg0RVZyUVVCdDViMDN5T1NDb3RNRzNnbDdxWk03bWVaNFJEWC1CcG9saTdQbVV3U0VJaXhwTnFFUkROdk00ZTBERVNMY0c1UXZXMUxycHdvTzh4MWJ4LVZFQ3FkT293?oc=5",
-    "topic": "foundation_models",
-    "score": 21,
-    "novelty_signature": "api",
-    "product_key": "claude-code",
-    "event_tags": [
-      "api"
-    ],
-    "pushed_at": "2026-11-09T06:37:01.836766+00:00"
-  },
-  {
-    "title": "Google 和 Microsoft 加入 OpenAI 与 Anthropic，共同支持一项供 robots.txt 使用的 AI 训练信号 - Mezha.net",
-    "title_key": "google和microsoft加入openai与anthropic共同支持一项供robotstxt使用的ai训练信号",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdUxSWFA3S2p3X3JGSm54Wk5tZThoRnRsb2JyVTROZkpEbDZnOWRJbDdmRkx0bGliZ1BIQ1lCd2hSaUZQdTJUOUNsSVYybDdsa2liTkg0NzE0bU53dS1kam05VjlvdU9Ia1A0ZnRoU1BxUmYyNW5xZnlNbXB1QnZPLTVoZXVmZVp1eHJUYXMySHJLTXl0cENQU1JB?oc=5",
-    "topic": "foundation_models",
-    "score": 20,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-11-09T06:37:01.836766+00:00"
-  },
-  {
-    "title": "OpenAI：正通过Daybreak Red，向Hacktron开放更多前沿模型的访问权限。 - 新浪网",
-    "title_key": "openai正通过daybreakred向hacktron开放更多前沿模型的访问权限",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ReXlRU0lIZ1lySVZBcG1Bd184cDhlT01IdmdCOW8zTjN5SzdILUMwNmg3V3czWlB0VWZ0QUF0dFFSZVRvY21vQk94QQ?oc=5",
-    "topic": "foundation_models",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "availability"
-    ],
-    "pushed_at": "2026-11-09T06:37:01.836766+00:00"
-  },
-  {
-    "title": "j9 九游发布全国首个支持1000秒AI漫剧创作平台，零门槛一键生成长内容 - DoNews",
-    "title_key": "j9九游发布全国首个支持1000秒ai漫剧创作平台零门槛一键生成长内容",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hd2diaU92Zy1vMEFGLW9ka2ZIUkY5Uy1ZLWczYXl0WE5LQlRXNXhSMzctRG8weU1xTTUwY1Q1Q2pEUy0tUFZzMlMzUjZhUW9rRk5vVWZxVEw?oc=5",
-    "topic": "short_drama",
-    "score": 21,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "capability",
-      "release"
-    ],
-    "pushed_at": "2026-11-10T01:34:21.578265+00:00"
-  },
-  {
-    "title": "Anthropic发布Claude Fable 5.2和Mythos 5.2：速度提升30% API价格降20% - cnBeta.COM",
-    "title_key": "anthropic发布claudefable52和mythos52速度提升30api价格降20",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Ub0Fvc2JCU1l1b3cwa3FiRlF4M0RSX1ZYYjE3c1lLZGNuZV9UREJKN2cyenFMc1BiazFUR3RUdDZ1RWVLUXlpMURQbzNhclM1ZVptR1M0MVhTTGozWnFaZQ?oc=5",
-    "topic": "foundation_models",
-    "score": 28,
-    "novelty_signature": "5.2|api|价格",
-    "product_key": "claude-fable-5.2",
-    "event_tags": [
-      "api",
-      "commercial",
-      "performance",
-      "release"
-    ],
-    "pushed_at": "2026-11-10T01:34:21.578265+00:00"
-  },
-  {
-    "title": "OpenAI、Anthropic、Google 各有接口，开放标准离统一还有多远？ - InfoQ.cn",
-    "title_key": "openaianthropicgoogle各有接口开放标准离统一还有多远",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TcmhZRlBFaHlIeGpTeUlrTmpzSUZCTF9uOXBqb2ZrZVcyY2REQllMWUlyaGJNQ29YZXE5d1VoNmdGMVdpSHZGanRfblkxSzF0Wjd4NElRSU5VR0hxTFE?oc=5",
-    "topic": "foundation_models",
-    "score": 22,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [
-      "api",
-      "availability"
-    ],
-    "pushed_at": "2026-11-10T01:34:21.578265+00:00"
-  },
-  {
     "title": "字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦 图像创作能力升级 - 中华网",
     "title_key": "字节跳动发布seedream55上线豆包豆包工作即梦图像创作能力升级",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PdDRRS2JQWlZ2NVZwaUJkRk5MQmFINmljNjhLTDBLeEtaeUtqcG5hazhBVWRJeW9pVE1obHJYblpVcmxfdXVONDdPd3JBN2J6V1lSOEFoX19nMllfMC05QTE5M29LN0hrd0dSRDFlM0w?oc=5",
@@ -618,5 +524,107 @@
       "capability"
     ],
     "pushed_at": "2026-11-23T02:48:28.972846+00:00"
+  },
+  {
+    "title": "【券商聚焦】长江证券维持快手-W买入评级 指可灵AI全面升级-证券之星 - 证券之星",
+    "title_key": "券商聚焦长江证券维持快手w买入评级指可灵ai全面升级证券之星",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fdklLLVdoQTlLdmpOWFFkVkFyMjlBZnhqaXh4VjN2bTI2eVFDeVpvZHY0UENVRC1HVE1oUExJYjF5UUhiR1ZRRjJIS1NiSFF2bWZOSGF1MWl2eXlfOUE?oc=5",
+    "topic": "seedance_video",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-24T10:58:21.463904+00:00"
+  },
+  {
+    "title": "v6.3",
+    "title_key": "v63",
+    "link": "https://github.com/snakers4/silero-vad/releases/tag/v6.3",
+    "topic": "subtitle_audio",
+    "score": 33,
+    "novelty_signature": "0.01|api|new model|v6.2|v6.3",
+    "product_key": "silero-vad",
+    "event_tags": [
+      "api",
+      "performance",
+      "quality"
+    ],
+    "pushed_at": "2026-11-24T10:58:21.463904+00:00"
+  },
+  {
+    "title": "微盟星创-WIMO AI创作能力赋能短剧，果麦智娱爆款AI短剧上线48小时热度破4200万 - Sohu",
+    "title_key": "微盟星创wimoai创作能力赋能短剧果麦智娱爆款ai短剧上线48小时热度破4200万",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOS0zWHNVckF3Z0tjZzB5a2RyNnd2U3NXS3pOOHUwMjFDbFhOSmRjeGxqR2hMX0JjYjZFRV9PdGZXQy1laFQ1N0R4WXRnWjQ0eDB6ZXhadTMxeFlaUk1KLXIyMnRmN1pmUFkwU21vekNJdVIxdFI1aUczZWduUENkWlRlZS01bDd6?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability",
+      "capability"
+    ],
+    "pushed_at": "2026-11-24T10:58:21.463904+00:00"
+  },
+  {
+    "title": "FIBO 2.0 对比 GPT Image 2.6：Elo 相差 125 分，价格是 6.6 倍 - OrcaRouter",
+    "title_key": "fibo20对比gptimage26elo相差125分价格是66倍",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBObTZNdGFkSTJnVmcyRzF6RTNnd0kzaW5IQzdKRzlxZUFoaXhIOHBYZmctQnJtam9nR19nNllvOTFneFEzUGs2Vjc4YTZmM0RWMXFacUM5cTVaUTdsQnpfanhIWnFEd3psU3VNYlJwWQ?oc=5",
+    "topic": "image_generation",
+    "score": 16,
+    "novelty_signature": "2.0|2.6|6.6|价格",
+    "product_key": "",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-11-24T10:58:21.463904+00:00"
+  },
+  {
+    "title": "ChatGPT又升级了！GPT-6.2 Sol上线：能看清停车标志、主动提醒商品降价 - 驱动之家",
+    "title_key": "chatgpt又升级了gpt62sol上线能看清停车标志主动提醒商品降价",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKU0wtak9vQlJVS2NBRVJtXzAwaTZzTDdDd3Z3ZlRGcC1lekdWdDZ4NXQ4OUsxRk9KTGJRMWZibmxLQVJ2a0NCY2I3NWVTMGxIN1VPZHZheG4?oc=5",
+    "topic": "foundation_models",
+    "score": 24,
+    "novelty_signature": "6.2",
+    "product_key": "gpt-6.2-sol",
+    "event_tags": [
+      "availability",
+      "commercial"
+    ],
+    "pushed_at": "2026-11-24T10:58:21.463904+00:00"
+  },
+  {
+    "title": "Anthropic 在 Claude Code 新增实验性Code Mode：模型写JavaScript 编排工具调用，社区实测大任务省37% token 但不更快 - 智源社区",
+    "title_key": "anthropic在claudecode新增实验性codemode模型写javascript编排工具调用社区实测大任务省37token但不更快",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5LNUc0Wmd0MmJwMGF5Rk5aT0lqSVhvQkhJZi12RndHNDJIYWdoVFNnTzVjQXRUVzktaG1rZVpzdW8yNkRIamtEbg?oc=5",
+    "topic": "foundation_models",
+    "score": 22,
+    "novelty_signature": "",
+    "product_key": "claude-code",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-24T10:58:21.463904+00:00"
+  },
+  {
+    "title": "告别“重启才能修复”：OpenAI 携手思科开源 Shirudo，给 Linux 装上临时盾牌 - 新浪财经",
+    "title_key": "告别重启才能修复openai携手思科开源shirudo给linux装上临时盾牌",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tRWh4VmJkZDJZekRSY2NsX0UxSklya0pLMTJZakFxa1hkTU02LURuRjN5WGpXWDRRUG51VWdMaHMtZzBrM0t6WUJsTE5kMHoybmNWOW1fdGVFRUlOUE5qencyaWhfRndPQldnUGljaFdmYTcxanFMVUxPR1ctQjg?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-24T10:58:21.463904+00:00"
+  },
+  {
+    "title": "5个值得本地部署的开源AI项目：GitHub热门推荐 - CSDN",
+    "title_key": "5个值得本地部署的开源ai项目github热门推荐",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KSmJWUkJkdTNxaHBtc3poRnNia1dxNHp6WGRraXpuTVdodG5VVWllbjY5cnU0QXg2Rl9HY181OHljdUtJdldNbXdSS0M5c3JOdUpzdm0zTGFTN2JRaExV?oc=5",
+    "topic": "github_tools",
+    "score": 13,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-24T10:58:21.463904+00:00"
   }
 ]
