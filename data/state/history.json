@@ -626,5 +626,44 @@
     "product_key": "",
     "event_tags": [],
     "pushed_at": "2026-11-24T10:58:21.463904+00:00"
+  },
+  {
+    "title": "多空辩论更新：中视传媒AI短剧落地但无回购，扭亏路径与估值支撑分歧 - 证券之星",
+    "title_key": "多空辩论更新中视传媒ai短剧落地但无回购扭亏路径与估值支撑分歧",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85a3hyQ1dWX3ZwNGl6ZWltRDZ3ZXozXzhYcmpOc0NNQnY5MDZ5VHV3V0xIX1lzTkJrTHppZ01weXJBbngtYUhnalhzMnROZm96cl9MbC1KLUhnOGp3MDdVNUpB?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-25T04:16:36.712908+00:00"
+  },
+  {
+    "title": "OpenAI与思科推出Shirudo：支持热修复的开源安全工具 - Sohu",
+    "title_key": "openai与思科推出shirudo支持热修复的开源安全工具",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUFVpR1ZMSWVIOGxfN2NwWnZ0WU0yTVJHcGRRSmFYQWJqcGY0T1UtZFpyQjhYcjcxeDZlSS1aODNQVTNYYm91TnNsMmxwQjQ0YVRBNnpYRmsyWHFPZ1NtYy1PNVZXUWxNM0dhR3FLRTg0bkVZcU0tU3hSQ1BvRTkyYzBiRDhMdl9FbVljdw?oc=5",
+    "topic": "foundation_models",
+    "score": 23,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-11-25T04:16:36.712908+00:00"
+  },
+  {
+    "title": "AI内部模型能力过强引发安全担忧，OpenAI和Anthropic员工质疑是否应继续发布前沿模型 - 东方财富",
+    "title_key": "ai内部模型能力过强引发安全担忧openai和anthropic员工质疑是否应继续发布前沿模型",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1WnBEOWItaVRzbjlwdzQ1cjhlampKbkZKZ0VQQnVRMzB4aFBOeEdfUXFYVXE4V011TjVFdWplaXI3eHo4ZWQydVRCWlBDWFlyd0xtdDNRUlZRTmdzaEctbmIxUQ?oc=5",
+    "topic": "foundation_models",
+    "score": 20,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability",
+      "release"
+    ],
+    "pushed_at": "2026-11-25T04:16:36.712908+00:00"
   }
 ]
