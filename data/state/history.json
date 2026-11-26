@@ -1,66 +1,5 @@
 [
   {
-    "title": "字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦 图像创作能力升级 - 中华网",
-    "title_key": "字节跳动发布seedream55上线豆包豆包工作即梦图像创作能力升级",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PdDRRS2JQWlZ2NVZwaUJkRk5MQmFINmljNjhLTDBLeEtaeUtqcG5hazhBVWRJeW9pVE1obHJYblpVcmxfdXVONDdPd3JBN2J6V1lSOEFoX19nMllfMC05QTE5M29LN0hrd0dSRDFlM0w?oc=5",
-    "topic": "seedance_video",
-    "score": 22,
-    "novelty_signature": "5.5",
-    "product_key": "",
-    "event_tags": [
-      "availability",
-      "capability",
-      "release"
-    ],
-    "pushed_at": "2026-11-11T06:27:48.502006+00:00"
-  },
-  {
-    "title": "A股三大股指盘初齐涨，创业板涨超1%，光模块大涨、“易中天”拉升，AI短剧调整，恒科指跌超1%，权重股科网股回落 - 华尔街见闻",
-    "title_key": "a股三大股指盘初齐涨创业板涨超1光模块大涨易中天拉升ai短剧调整恒科指跌超1权重股科网股回落",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZcFdnRUswVk5XM2VNd25rdG9hWkZ3N0ZqTUJ6V3F6S2FPNFV5emdvQ0V3MXU2M3lZRlZtZGo5LUtqdDRJR0Z5V2wwVS1Ob1hPRG5J?oc=5",
-    "topic": "short_drama",
-    "score": 19,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-11T06:27:48.502006+00:00"
-  },
-  {
-    "title": "Seedance 2.5 对比 Seedance 2.0：版本更新，但上限更低 - OrcaRouter",
-    "title_key": "seedance25对比seedance20版本更新但上限更低",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xSFFKaHZZeGVkZVhDNTVaTXN1R013SmlpbHVCR1R0UEhmZDRVZl8zSk5ZZEo5UGJwNm4xU3EzaEM3aW9uQm1TQXAxc1VhWW9JYURwZ1RlcVZtV1FYZkgzc0llektQTTRjaUdrYW91Y2xLdlBMcnRCaURUbGNIUQ?oc=5",
-    "topic": "seedance_video",
-    "score": 17,
-    "novelty_signature": "2.0|2.5",
-    "product_key": "seedance-2.5",
-    "event_tags": [],
-    "pushed_at": "2026-11-12T03:02:04.594392+00:00"
-  },
-  {
-    "title": "#赵丽颖起诉红果短剧# 赵丽颖被AI漫剧融脸真是一点都不惯着！这波狠狠支持赵姐了！ ​ - 新浪网",
-    "title_key": "赵丽颖起诉红果短剧赵丽颖被ai漫剧融脸真是一点都不惯着这波狠狠支持赵姐了",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBybDdwSksyd2MwZU4zQ19mdUhiei1YZjFBQmNUc21XZXhlM3ZHeFBYUjlHMldCN2lTdllMd3dYZEFQQnIxSkdQVDdPSUVLSDRrdzFaR0hwYW8wUEZEclZzN1lzSQ?oc=5",
-    "topic": "short_drama",
-    "score": 23,
-    "novelty_signature": "",
-    "product_key": "红果短剧",
-    "event_tags": [
-      "capability"
-    ],
-    "pushed_at": "2026-11-12T03:02:04.594392+00:00"
-  },
-  {
-    "title": "AI短剧竞争升级：平台争夺创作者，产业链迎来洗牌_财经报道_财经 - 证券之星",
-    "title_key": "ai短剧竞争升级平台争夺创作者产业链迎来洗牌财经报道财经",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mNDZXY2Z5NHUwZF9ENU1qcldsbTV1T0JjTnJ5T3VyS3F6SHNhWTVJemFOeDl1Vjh1SmEtaWhtNWhvZ0lpdVJKSndJWkFDc0R2TnRXLXc1UG1KaGFZN1M0aw?oc=5",
-    "topic": "short_drama",
-    "score": 23,
-    "novelty_signature": "",
-    "product_key": "",
-    "event_tags": [],
-    "pushed_at": "2026-11-12T03:02:04.594392+00:00"
-  },
-  {
     "title": "视频生成降到一秒0.99元！字节跳动发布Seedance 2.5 flash：生成速度翻倍 - 驱动之家",
     "title_key": "视频生成降到一秒099元字节跳动发布seedance25flash生成速度翻倍",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JbTAySWppWHJGVGtUZXl4UHVCNC0xeVEzbUtac0Q4WldsR3p1XzkwOEZKNGZfUGM5Ti03VnJZUWt5NTdsTXZKSUxsUnMySW5KdDFQNnBIZEQ?oc=5",
@@ -665,5 +604,179 @@
       "release"
     ],
     "pushed_at": "2026-11-25T04:16:36.712908+00:00"
+  },
+  {
+    "title": "竞技榜第一，价格只有 Seedance 的 1/10，MAGI-2 发布：视频赛道迎来「DS 4.1 时刻」 - 智源社区",
+    "title_key": "竞技榜第一价格只有seedance的110magi2发布视频赛道迎来ds41时刻",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE81cnhMSUliYXdxY0pqeUdhYWxpQnVrWHlzaUV1SGZPX0p6MFdQMUJnOFRkb1dJVFVoWUx5MGstT1pIVHJmMVQzTg?oc=5",
+    "topic": "seedance_video",
+    "score": 22,
+    "novelty_signature": "4.1|价格",
+    "product_key": "seedance",
+    "event_tags": [
+      "commercial",
+      "release"
+    ],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "媲美 Seedance 2.5 的 MAGI-2 宣布开源，价格只要十分之一！ - 品玩",
+    "title_key": "媲美seedance25的magi2宣布开源价格只要十分之一",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxcGFXU2VEMERVTFFQeWdjZ0trckNwUzhwUlFtZ1QzLUhydkZkTS0ySHg1RUNBN1E4R3F0QkxtVVJqRFRkdnBUMg?oc=5",
+    "topic": "seedance_video",
+    "score": 22,
+    "novelty_signature": "2.5|价格",
+    "product_key": "seedance-2.5",
+    "event_tags": [
+      "commercial"
+    ],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "多空辩论更新：昆仑万维AI短剧成本降至2万美元内，投流ROI缺量化口径 - 证券之星",
+    "title_key": "多空辩论更新昆仑万维ai短剧成本降至2万美元内投流roi缺量化口径",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94LW96YUhDZVB6NjJaVHFvdF9Cek5fQlYzZUdFRkpvR3I5RGhnRmRXMkVIWlphaWFSN29ZOENuYk0zOUhuVjVjREdKWlFlRFFoU21vTGl1WGJBT1VFUTZ2MkV3?oc=5",
+    "topic": "short_drama",
+    "score": 21,
+    "novelty_signature": "量化",
+    "product_key": "",
+    "event_tags": [
+      "commercial",
+      "quantization"
+    ],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "AI短剧《全球死考》烧脑升级！希夷与副本超标小队陷入必死局，预告中连环反转+高密度逻辑陷阱，两集都活不下来。 ​ - 手机新浪网",
+    "title_key": "ai短剧全球死考烧脑升级希夷与副本超标小队陷入必死局预告中连环反转高密度逻辑陷阱两集都活不下来",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Fc05CTmpORW1kODZjWVN0OHZKSXg3QVJRVEM4Mm02UXB5MWJ0dWJ0UURiakhIZi1BXzNPR1FEdkg5R0NEQ3gzbklRc0FueDR4aFJUaDNoWF95cTNmWlZoLUNGWQ?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "多空辩论更新：奥雅股份AI短剧收入仅0.49万元，减亏是拐点还是收缩 - 证券之星",
+    "title_key": "多空辩论更新奥雅股份ai短剧收入仅049万元减亏是拐点还是收缩",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VS1ZNU24yLVM1X1pjWEp2a1R4alJ1bEdIdHBBb3ZoSWFwTWh3YnVmNFE2UzdQMWREUUg1a2Rxb0diTHdaQjBEOWlTVGZRenktbFdOOEZVZlhvZG1SY3RwOG1R?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "多空辩论更新：国脉文化AI短剧未单独收费，341倍估值分歧 - 证券之星",
+    "title_key": "多空辩论更新国脉文化ai短剧未单独收费341倍估值分歧",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrbTh3M2xwUXEtdzVpc2I1Wk1UOWpPeTZUZW4wRF9HbWNvZjdvNmoyZUZ2d3hMajdhNmt3TWdzcHE5VlFNR1Z0Tk9nNllFeFdqV0tYYUJzaGZ4dmxIYUJIelJ3?oc=5",
+    "topic": "short_drama",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "英伟达开放 Nemotron-Labs-Image-30B-A3B 生图 AI 模型权重：某些跑分超 GPT Image 2 - 光通信Pro",
+    "title_key": "英伟达开放nemotronlabsimage30ba3b生图ai模型权重某些跑分超gptimage2",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41X3BqRE43YnZjaXM0YXlqOU1IY0hHZ29LREpoalBFdnBqVW10aVdxdVd4OU5WWTBJcnJJZFIwRTkzTDBNUE00MGoxLWtmcjlUR1B0cWIxcw?oc=5",
+    "topic": "image_generation",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "availability",
+      "quality"
+    ],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "英伟达开源30B生图模型，部分跑分优于GPT Image2 - Sohu",
+    "title_key": "英伟达开源30b生图模型部分跑分优于gptimage2",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ0pNUFBfZ3Q5M204QU4yUHQtb3VQeDBCV1FqcU9YVDFndGtiempBQ0drV0IyT0JsakJxNEt2cUdOd2VUUlMzRVVUYV9zSlNxZk1HbzFsUFkzdkpQZk9hYnB6Z0xPX0RKQUVhWDEyU1dUdWhKeW84cTJEVEpJR0gzQThPc2hsckpf?oc=5",
+    "topic": "image_generation",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "quality"
+    ],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "GPT Image 2资源导航：awesome-gpt-image-2开源列表实战分享 - CSDN",
+    "title_key": "gptimage2资源导航awesomegptimage2开源列表实战分享",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8ycGlmd2I3eVRMRllfdFpocC1jbnZ0cFBQaVZoM3pCa1RrdWREam9HTnB2UWd2MXR4SlhrR21iWlhzWWtNUDB3YWVDN1JhNWJxaThicjF4ZU55RTFYU3h3?oc=5",
+    "topic": "image_generation",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "OpenAI掀桌，GPT-6跨界蛋白质设计！不调用任何生物模型，96%准确率碾压专业工具 - 中国医药创新促进会",
+    "title_key": "openai掀桌gpt6跨界蛋白质设计不调用任何生物模型96准确率碾压专业工具",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FQVZkYjJlRzR6Z1hwdzhqU296UkVGWENSdXctbjJ3T2lPVk0zN05VY2VwYlVxbl9Banc3dl9RbVdxRmxxZVo3bEdMRk1uZWJEZ2VkX0lJUHNKODlZOGNKRkZWYkhhNThfd3BSbWVucTVmX3dYb2NTOHRB?oc=5",
+    "topic": "foundation_models",
+    "score": 23,
+    "novelty_signature": "准确率",
+    "product_key": "gpt-6",
+    "event_tags": [
+      "quality"
+    ],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "OpenAI和思科开源了一个“盾”：AI写代码，挡在漏洞前面 - 电子工程专辑EE Times China",
+    "title_key": "openai和思科开源了一个盾ai写代码挡在漏洞前面",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qQm45VjdJZ3NDX0xMNHpIaEF5SklMbXBJd09VdkV0ZjAyMkVDUFdCWmFsbTJKMmw4bl9nNWhNNkctaFgteDlJS0ZfY3FOUUQ2RXFF?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "OpenAI最新发布，AI制药热度飙升，港股通医疗ETF华宝（159137）标的指数盘中涨超3%！脑机接口也有新突破 - Sohu",
+    "title_key": "openai最新发布ai制药热度飙升港股通医疗etf华宝159137标的指数盘中涨超3脑机接口也有新突破",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbndVenM2ckt5QTc4T0RXVmJIZkwyaDRLdllLUThIUDA2SjRLNllTb2t1d3UzYW5yRjVRWklFYmhTaWUwa0ZFdDk1Skc4OTdaN1QxWEdHZHZaeF8xX19fV3ZXVGhsaW1CSXJYUDFjTS1QZkRTZzhnYzNwZXk0c2RGWkozNFRIZExrVnpaRQ?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "api",
+      "release"
+    ],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "gpt-image-2 精选资源库：从API接入到电商落地的完整实践 - CSDN",
+    "title_key": "gptimage2精选资源库从api接入到电商落地的完整实践",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOaVhuWmJULWYzdUo5c01nbDlMM3B3THE0bzRsckNlZWotdzU0S3RVZ1FudXhRQ29KNUR3TWZFYUdRSENpNG0xbHhFVkJhV0NSd2ZBS0g0WTVJVjUyTGF3?oc=5",
+    "topic": "foundation_models",
+    "score": 21,
+    "novelty_signature": "api",
+    "product_key": "",
+    "event_tags": [],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "gpt-image-2资源生态全指南：能力解析、开源项目与实测体验 - CSDN",
+    "title_key": "gptimage2资源生态全指南能力解析开源项目与实测体验",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SUmZ2RTJWc0w4WTRCMWhkNVd2YWd3Q294WWgwMjF6eDZwWS03cGFjNWN0MDRJRC1kWWpZSDAxaXBVeENKczlncFZzUktFaDIwdm9fd3U1UEw5N2h2SkFV?oc=5",
+    "topic": "foundation_models",
+    "score": 17,
+    "novelty_signature": "",
+    "product_key": "",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-26T08:24:13.537667+00:00"
   }
 ]
