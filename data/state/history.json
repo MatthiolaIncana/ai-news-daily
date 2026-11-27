@@ -1,59 +1,5 @@
 [
   {
-    "title": "视频生成降到一秒0.99元！字节跳动发布Seedance 2.5 flash：生成速度翻倍 - 驱动之家",
-    "title_key": "视频生成降到一秒099元字节跳动发布seedance25flash生成速度翻倍",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JbTAySWppWHJGVGtUZXl4UHVCNC0xeVEzbUtac0Q4WldsR3p1XzkwOEZKNGZfUGM5Ti03VnJZUWt5NTdsTXZKSUxsUnMySW5KdDFQNnBIZEQ?oc=5",
-    "topic": "seedance_video",
-    "score": 18,
-    "novelty_signature": "2.5",
-    "product_key": "seedance-2.5",
-    "event_tags": [
-      "performance",
-      "release"
-    ],
-    "pushed_at": "2026-11-13T01:06:24.507544+00:00"
-  },
-  {
-    "title": "docs: close Chinese README sync issue",
-    "title_key": "docsclosechinesereadmesyncissue",
-    "link": "https://github.com/bilibili/Index-Translate/commit/d55408179d28f8c5f007a352145674ce9b84cbcf",
-    "topic": "translation_localization",
-    "score": 24,
-    "novelty_signature": "量化",
-    "product_key": "index-translate",
-    "event_tags": [
-      "quantization",
-      "release"
-    ],
-    "pushed_at": "2026-11-13T01:06:24.507544+00:00"
-  },
-  {
-    "title": "docs: sync Chinese README with Omni release",
-    "title_key": "docssyncchinesereadmewithomnirelease",
-    "link": "https://github.com/bilibili/Index-Translate/commit/57e52d7759ef1601d518d91abd9f31b5e9705c8f",
-    "topic": "translation_localization",
-    "score": 23,
-    "novelty_signature": "benchmark",
-    "product_key": "",
-    "event_tags": [
-      "quality",
-      "quantization",
-      "release"
-    ],
-    "pushed_at": "2026-11-13T01:06:24.507544+00:00"
-  },
-  {
-    "title": "三点更新 | 赵丽颖起诉红果短剧：AI换脸偷流量，平台不能只分钱不担责 - 新湖南",
-    "title_key": "三点更新赵丽颖起诉红果短剧ai换脸偷流量平台不能只分钱不担责",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LTUhQNGJ1SWZNTl9RR2djSmlteUFPaWI1LW94SEpDS2tCUUIzUjNuM01XWUs4NzR2d0gyNm95OGllSkx2R3VKS01Oc0FuN2RNSXNId3ZBTTAtUTZtcWJn?oc=5",
-    "topic": "short_drama",
-    "score": 21,
-    "novelty_signature": "",
-    "product_key": "红果短剧",
-    "event_tags": [],
-    "pushed_at": "2026-11-13T01:06:24.507544+00:00"
-  },
-  {
     "title": "题材轮动加剧，国产算力逆势走强，关注机器人、AI漫剧修复强度 - 财联社",
     "title_key": "题材轮动加剧国产算力逆势走强关注机器人ai漫剧修复强度",
     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1V3MwVGxVbEVXTDFEaUZWMEZHcmV4dnQyVDcyV1JSNHFIZ3N4TWNSWEx1bTJpeWpfRHRmTDA5RW9kT0c4NzBZWQ?oc=5",
@@ -778,5 +724,55 @@
       "capability"
     ],
     "pushed_at": "2026-11-26T08:24:13.537667+00:00"
+  },
+  {
+    "title": "为什么你的AI漫剧团队总是亏钱？算清底层模型API 的账，比找工具更重要|Seedance|大模型|论坛|达人|服务商_手机新浪网 - 新浪财经_金融信息服务商",
+    "title_key": "为什么你的ai漫剧团队总是亏钱算清底层模型api的账比找工具更重要seedance大模型论坛达人服务商手机新浪网",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41ZER6UzB6NTRkSTBJODktRTV1UUdScjRqdHJ3VHJRaFFLd3FWdWdUa3RkOHhkU3NIY2k3VGxBclNqOUtjSWNjZ01pOXZFb1lVeU9vcmxOVmJaUy0wVUY4OW5GSHhHUTdEQ1M2a205alhtd09FREo3OQ?oc=5",
+    "topic": "seedance_video",
+    "score": 22,
+    "novelty_signature": "api",
+    "product_key": "seedance",
+    "event_tags": [
+      "api"
+    ],
+    "pushed_at": "2026-11-27T02:13:02.592798+00:00"
+  },
+  {
+    "title": "全球AI产品订阅收入榜更新了，Kimi和KLING AI冲进Top10 - 手机新浪网",
+    "title_key": "全球ai产品订阅收入榜更新了kimi和klingai冲进top10",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoYVVsTkh0a1M2ZWoyYnVRc2JydmtsdXp1MGpxMnFXYmNSUWcwMzhuQy03djR0UWxZb0xvZHNRQmkwWjhUTV9RbUVxZ1FTZnk4NnlGQ0tieEIxMERFTk16S3lwTWlXZmltS3JERER1b2F2LXdZVEFhQ01jRlpiWkk?oc=5",
+    "topic": "seedance_video",
+    "score": 19,
+    "novelty_signature": "",
+    "product_key": "kling",
+    "event_tags": [],
+    "pushed_at": "2026-11-27T02:13:02.592798+00:00"
+  },
+  {
+    "title": "剪映专业版官宣支持导入第三方插件 - Sohu",
+    "title_key": "剪映专业版官宣支持导入第三方插件",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMWc4WWlHUVBJT1c0Z25CdUZEWjFwWTZydjc4Nk15MWM0N2J0MWc4T0Z5SjU1VzZackVaMWNPM2hBMjBCV20zTDNmalUwTGR3RnFSOExlM1BnV3ZxVjJZZXRjS2R1eWtrZzUzcWV6cXd3d0RTMktUa0JGUy1pb2dmSmN5MnFFN0xT?oc=5",
+    "topic": "editing_automation",
+    "score": 22,
+    "novelty_signature": "",
+    "product_key": "剪映",
+    "event_tags": [
+      "capability"
+    ],
+    "pushed_at": "2026-11-27T02:13:02.592798+00:00"
+  },
+  {
+    "title": "GPT Image 2 实战评测：从提示词工程到 API 接入与资源生态 - CSDN",
+    "title_key": "gptimage2实战评测从提示词工程到api接入与资源生态",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50aEUwWnlpbjdGSDRmTVFQVExmdmNyS1U4UVJoQ3dkd2ZQbm5qQW4zM0FfTHNyZVJBdlNmMWw3UlBjcll1c25TNlVEemRHS2NKNVJOLVpKMEI3RHVJMUVJ?oc=5",
+    "topic": "image_generation",
+    "score": 20,
+    "novelty_signature": "api",
+    "product_key": "",
+    "event_tags": [
+      "api"
+    ],
+    "pushed_at": "2026-11-27T02:13:02.592798+00:00"
   }
 ]
